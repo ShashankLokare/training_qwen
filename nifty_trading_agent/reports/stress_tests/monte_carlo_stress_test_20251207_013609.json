@@ -1,0 +1,35 @@
+{
+  "analysis": {
+    "n_simulations": 1000,
+    "mean_pnl": -0.0003033125776677794,
+    "std_pnl": 0.007114231081850627,
+    "min_pnl": -0.0424091307360388,
+    "max_pnl": 0.10043826638329034,
+    "median_pnl": 0.0,
+    "sharpe_ratio": -0.8538968452060214,
+    "sortino_ratio": -0.6195775072179108,
+    "value_at_risk_95": 0.0,
+    "value_at_risk_99": -0.02899385449716121,
+    "expected_shortfall_95": -0.0008048611530413418,
+    "expected_shortfall_99": -0.03456107175167018,
+    "maximum_drawdown": -0.32658371506103706,
+    "prob_profit": 0.016,
+    "prob_loss_greater_10pct": 0.0,
+    "prob_loss_greater_20pct": 0.0,
+    "pnl_confidence_interval": {
+      "lower": -0.015010114494164546,
+      "upper": 0.0
+    }
+  },
+  "raw_results_summary": {
+    "count": 1000,
+    "mean": -0.0003033125776677794,
+    "std": 0.007114231081850627,
+    "quartiles": {
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 0.0
+    }
+  },
+  "generated_at": "2025-12-07T01:36:09.954768"
+}

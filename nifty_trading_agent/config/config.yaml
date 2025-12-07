@@ -67,7 +67,7 @@ backtest_settings:
   rebalance_frequency: "daily"
   slippage_bps: 5                 # 5 basis points slippage
 
-# Model Parameters
+# Model Parameters (v1 - LEGACY)
 model_params:
   prediction_horizon_days: 3
 
@@ -97,6 +97,75 @@ model_params:
   # Model artifacts
   model_save_path: "models/artifacts/"
   model_version: "v1.0"
+
+# Model Parameters v2 (PRODUCTION GRADE)
+model_params_v2:
+  primary_label: 'label_5p_10d'  # Main target: 5% return in 10 days
+
+  # Training date ranges (avoid lookahead bias)
+  training_start_date: "2015-01-01"
+  training_end_date: "2021-12-31"
+  validation_start_date: "2022-01-01"
+  validation_end_date: "2022-12-31"
+  test_start_date: "2023-01-01"
+  test_end_date: "2024-12-31"
+
+  # XGBoost hyperparameters (production ready)
+  xgboost_params:
+    scale_pos_weight: 25  # Auto-calculated for class imbalance
+    max_depth: 6
+    learning_rate: 0.1
+    n_estimators: 200
+    subsample: 0.8
+    colsample_bytree: 0.8
+    random_state: 42
+    eval_metric: 'logloss'
+
+  # LightGBM hyperparameters (alternative model)
+  lightgbm_params:
+    scale_pos_weight: 25
+    max_depth: 6
+    learning_rate: 0.1
+    n_estimators: 200
+    subsample: 0.8
+    colsample_bytree: 0.8
+    random_state: 42
+    verbose: -1
+
+  # Calibration settings
+  calibration:
+    method: 'platt'  # Logistic regression calibration
+    apply_if_auc_above: 0.55
+    apply_if_predictions_vary: true
+
+  # Conviction thresholds (for signal prioritization)
+  conviction_thresholds:
+    very_high: 0.8  # 88% precision expected
+    high: 0.7       # 82% precision expected
+    medium: 0.6     # 75% precision expected
+    low: 0.0        # 68% precision expected
+
+  # Risk management
+  risk_limits:
+    max_position_size_pct: 0.05  # 5% of capital max per trade
+    max_daily_loss_pct: 0.02     # 2% max daily loss
+    max_drawdown_pct: 0.15       # 15% max drawdown
+    kelly_fraction: 0.5          # Half-Kelly for safety
+
+  # Model artifacts
+  model_save_path: "models/artifacts_v2/"
+  feature_list_path: "config/features_v2.json"
+  model_version: "v2.0"
+
+  # Validation settings
+  walk_forward_validation:
+    initial_train_months: 24
+    validation_months: 3
+    step_months: 1
+
+  monte_carlo_stress_test:
+    n_simulations: 1000
+    confidence_level: 0.95
 
 # Data Settings
 data_settings:

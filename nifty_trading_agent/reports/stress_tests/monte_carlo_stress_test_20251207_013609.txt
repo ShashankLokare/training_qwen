@@ -1,0 +1,49 @@
+================================================================================
+MONTE CARLO STRESS TEST REPORT
+================================================================================
+
+SIMULATION PARAMETERS
+----------------------
+Number of simulations: 1000
+Confidence level: 95.0%
+
+PERFORMANCE STATISTICS
+-----------------------
+Mean PnL: -0.03%
+Standard Deviation: 0.71%
+Median PnL: 0.00%
+Best Case: 10.04%
+Worst Case: -4.24%
+
+RISK METRICS
+-------------
+Sharpe Ratio: -0.85
+Sortino Ratio: -0.62
+Maximum Drawdown: -32.66%
+
+VALUE AT RISK (VaR)
+-------------------
+VaR 95%: 0.00%
+VaR 99%: -2.90%
+Expected Shortfall 95%: -0.08%
+Expected Shortfall 99%: -3.46%
+
+CONFIDENCE INTERVALS
+---------------------
+PnL 95% CI: [-1.50%, 0.00%]
+
+PROBABILITY ANALYSIS
+---------------------
+Probability of Profit: 1.6%
+Probability of >10% Loss: 0.0%
+Probability of >20% Loss: 0.0%
+
+RISK ASSESSMENT
+----------------
+Overall Assessment: POOR: High risk, low reward profile
+
+RECOMMENDATIONS
+---------------
+• Add drawdown controls and position size limits
+• Improve signal quality or reduce position sizes
+• Refine entry/exit criteria for better win rate
