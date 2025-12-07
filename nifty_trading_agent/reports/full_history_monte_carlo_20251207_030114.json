@@ -1,0 +1,96 @@
+{
+  "analysis_period": "2022-2024",
+  "total_scenarios": 5000,
+  "market_data_summary": {
+    "date_range": "2022-01-03 00:00:00 to 2024-12-31 00:00:00",
+    "total_trading_days": 738,
+    "stocks_covered": 5,
+    "total_data_points": 3690,
+    "avg_daily_return": 0.03786441189774151,
+    "market_volatility": 22.081599300623623
+  },
+  "strategy_performance": {
+    "total_return_observations": 3685,
+    "mean_daily_return": 0.03786441189774151,
+    "median_daily_return": 0.04931573558710767,
+    "std_daily_return": 1.3910100071435212,
+    "skewness": -0.1570566335962819,
+    "kurtosis": 4.271726059461456,
+    "positive_return_days": 1899,
+    "negative_return_days": 1786,
+    "win_rate": 51.533242876526465,
+    "best_day": 10.013288144836086,
+    "worst_day": -9.422682771101233,
+    "max_consecutive_wins": 9,
+    "max_consecutive_losses": 9
+  },
+  "risk_metrics": {
+    "mean_return": 0.8714071497645711,
+    "median_return": 0.8116027956458929,
+    "std_return": 1.9341277020896406,
+    "min_return": -5.358043023422535,
+    "max_return": 8.90560862575835,
+    "var_95": -2.2071656818551433,
+    "var_99": -3.441259040508305,
+    "var_999": -4.664073323620512,
+    "expected_shortfall_95": -2.958565203585352,
+    "prob_loss": 33.58,
+    "prob_loss_10pct": 0.0,
+    "prob_loss_20pct": 0.0,
+    "prob_gain_10pct": 0.0,
+    "prob_gain_20pct": 0.0,
+    "initial_value": 100000.0,
+    "mean_final_value": 100871.40714976458,
+    "median_final_value": 100811.60279564589,
+    "p5_final_value": 97792.83431814486,
+    "p95_final_value": 104126.55705203276,
+    "sharpe_ratio_mean": 0.45049766039271605
+  },
+  "simulation_summary": {
+    "total_scenarios": 5000,
+    "avg_final_value": 100871.40714976458,
+    "avg_total_return": 0.8714071497645711,
+    "avg_volatility": 38.17121204949986,
+    "avg_win_rate": 50.36539589994077
+  },
+  "comparative_analysis": {
+    "market_vs_strategy": {
+      "market_annual_return": 11.594329270965217,
+      "market_volatility": 22.271866040487584,
+      "strategy_annual_return": 0.8714071497645711,
+      "strategy_volatility": 38.17121204949986,
+      "outperformance": -10.722922121200645,
+      "volatility_adjusted_outperformance": -0.49775294239026313
+    },
+    "risk_analysis": {
+      "sharpe_ratio_distribution": {
+        "mean": 0.020641611616766146,
+        "std": 0.0499828308464788,
+        "min": -0.17100123560591973,
+        "max": 0.20092665425136397,
+        "percentile_25": -0.012827865464391273,
+        "percentile_75": 0.05540402832174221
+      }
+    }
+  },
+  "recommendations": {
+    "overall_assessment": "MODERATE - Acceptable performance with some risk concerns",
+    "risk_level": "MODERATE",
+    "recommended_position_size": "2-5% of portfolio",
+    "monitoring_requirements": [
+      "Daily P&L tracking and risk limit monitoring",
+      "Weekly performance review against benchmarks",
+      "Monthly stress testing with updated market conditions",
+      "Quarterly model retraining and validation",
+      "Real-time position size and exposure limits"
+    ],
+    "improvement_suggestions": [
+      "Implement dynamic position sizing based on volatility",
+      "Add market regime detection for adaptive strategies",
+      "Incorporate transaction cost modeling",
+      "Enhance stop-loss mechanisms with trailing stops",
+      "Add fundamental filters to improve signal quality"
+    ]
+  },
+  "generated_at": "2025-12-07T03:01:14.238356"
+}

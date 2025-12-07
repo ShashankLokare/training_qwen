@@ -1,0 +1,67 @@
+{
+  "market_summary": {
+    "date_range": "2022-01-03 00:00:00 to 2024-12-31 00:00:00",
+    "total_trading_days": 738,
+    "stocks_covered": 5,
+    "total_data_points": 3690,
+    "avg_daily_return": 0.03786441189774151,
+    "market_volatility": 22.081599300623623
+  },
+  "strategy_performance": {
+    "total_return_observations": 3685,
+    "mean_daily_return": 0.03786441189774151,
+    "median_daily_return": 0.04931573558710767,
+    "std_daily_return": 1.3910100071435212,
+    "skewness": -0.1570566335962819,
+    "kurtosis": 4.271726059461456,
+    "positive_return_days": "1899",
+    "negative_return_days": "1786",
+    "win_rate": 51.533242876526465,
+    "best_day": 10.013288144836086,
+    "worst_day": -9.422682771101233,
+    "max_consecutive_wins": 9,
+    "max_consecutive_losses": 9
+  },
+  "risk_metrics": {
+    "mean_return": 0.8768580319943183,
+    "median_return": 0.833785515295669,
+    "std_return": 1.9227466870576226,
+    "min_return": -6.096389746255401,
+    "max_return": 10.57877857674945,
+    "var_95": -2.2343925176856536,
+    "var_99": -3.355260985015318,
+    "var_999": -4.74924452618247,
+    "expected_shortfall_95": -2.9140334356692854,
+    "prob_loss": 33.2,
+    "prob_loss_10pct": 0.0,
+    "prob_loss_20pct": 0.0,
+    "prob_gain_10pct": 0.02,
+    "prob_gain_20pct": 0.0,
+    "initial_value": 100000.0,
+    "mean_final_value": 100876.85803199431,
+    "median_final_value": 100833.78551529566,
+    "p5_final_value": 97765.60748231434,
+    "p95_final_value": 104098.07502535643,
+    "sharpe_ratio_mean": 0.4559988831124245
+  },
+  "recommendations": {
+    "overall_assessment": "MODERATE - Acceptable performance with some risk concerns",
+    "risk_level": "MODERATE",
+    "recommended_position_size": "2-5% of portfolio",
+    "monitoring_requirements": [
+      "Daily P&L tracking and risk limit monitoring",
+      "Weekly performance review against benchmarks",
+      "Monthly stress testing with updated market conditions",
+      "Quarterly model retraining and validation",
+      "Real-time position size and exposure limits"
+    ],
+    "improvement_suggestions": [
+      "Implement dynamic position sizing based on volatility",
+      "Add market regime detection for adaptive strategies",
+      "Incorporate transaction cost modeling",
+      "Enhance stop-loss mechanisms with trailing stops",
+      "Add fundamental filters to improve signal quality"
+    ]
+  },
+  "generated_at": "2025-12-07T03:00:32.972981"
+}
