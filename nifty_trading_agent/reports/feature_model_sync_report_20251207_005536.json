@@ -1,0 +1,171 @@
+{
+  "feature_set_alignment": {
+    "model_features_count": 25,
+    "generated_features_count": 25,
+    "common_features_count": 25,
+    "missing_in_generated": [],
+    "extra_in_generated": [],
+    "alignment_score": 1.0,
+    "perfect_alignment": true,
+    "status": "PERFECT"
+  },
+  "feature_ordering": {
+    "model_order": [
+      "r_1d",
+      "r_3d",
+      "r_5d",
+      "r_10d",
+      "r_20d",
+      "ma_5",
+      "ma_10",
+      "ma_20",
+      "ma_50",
+      "ma_100",
+      "ma_200",
+      "rsi_14",
+      "macd",
+      "bb_width",
+      "atr_14",
+      "vol_zscore_20",
+      "quarterly_eps_growth",
+      "quarterly_rev_growth",
+      "profit_margin",
+      "pe_ratio",
+      "pb_ratio",
+      "sentiment_short",
+      "sentiment_medium",
+      "recent_earnings_flag",
+      "volume_gap_flag"
+    ],
+    "generated_order": [
+      "r_1d",
+      "r_3d",
+      "r_5d",
+      "r_10d",
+      "r_20d",
+      "ma_5",
+      "ma_10",
+      "ma_20",
+      "ma_50",
+      "ma_100",
+      "ma_200",
+      "rsi_14",
+      "macd",
+      "bb_width",
+      "atr_14",
+      "vol_zscore_20",
+      "quarterly_eps_growth",
+      "quarterly_rev_growth",
+      "profit_margin",
+      "pe_ratio",
+      "pb_ratio",
+      "sentiment_short",
+      "sentiment_medium",
+      "recent_earnings_flag",
+      "volume_gap_flag"
+    ],
+    "ordering_match": true,
+    "ordering_score": 1.0,
+    "status": "PERFECT"
+  },
+  "data_types": {
+    "numeric_columns": 25,
+    "total_columns": 25,
+    "dtype_issues": [],
+    "all_numeric": true,
+    "status": "GOOD"
+  },
+  "null_handling": {
+    "total_nulls": "91",
+    "null_percentage": 2.3636363636363638,
+    "null_columns": [
+      "ma_200"
+    ],
+    "null_column_count": 1,
+    "null_free": "False",
+    "status": "HAS_NULLS"
+  },
+  "production_readiness": {
+    "checks": {
+      "feature_alignment": true,
+      "no_nulls": "False",
+      "data_types_ok": true,
+      "model_predictable": true
+    },
+    "readiness_score": 0.75,
+    "production_ready": "False",
+    "status": "NEEDS_FIXES"
+  },
+  "model_features": {
+    "count": 25,
+    "names": [
+      "r_1d",
+      "r_3d",
+      "r_5d",
+      "r_10d",
+      "r_20d",
+      "ma_5",
+      "ma_10",
+      "ma_20",
+      "ma_50",
+      "ma_100",
+      "ma_200",
+      "rsi_14",
+      "macd",
+      "bb_width",
+      "atr_14",
+      "vol_zscore_20",
+      "quarterly_eps_growth",
+      "quarterly_rev_growth",
+      "profit_margin",
+      "pe_ratio",
+      "pb_ratio",
+      "sentiment_short",
+      "sentiment_medium",
+      "recent_earnings_flag",
+      "volume_gap_flag"
+    ],
+    "status": "SUCCESS"
+  },
+  "generated_features": {
+    "count": 25,
+    "names": [
+      "ma_5",
+      "ma_10",
+      "ma_20",
+      "ma_50",
+      "ma_100",
+      "rsi_14",
+      "macd",
+      "bb_width",
+      "atr_14",
+      "vol_zscore_20",
+      "r_1d",
+      "r_3d",
+      "r_5d",
+      "r_10d",
+      "r_20d",
+      "volume_gap_flag",
+      "quarterly_eps_growth",
+      "quarterly_rev_growth",
+      "profit_margin",
+      "pe_ratio",
+      "pb_ratio",
+      "sentiment_short",
+      "sentiment_medium",
+      "recent_earnings_flag",
+      "ma_200"
+    ],
+    "status": "SUCCESS"
+  },
+  "model_predictions": {
+    "status": "SUCCESS",
+    "stats": {
+      "mean": 0.3432685019773538,
+      "std": 0.0,
+      "min": 0.3432685019773538,
+      "max": 0.3432685019773538,
+      "count": 154
+    }
+  }
+}

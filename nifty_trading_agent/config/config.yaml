@@ -1,0 +1,141 @@
+# Nifty Trading Agent Configuration
+
+# Universe Definition
+universe:
+  tickers:
+    # Nifty 50 stocks (sample - can be expanded to full list)
+    - "RELIANCE.NS"
+    - "TCS.NS"
+    - "HDFCBANK.NS"
+    - "ICICIBANK.NS"
+    - "INFY.NS"
+    - "HINDUNILVR.NS"
+    - "ITC.NS"
+    - "KOTAKBANK.NS"
+    - "LT.NS"
+    - "AXISBANK.NS"
+    # Nifty Next 50 stocks (sample)
+    - "BAJFINANCE.NS"
+    - "MARUTI.NS"
+    - "BAJAJ-AUTO.NS"
+    - "WIPRO.NS"
+    - "HCLTECH.NS"
+    - "ADANIPORTS.NS"
+    - "DIVISLAB.NS"
+    - "SUNPHARMA.NS"
+    - "DRREDDY.NS"
+    - "CIPLA.NS"
+
+# Lookback Windows (in trading days)
+lookback_windows:
+  short: 5
+  medium: 20
+  long: 50
+  extended: 200
+
+# Signal Generation Parameters
+signal_thresholds:
+  min_predicted_return_pct: 10.0  # Minimum expected return for signal
+  min_conviction: 0.8             # Minimum conviction score (0-1)
+  max_signals_per_day: 5          # Maximum signals to generate per day
+  consistency_days: 5             # Days to check for consistency
+  consistency_threshold: 0.6      # Minimum consistency ratio
+
+# Risk Management Parameters
+risk_settings:
+  max_position_pct: 0.05          # Maximum 5% of capital per position
+  max_open_positions: 5           # Maximum open positions
+  max_drawdown_pct: 15.0          # Maximum drawdown before stopping
+  risk_per_trade_pct: 1.0         # Risk per trade as % of capital
+  stop_loss_atr_multiplier: 1.5   # Stop loss based on ATR
+  target_profit_multiplier: 2.0   # Target profit relative to stop loss
+
+# Transaction Costs
+transaction_costs:
+  broker_commission_bps: 15       # 15 basis points (0.15%)
+  stamp_duty_bps: 10              # 10 basis points (0.10%)
+  sebi_turnover_fee_bps: 5        # 5 basis points (0.05%)
+  exchange_transaction_charge_bps: 3  # 3 basis points (0.03%)
+  gst_bps: 18                     # GST on transaction charges
+
+# Backtesting Parameters
+backtest_settings:
+  start_date: "2020-01-01"
+  end_date: "2024-12-31"
+  initial_capital: 1000000        # ₹10 lakhs starting capital
+  benchmark_ticker: "^NSEI"       # Nifty 50 index
+  rebalance_frequency: "daily"
+  slippage_bps: 5                 # 5 basis points slippage
+
+# Model Parameters
+model_params:
+  prediction_horizon_days: 3
+
+  # Training date ranges (avoid lookahead bias)
+  training_start_date: "2025-11-01"
+  training_end_date: "2025-11-20"
+  validation_start_date: "2025-11-21"
+  validation_end_date: "2025-11-25"
+  test_start_date: "2025-11-26"
+  test_end_date: "2025-12-31"
+
+  # Model hyperparameters
+  random_forest:
+    n_estimators: 100
+    max_depth: 10
+    min_samples_split: 10
+    min_samples_leaf: 5
+    random_state: 42
+    class_weight: "balanced"
+
+  # Probability calibration
+  calibration_method: "isotonic"  # sigmoid or isotonic
+
+  # Feature selection
+  feature_importance_threshold: 0.01
+
+  # Model artifacts
+  model_save_path: "models/artifacts/"
+  model_version: "v1.0"
+
+# Data Settings
+data_settings:
+  price_data_path: "data/price_data/"
+  fundamentals_data_path: "data/fundamentals_data/"
+  cache_expiry_hours: 24
+  max_retries: 3
+  timeout_seconds: 30
+
+# Logging Configuration
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file_path: "logs/trading_agent.log"
+  max_file_size_mb: 100
+  backup_count: 5
+
+# Report Settings
+reports:
+  output_dir: "reports/"
+  daily_signals_file: "daily_signals_{date}.csv"
+  backtest_report_file: "backtest_report_{timestamp}.html"
+  performance_summary_file: "performance_summary_{timestamp}.json"
+
+# Database Settings
+databases:
+  # PostgreSQL - Operational/State Database
+  postgres:
+    host: "localhost"
+    port: 5432
+    dbname: "nifty_trading"
+    user: "trader"
+    password: "secret123"
+    sslmode: "prefer"
+    connection_pool_size: 10
+    connection_timeout: 30
+
+  # DuckDB - Analytics/Research & Feature Store Database
+  duckdb:
+    path: "data/nifty_analytics.duckdb"
+    read_only: false
+    memory_limit: "2GB"

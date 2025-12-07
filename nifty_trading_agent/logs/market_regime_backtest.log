@@ -1,0 +1,536 @@
+2025-12-07 01:00:08,770 - __main__ - INFO - 🚀 STARTING COMPREHENSIVE MARKET REGIME ANALYSIS
+2025-12-07 01:00:08,770 - __main__ - INFO - ================================================================================
+2025-12-07 01:00:08,770 - __main__ - INFO - 🔍 Loading trained ML model...
+2025-12-07 01:00:08,771 - __main__ - INFO - Loading model: models/artifacts/model_v1.0_20251206_180719.pkl
+2025-12-07 01:00:10,034 - __main__ - INFO - ✅ Model and calibrator loaded successfully
+2025-12-07 01:00:10,034 - __main__ - INFO - \n🏁 STARTING BACKTEST: 2018-2020 Pre-COVID
+2025-12-07 01:00:10,034 - __main__ - INFO -    Period: 2018-01-01 to 2019-12-31
+2025-12-07 01:00:10,034 - __main__ - INFO -    Description: Normal market conditions pre-COVID
+2025-12-07 01:00:10,034 - __main__ - INFO - ================================================================================
+2025-12-07 01:00:10,034 - __main__ - INFO - \n📊 Processing RELIANCE.NS...
+2025-12-07 01:00:10,034 - utils.db_duckdb - INFO - DuckDB manager initialized for data/nifty_analytics.duckdb
+2025-12-07 01:00:10,047 - utils.db_duckdb - INFO - DuckDB connection established to data/nifty_analytics.duckdb
+2025-12-07 01:00:10,060 - utils.duckdb_tools - INFO - Loaded 487 OHLCV records for 1 symbols
+2025-12-07 01:00:11,528 - __main__ - INFO -    ✅ RELIANCE.NS: 388 signals generated
+2025-12-07 01:00:11,528 - __main__ - INFO - \n📊 Processing TCS.NS...
+2025-12-07 01:00:11,532 - utils.duckdb_tools - INFO - Loaded 487 OHLCV records for 1 symbols
+2025-12-07 01:00:12,939 - __main__ - INFO -    ✅ TCS.NS: 388 signals generated
+2025-12-07 01:00:12,939 - __main__ - INFO - \n📊 Processing HDFCBANK.NS...
+2025-12-07 01:00:12,943 - utils.duckdb_tools - INFO - Loaded 487 OHLCV records for 1 symbols
+2025-12-07 01:00:14,423 - __main__ - INFO -    ✅ HDFCBANK.NS: 388 signals generated
+2025-12-07 01:00:14,423 - __main__ - INFO - \n📊 Processing ICICIBANK.NS...
+2025-12-07 01:00:14,425 - utils.duckdb_tools - INFO - Loaded 487 OHLCV records for 1 symbols
+2025-12-07 01:00:15,830 - __main__ - INFO -    ✅ ICICIBANK.NS: 388 signals generated
+2025-12-07 01:00:15,830 - __main__ - INFO - \n📊 Processing INFY.NS...
+2025-12-07 01:00:15,832 - utils.duckdb_tools - INFO - Loaded 487 OHLCV records for 1 symbols
+2025-12-07 01:00:17,318 - __main__ - INFO -    ✅ INFY.NS: 388 signals generated
+2025-12-07 01:00:17,363 - __main__ - ERROR - ❌ Failed backtest for 2018-2020 Pre-COVID: Can only use .dt accessor with datetimelike values
+2025-12-07 01:00:17,364 - __main__ - INFO - \n🏁 STARTING BACKTEST: 2020 COVID Crash
+2025-12-07 01:00:17,364 - __main__ - INFO -    Period: 2020-01-01 to 2020-06-30
+2025-12-07 01:00:17,364 - __main__ - INFO -    Description: COVID-19 market crash and volatility
+2025-12-07 01:00:17,364 - __main__ - INFO - ================================================================================
+2025-12-07 01:00:17,364 - __main__ - INFO - \n📊 Processing RELIANCE.NS...
+2025-12-07 01:00:17,366 - utils.duckdb_tools - INFO - Loaded 118 OHLCV records for 1 symbols
+2025-12-07 01:00:17,399 - __main__ - WARNING - Feature mismatch for RELIANCE.NS: 24/25
+2025-12-07 01:00:17,400 - __main__ - INFO -    ✅ RELIANCE.NS: 0 signals generated
+2025-12-07 01:00:17,400 - __main__ - INFO - \n📊 Processing TCS.NS...
+2025-12-07 01:00:17,401 - utils.duckdb_tools - INFO - Loaded 118 OHLCV records for 1 symbols
+2025-12-07 01:00:17,433 - __main__ - WARNING - Feature mismatch for TCS.NS: 24/25
+2025-12-07 01:00:17,433 - __main__ - INFO -    ✅ TCS.NS: 0 signals generated
+2025-12-07 01:00:17,433 - __main__ - INFO - \n📊 Processing HDFCBANK.NS...
+2025-12-07 01:00:17,435 - utils.duckdb_tools - INFO - Loaded 118 OHLCV records for 1 symbols
+2025-12-07 01:00:17,467 - __main__ - WARNING - Feature mismatch for HDFCBANK.NS: 24/25
+2025-12-07 01:00:17,467 - __main__ - INFO -    ✅ HDFCBANK.NS: 0 signals generated
+2025-12-07 01:00:17,467 - __main__ - INFO - \n📊 Processing ICICIBANK.NS...
+2025-12-07 01:00:17,469 - utils.duckdb_tools - INFO - Loaded 118 OHLCV records for 1 symbols
+2025-12-07 01:00:17,500 - __main__ - WARNING - Feature mismatch for ICICIBANK.NS: 24/25
+2025-12-07 01:00:17,501 - __main__ - INFO -    ✅ ICICIBANK.NS: 0 signals generated
+2025-12-07 01:00:17,501 - __main__ - INFO - \n📊 Processing INFY.NS...
+2025-12-07 01:00:17,502 - utils.duckdb_tools - INFO - Loaded 118 OHLCV records for 1 symbols
+2025-12-07 01:00:17,534 - __main__ - WARNING - Feature mismatch for INFY.NS: 24/25
+2025-12-07 01:00:17,534 - __main__ - INFO -    ✅ INFY.NS: 0 signals generated
+2025-12-07 01:00:17,534 - __main__ - WARNING - No signals generated for 2020 COVID Crash
+2025-12-07 01:00:17,534 - __main__ - INFO - ✅ Completed backtest for 2020 COVID Crash
+2025-12-07 01:00:17,534 - __main__ - INFO - \n🏁 STARTING BACKTEST: 2021 Bull Market
+2025-12-07 01:00:17,534 - __main__ - INFO -    Period: 2021-01-01 to 2021-12-31
+2025-12-07 01:00:17,534 - __main__ - INFO -    Description: Post-COVID recovery and bull market
+2025-12-07 01:00:17,534 - __main__ - INFO - ================================================================================
+2025-12-07 01:00:17,534 - __main__ - INFO - \n📊 Processing RELIANCE.NS...
+2025-12-07 01:00:17,536 - utils.duckdb_tools - INFO - Loaded 246 OHLCV records for 1 symbols
+2025-12-07 01:00:18,142 - __main__ - INFO -    ✅ RELIANCE.NS: 147 signals generated
+2025-12-07 01:00:18,142 - __main__ - INFO - \n📊 Processing TCS.NS...
+2025-12-07 01:00:18,143 - utils.duckdb_tools - INFO - Loaded 246 OHLCV records for 1 symbols
+2025-12-07 01:00:18,726 - __main__ - INFO -    ✅ TCS.NS: 147 signals generated
+2025-12-07 01:00:18,727 - __main__ - INFO - \n📊 Processing HDFCBANK.NS...
+2025-12-07 01:00:18,728 - utils.duckdb_tools - INFO - Loaded 246 OHLCV records for 1 symbols
+2025-12-07 01:00:19,357 - __main__ - INFO -    ✅ HDFCBANK.NS: 147 signals generated
+2025-12-07 01:00:19,358 - __main__ - INFO - \n📊 Processing ICICIBANK.NS...
+2025-12-07 01:00:19,359 - utils.duckdb_tools - INFO - Loaded 246 OHLCV records for 1 symbols
+2025-12-07 01:00:19,933 - __main__ - INFO -    ✅ ICICIBANK.NS: 147 signals generated
+2025-12-07 01:00:19,933 - __main__ - INFO - \n📊 Processing INFY.NS...
+2025-12-07 01:00:19,935 - utils.duckdb_tools - INFO - Loaded 246 OHLCV records for 1 symbols
+2025-12-07 01:00:20,542 - __main__ - INFO -    ✅ INFY.NS: 147 signals generated
+2025-12-07 01:00:20,573 - __main__ - ERROR - ❌ Failed backtest for 2021 Bull Market: Can only use .dt accessor with datetimelike values
+2025-12-07 01:00:20,573 - __main__ - INFO - \n🏁 STARTING BACKTEST: 2022 Correction
+2025-12-07 01:00:20,574 - __main__ - INFO -    Period: 2022-01-01 to 2022-12-31
+2025-12-07 01:00:20,575 - __main__ - INFO -    Description: Market correction and bearish trends
+2025-12-07 01:00:20,575 - __main__ - INFO - ================================================================================
+2025-12-07 01:00:20,575 - __main__ - INFO - \n📊 Processing RELIANCE.NS...
+2025-12-07 01:00:20,587 - utils.duckdb_tools - INFO - Loaded 247 OHLCV records for 1 symbols
+2025-12-07 01:00:21,247 - __main__ - INFO -    ✅ RELIANCE.NS: 148 signals generated
+2025-12-07 01:00:21,247 - __main__ - INFO - \n📊 Processing TCS.NS...
+2025-12-07 01:00:21,249 - utils.duckdb_tools - INFO - Loaded 247 OHLCV records for 1 symbols
+2025-12-07 01:00:21,900 - __main__ - INFO -    ✅ TCS.NS: 148 signals generated
+2025-12-07 01:00:21,900 - __main__ - INFO - \n📊 Processing HDFCBANK.NS...
+2025-12-07 01:00:21,902 - utils.duckdb_tools - INFO - Loaded 247 OHLCV records for 1 symbols
+2025-12-07 01:00:22,459 - __main__ - INFO -    ✅ HDFCBANK.NS: 148 signals generated
+2025-12-07 01:00:22,460 - __main__ - INFO - \n📊 Processing ICICIBANK.NS...
+2025-12-07 01:00:22,463 - utils.duckdb_tools - INFO - Loaded 247 OHLCV records for 1 symbols
+2025-12-07 01:00:23,127 - __main__ - INFO -    ✅ ICICIBANK.NS: 148 signals generated
+2025-12-07 01:00:23,127 - __main__ - INFO - \n📊 Processing INFY.NS...
+2025-12-07 01:00:23,129 - utils.duckdb_tools - INFO - Loaded 247 OHLCV records for 1 symbols
+2025-12-07 01:00:23,776 - __main__ - INFO -    ✅ INFY.NS: 148 signals generated
+2025-12-07 01:00:23,795 - __main__ - ERROR - ❌ Failed backtest for 2022 Correction: Can only use .dt accessor with datetimelike values
+2025-12-07 01:00:23,795 - __main__ - INFO - \n🏁 STARTING BACKTEST: 2023-2024 Sideways
+2025-12-07 01:00:23,795 - __main__ - INFO -    Period: 2023-01-01 to 2024-10-31
+2025-12-07 01:00:23,795 - __main__ - INFO -    Description: Range-bound, sideways market conditions
+2025-12-07 01:00:23,795 - __main__ - INFO - ================================================================================
+2025-12-07 01:00:23,795 - __main__ - INFO - \n📊 Processing RELIANCE.NS...
+2025-12-07 01:00:23,797 - utils.duckdb_tools - INFO - Loaded 451 OHLCV records for 1 symbols
+2025-12-07 01:00:25,199 - __main__ - INFO -    ✅ RELIANCE.NS: 352 signals generated
+2025-12-07 01:00:25,199 - __main__ - INFO - \n📊 Processing TCS.NS...
+2025-12-07 01:00:25,201 - utils.duckdb_tools - INFO - Loaded 451 OHLCV records for 1 symbols
+2025-12-07 01:00:26,473 - __main__ - INFO -    ✅ TCS.NS: 352 signals generated
+2025-12-07 01:00:26,473 - __main__ - INFO - \n📊 Processing HDFCBANK.NS...
+2025-12-07 01:00:26,475 - utils.duckdb_tools - INFO - Loaded 451 OHLCV records for 1 symbols
+2025-12-07 01:00:27,891 - __main__ - INFO -    ✅ HDFCBANK.NS: 352 signals generated
+2025-12-07 01:00:27,891 - __main__ - INFO - \n📊 Processing ICICIBANK.NS...
+2025-12-07 01:00:27,893 - utils.duckdb_tools - INFO - Loaded 451 OHLCV records for 1 symbols
+2025-12-07 01:00:29,245 - __main__ - INFO -    ✅ ICICIBANK.NS: 352 signals generated
+2025-12-07 01:00:29,245 - __main__ - INFO - \n📊 Processing INFY.NS...
+2025-12-07 01:00:29,247 - utils.duckdb_tools - INFO - Loaded 451 OHLCV records for 1 symbols
+2025-12-07 01:00:30,510 - __main__ - INFO -    ✅ INFY.NS: 352 signals generated
+2025-12-07 01:00:30,550 - __main__ - ERROR - ❌ Failed backtest for 2023-2024 Sideways: Can only use .dt accessor with datetimelike values
+2025-12-07 01:00:30,551 - __main__ - INFO - \n================================================================================
+2025-12-07 01:00:30,551 - __main__ - INFO - 📊 MARKET REGIME ANALYSIS REPORT
+2025-12-07 01:00:30,551 - __main__ - INFO - ================================================================================
+2025-12-07 01:00:45,684 - __main__ - INFO - 🚀 STARTING COMPREHENSIVE MARKET REGIME ANALYSIS
+2025-12-07 01:00:45,684 - __main__ - INFO - ================================================================================
+2025-12-07 01:00:45,684 - __main__ - INFO - 🔍 Loading trained ML model...
+2025-12-07 01:00:45,685 - __main__ - INFO - Loading model: models/artifacts/model_v1.0_20251206_180719.pkl
+2025-12-07 01:00:46,693 - __main__ - INFO - ✅ Model and calibrator loaded successfully
+2025-12-07 01:00:46,693 - __main__ - INFO - \n🏁 STARTING BACKTEST: 2018-2020 Pre-COVID
+2025-12-07 01:00:46,693 - __main__ - INFO -    Period: 2018-01-01 to 2019-12-31
+2025-12-07 01:00:46,693 - __main__ - INFO -    Description: Normal market conditions pre-COVID
+2025-12-07 01:00:46,693 - __main__ - INFO - ================================================================================
+2025-12-07 01:00:46,693 - __main__ - INFO - \n📊 Processing RELIANCE.NS...
+2025-12-07 01:00:46,693 - utils.db_duckdb - INFO - DuckDB manager initialized for data/nifty_analytics.duckdb
+2025-12-07 01:00:46,702 - utils.db_duckdb - INFO - DuckDB connection established to data/nifty_analytics.duckdb
+2025-12-07 01:00:46,707 - utils.duckdb_tools - INFO - Loaded 487 OHLCV records for 1 symbols
+2025-12-07 01:00:48,047 - __main__ - INFO -    ✅ RELIANCE.NS: 388 signals generated
+2025-12-07 01:00:48,047 - __main__ - INFO - \n📊 Processing TCS.NS...
+2025-12-07 01:00:48,051 - utils.duckdb_tools - INFO - Loaded 487 OHLCV records for 1 symbols
+2025-12-07 01:00:49,364 - __main__ - INFO -    ✅ TCS.NS: 388 signals generated
+2025-12-07 01:00:49,364 - __main__ - INFO - \n📊 Processing HDFCBANK.NS...
+2025-12-07 01:00:49,366 - utils.duckdb_tools - INFO - Loaded 487 OHLCV records for 1 symbols
+2025-12-07 01:00:50,677 - __main__ - INFO -    ✅ HDFCBANK.NS: 388 signals generated
+2025-12-07 01:00:50,677 - __main__ - INFO - \n📊 Processing ICICIBANK.NS...
+2025-12-07 01:00:50,679 - utils.duckdb_tools - INFO - Loaded 487 OHLCV records for 1 symbols
+2025-12-07 01:00:51,998 - __main__ - INFO -    ✅ ICICIBANK.NS: 388 signals generated
+2025-12-07 01:00:51,998 - __main__ - INFO - \n📊 Processing INFY.NS...
+2025-12-07 01:00:52,000 - utils.duckdb_tools - INFO - Loaded 487 OHLCV records for 1 symbols
+2025-12-07 01:00:53,319 - __main__ - INFO -    ✅ INFY.NS: 388 signals generated
+2025-12-07 01:00:53,367 - __main__ - INFO - \n📈 2018-2020 Pre-COVID AGGREGATE RESULTS:
+2025-12-07 01:00:53,368 - __main__ - INFO -    Total Signals: 1940
+2025-12-07 01:00:53,368 - __main__ - INFO -    CAGR: 0.00%
+2025-12-07 01:00:53,368 - __main__ - INFO -    Sharpe Ratio: 0.00
+2025-12-07 01:00:53,368 - __main__ - INFO -    Max Drawdown: 0.00%
+2025-12-07 01:00:53,368 - __main__ - INFO -    Win Rate: 0.0%
+2025-12-07 01:00:53,368 - __main__ - INFO - ✅ Completed backtest for 2018-2020 Pre-COVID
+2025-12-07 01:00:53,368 - __main__ - INFO - \n🏁 STARTING BACKTEST: 2020 COVID Crash
+2025-12-07 01:00:53,368 - __main__ - INFO -    Period: 2020-01-01 to 2020-06-30
+2025-12-07 01:00:53,368 - __main__ - INFO -    Description: COVID-19 market crash and volatility
+2025-12-07 01:00:53,368 - __main__ - INFO - ================================================================================
+2025-12-07 01:00:53,368 - __main__ - INFO - \n📊 Processing RELIANCE.NS...
+2025-12-07 01:00:53,369 - utils.duckdb_tools - INFO - Loaded 118 OHLCV records for 1 symbols
+2025-12-07 01:00:53,399 - __main__ - WARNING - Feature mismatch for RELIANCE.NS: 24/25
+2025-12-07 01:00:53,399 - __main__ - INFO -    ✅ RELIANCE.NS: 0 signals generated
+2025-12-07 01:00:53,399 - __main__ - INFO - \n📊 Processing TCS.NS...
+2025-12-07 01:00:53,400 - utils.duckdb_tools - INFO - Loaded 118 OHLCV records for 1 symbols
+2025-12-07 01:00:53,429 - __main__ - WARNING - Feature mismatch for TCS.NS: 24/25
+2025-12-07 01:00:53,429 - __main__ - INFO -    ✅ TCS.NS: 0 signals generated
+2025-12-07 01:00:53,429 - __main__ - INFO - \n📊 Processing HDFCBANK.NS...
+2025-12-07 01:00:53,430 - utils.duckdb_tools - INFO - Loaded 118 OHLCV records for 1 symbols
+2025-12-07 01:00:53,493 - __main__ - WARNING - Feature mismatch for HDFCBANK.NS: 24/25
+2025-12-07 01:00:53,493 - __main__ - INFO -    ✅ HDFCBANK.NS: 0 signals generated
+2025-12-07 01:00:53,494 - __main__ - INFO - \n📊 Processing ICICIBANK.NS...
+2025-12-07 01:00:53,497 - utils.duckdb_tools - INFO - Loaded 118 OHLCV records for 1 symbols
+2025-12-07 01:00:53,529 - __main__ - WARNING - Feature mismatch for ICICIBANK.NS: 24/25
+2025-12-07 01:00:53,529 - __main__ - INFO -    ✅ ICICIBANK.NS: 0 signals generated
+2025-12-07 01:00:53,529 - __main__ - INFO - \n📊 Processing INFY.NS...
+2025-12-07 01:00:53,531 - utils.duckdb_tools - INFO - Loaded 118 OHLCV records for 1 symbols
+2025-12-07 01:00:53,560 - __main__ - WARNING - Feature mismatch for INFY.NS: 24/25
+2025-12-07 01:00:53,560 - __main__ - INFO -    ✅ INFY.NS: 0 signals generated
+2025-12-07 01:00:53,560 - __main__ - WARNING - No signals generated for 2020 COVID Crash
+2025-12-07 01:00:53,560 - __main__ - INFO - ✅ Completed backtest for 2020 COVID Crash
+2025-12-07 01:00:53,560 - __main__ - INFO - \n🏁 STARTING BACKTEST: 2021 Bull Market
+2025-12-07 01:00:53,560 - __main__ - INFO -    Period: 2021-01-01 to 2021-12-31
+2025-12-07 01:00:53,560 - __main__ - INFO -    Description: Post-COVID recovery and bull market
+2025-12-07 01:00:53,560 - __main__ - INFO - ================================================================================
+2025-12-07 01:00:53,560 - __main__ - INFO - \n📊 Processing RELIANCE.NS...
+2025-12-07 01:00:53,561 - utils.duckdb_tools - INFO - Loaded 246 OHLCV records for 1 symbols
+2025-12-07 01:00:54,062 - __main__ - INFO -    ✅ RELIANCE.NS: 147 signals generated
+2025-12-07 01:00:54,062 - __main__ - INFO - \n📊 Processing TCS.NS...
+2025-12-07 01:00:54,063 - utils.duckdb_tools - INFO - Loaded 246 OHLCV records for 1 symbols
+2025-12-07 01:00:54,602 - __main__ - INFO -    ✅ TCS.NS: 147 signals generated
+2025-12-07 01:00:54,602 - __main__ - INFO - \n📊 Processing HDFCBANK.NS...
+2025-12-07 01:00:54,603 - utils.duckdb_tools - INFO - Loaded 246 OHLCV records for 1 symbols
+2025-12-07 01:00:55,100 - __main__ - INFO -    ✅ HDFCBANK.NS: 147 signals generated
+2025-12-07 01:00:55,100 - __main__ - INFO - \n📊 Processing ICICIBANK.NS...
+2025-12-07 01:00:55,102 - utils.duckdb_tools - INFO - Loaded 246 OHLCV records for 1 symbols
+2025-12-07 01:00:55,598 - __main__ - INFO -    ✅ ICICIBANK.NS: 147 signals generated
+2025-12-07 01:00:55,598 - __main__ - INFO - \n📊 Processing INFY.NS...
+2025-12-07 01:00:55,600 - utils.duckdb_tools - INFO - Loaded 246 OHLCV records for 1 symbols
+2025-12-07 01:00:56,099 - __main__ - INFO -    ✅ INFY.NS: 147 signals generated
+2025-12-07 01:00:56,119 - __main__ - INFO - \n📈 2021 Bull Market AGGREGATE RESULTS:
+2025-12-07 01:00:56,119 - __main__ - INFO -    Total Signals: 735
+2025-12-07 01:00:56,119 - __main__ - INFO -    CAGR: 0.00%
+2025-12-07 01:00:56,119 - __main__ - INFO -    Sharpe Ratio: 0.00
+2025-12-07 01:00:56,119 - __main__ - INFO -    Max Drawdown: 0.00%
+2025-12-07 01:00:56,119 - __main__ - INFO -    Win Rate: 0.0%
+2025-12-07 01:00:56,119 - __main__ - INFO - ✅ Completed backtest for 2021 Bull Market
+2025-12-07 01:00:56,119 - __main__ - INFO - \n🏁 STARTING BACKTEST: 2022 Correction
+2025-12-07 01:00:56,119 - __main__ - INFO -    Period: 2022-01-01 to 2022-12-31
+2025-12-07 01:00:56,119 - __main__ - INFO -    Description: Market correction and bearish trends
+2025-12-07 01:00:56,119 - __main__ - INFO - ================================================================================
+2025-12-07 01:00:56,119 - __main__ - INFO - \n📊 Processing RELIANCE.NS...
+2025-12-07 01:00:56,121 - utils.duckdb_tools - INFO - Loaded 247 OHLCV records for 1 symbols
+2025-12-07 01:00:56,623 - __main__ - INFO -    ✅ RELIANCE.NS: 148 signals generated
+2025-12-07 01:00:56,623 - __main__ - INFO - \n📊 Processing TCS.NS...
+2025-12-07 01:00:56,624 - utils.duckdb_tools - INFO - Loaded 247 OHLCV records for 1 symbols
+2025-12-07 01:00:57,132 - __main__ - INFO -    ✅ TCS.NS: 148 signals generated
+2025-12-07 01:00:57,132 - __main__ - INFO - \n📊 Processing HDFCBANK.NS...
+2025-12-07 01:00:57,134 - utils.duckdb_tools - INFO - Loaded 247 OHLCV records for 1 symbols
+2025-12-07 01:00:57,636 - __main__ - INFO -    ✅ HDFCBANK.NS: 148 signals generated
+2025-12-07 01:00:57,636 - __main__ - INFO - \n📊 Processing ICICIBANK.NS...
+2025-12-07 01:00:57,638 - utils.duckdb_tools - INFO - Loaded 247 OHLCV records for 1 symbols
+2025-12-07 01:00:58,140 - __main__ - INFO -    ✅ ICICIBANK.NS: 148 signals generated
+2025-12-07 01:00:58,140 - __main__ - INFO - \n📊 Processing INFY.NS...
+2025-12-07 01:00:58,142 - utils.duckdb_tools - INFO - Loaded 247 OHLCV records for 1 symbols
+2025-12-07 01:00:58,644 - __main__ - INFO -    ✅ INFY.NS: 148 signals generated
+2025-12-07 01:00:58,664 - __main__ - INFO - \n📈 2022 Correction AGGREGATE RESULTS:
+2025-12-07 01:00:58,664 - __main__ - INFO -    Total Signals: 740
+2025-12-07 01:00:58,664 - __main__ - INFO -    CAGR: 0.00%
+2025-12-07 01:00:58,664 - __main__ - INFO -    Sharpe Ratio: 0.00
+2025-12-07 01:00:58,664 - __main__ - INFO -    Max Drawdown: 0.00%
+2025-12-07 01:00:58,664 - __main__ - INFO -    Win Rate: 0.0%
+2025-12-07 01:00:58,664 - __main__ - INFO - ✅ Completed backtest for 2022 Correction
+2025-12-07 01:00:58,664 - __main__ - INFO - \n🏁 STARTING BACKTEST: 2023-2024 Sideways
+2025-12-07 01:00:58,664 - __main__ - INFO -    Period: 2023-01-01 to 2024-10-31
+2025-12-07 01:00:58,664 - __main__ - INFO -    Description: Range-bound, sideways market conditions
+2025-12-07 01:00:58,664 - __main__ - INFO - ================================================================================
+2025-12-07 01:00:58,664 - __main__ - INFO - \n📊 Processing RELIANCE.NS...
+2025-12-07 01:00:58,666 - utils.duckdb_tools - INFO - Loaded 451 OHLCV records for 1 symbols
+2025-12-07 01:00:59,857 - __main__ - INFO -    ✅ RELIANCE.NS: 352 signals generated
+2025-12-07 01:00:59,858 - __main__ - INFO - \n📊 Processing TCS.NS...
+2025-12-07 01:00:59,859 - utils.duckdb_tools - INFO - Loaded 451 OHLCV records for 1 symbols
+2025-12-07 01:01:01,102 - __main__ - INFO -    ✅ TCS.NS: 352 signals generated
+2025-12-07 01:01:01,102 - __main__ - INFO - \n📊 Processing HDFCBANK.NS...
+2025-12-07 01:01:01,104 - utils.duckdb_tools - INFO - Loaded 451 OHLCV records for 1 symbols
+2025-12-07 01:01:02,318 - __main__ - INFO -    ✅ HDFCBANK.NS: 352 signals generated
+2025-12-07 01:01:02,318 - __main__ - INFO - \n📊 Processing ICICIBANK.NS...
+2025-12-07 01:01:02,320 - utils.duckdb_tools - INFO - Loaded 451 OHLCV records for 1 symbols
+2025-12-07 01:01:03,521 - __main__ - INFO -    ✅ ICICIBANK.NS: 352 signals generated
+2025-12-07 01:01:03,521 - __main__ - INFO - \n📊 Processing INFY.NS...
+2025-12-07 01:01:03,523 - utils.duckdb_tools - INFO - Loaded 451 OHLCV records for 1 symbols
+2025-12-07 01:01:04,829 - __main__ - INFO -    ✅ INFY.NS: 352 signals generated
+2025-12-07 01:01:04,872 - __main__ - INFO - \n📈 2023-2024 Sideways AGGREGATE RESULTS:
+2025-12-07 01:01:04,872 - __main__ - INFO -    Total Signals: 1760
+2025-12-07 01:01:04,872 - __main__ - INFO -    CAGR: 0.00%
+2025-12-07 01:01:04,872 - __main__ - INFO -    Sharpe Ratio: 0.00
+2025-12-07 01:01:04,872 - __main__ - INFO -    Max Drawdown: 0.00%
+2025-12-07 01:01:04,872 - __main__ - INFO -    Win Rate: 0.0%
+2025-12-07 01:01:04,872 - __main__ - INFO - ✅ Completed backtest for 2023-2024 Sideways
+2025-12-07 01:01:04,872 - __main__ - INFO - \n================================================================================
+2025-12-07 01:01:04,872 - __main__ - INFO - 📊 MARKET REGIME ANALYSIS REPORT
+2025-12-07 01:01:04,872 - __main__ - INFO - ================================================================================
+2025-12-07 01:01:10,447 - __main__ - INFO - 🚀 STARTING COMPREHENSIVE MARKET REGIME ANALYSIS
+2025-12-07 01:01:10,447 - __main__ - INFO - ================================================================================
+2025-12-07 01:01:10,447 - __main__ - INFO - 🔍 Loading trained ML model...
+2025-12-07 01:01:10,447 - __main__ - INFO - Loading model: models/artifacts/model_v1.0_20251206_180719.pkl
+2025-12-07 01:01:11,473 - __main__ - INFO - ✅ Model and calibrator loaded successfully
+2025-12-07 01:01:11,473 - __main__ - INFO - \n🏁 STARTING BACKTEST: 2018-2020 Pre-COVID
+2025-12-07 01:01:11,474 - __main__ - INFO -    Period: 2018-01-01 to 2019-12-31
+2025-12-07 01:01:11,474 - __main__ - INFO -    Description: Normal market conditions pre-COVID
+2025-12-07 01:01:11,474 - __main__ - INFO - ================================================================================
+2025-12-07 01:01:11,474 - __main__ - INFO - \n📊 Processing RELIANCE.NS...
+2025-12-07 01:01:11,474 - utils.db_duckdb - INFO - DuckDB manager initialized for data/nifty_analytics.duckdb
+2025-12-07 01:01:11,482 - utils.db_duckdb - INFO - DuckDB connection established to data/nifty_analytics.duckdb
+2025-12-07 01:01:11,487 - utils.duckdb_tools - INFO - Loaded 487 OHLCV records for 1 symbols
+2025-12-07 01:01:12,857 - __main__ - INFO -    ✅ RELIANCE.NS: 388 signals generated
+2025-12-07 01:01:12,857 - __main__ - INFO - \n📊 Processing TCS.NS...
+2025-12-07 01:01:12,861 - utils.duckdb_tools - INFO - Loaded 487 OHLCV records for 1 symbols
+2025-12-07 01:01:14,176 - __main__ - INFO -    ✅ TCS.NS: 388 signals generated
+2025-12-07 01:01:14,177 - __main__ - INFO - \n📊 Processing HDFCBANK.NS...
+2025-12-07 01:01:14,179 - utils.duckdb_tools - INFO - Loaded 487 OHLCV records for 1 symbols
+2025-12-07 01:01:15,495 - __main__ - INFO -    ✅ HDFCBANK.NS: 388 signals generated
+2025-12-07 01:01:15,495 - __main__ - INFO - \n📊 Processing ICICIBANK.NS...
+2025-12-07 01:01:15,497 - utils.duckdb_tools - INFO - Loaded 487 OHLCV records for 1 symbols
+2025-12-07 01:01:16,816 - __main__ - INFO -    ✅ ICICIBANK.NS: 388 signals generated
+2025-12-07 01:01:16,817 - __main__ - INFO - \n📊 Processing INFY.NS...
+2025-12-07 01:01:16,818 - utils.duckdb_tools - INFO - Loaded 487 OHLCV records for 1 symbols
+2025-12-07 01:01:18,179 - __main__ - INFO -    ✅ INFY.NS: 388 signals generated
+2025-12-07 01:01:18,227 - __main__ - INFO - \n📈 2018-2020 Pre-COVID AGGREGATE RESULTS:
+2025-12-07 01:01:18,227 - __main__ - INFO -    Total Signals: 1940
+2025-12-07 01:01:18,227 - __main__ - INFO -    CAGR: 0.00%
+2025-12-07 01:01:18,227 - __main__ - INFO -    Sharpe Ratio: 0.00
+2025-12-07 01:01:18,227 - __main__ - INFO -    Max Drawdown: 0.00%
+2025-12-07 01:01:18,227 - __main__ - INFO -    Win Rate: 0.0%
+2025-12-07 01:01:18,227 - __main__ - INFO - ✅ Completed backtest for 2018-2020 Pre-COVID
+2025-12-07 01:01:18,227 - __main__ - INFO - \n🏁 STARTING BACKTEST: 2020 COVID Crash
+2025-12-07 01:01:18,227 - __main__ - INFO -    Period: 2020-01-01 to 2020-06-30
+2025-12-07 01:01:18,227 - __main__ - INFO -    Description: COVID-19 market crash and volatility
+2025-12-07 01:01:18,227 - __main__ - INFO - ================================================================================
+2025-12-07 01:01:18,227 - __main__ - INFO - \n📊 Processing RELIANCE.NS...
+2025-12-07 01:01:18,229 - utils.duckdb_tools - INFO - Loaded 118 OHLCV records for 1 symbols
+2025-12-07 01:01:18,258 - __main__ - WARNING - Feature mismatch for RELIANCE.NS: 24/25
+2025-12-07 01:01:18,258 - __main__ - INFO -    ✅ RELIANCE.NS: 0 signals generated
+2025-12-07 01:01:18,258 - __main__ - INFO - \n📊 Processing TCS.NS...
+2025-12-07 01:01:18,259 - utils.duckdb_tools - INFO - Loaded 118 OHLCV records for 1 symbols
+2025-12-07 01:01:18,290 - __main__ - WARNING - Feature mismatch for TCS.NS: 24/25
+2025-12-07 01:01:18,291 - __main__ - INFO -    ✅ TCS.NS: 0 signals generated
+2025-12-07 01:01:18,291 - __main__ - INFO - \n📊 Processing HDFCBANK.NS...
+2025-12-07 01:01:18,292 - utils.duckdb_tools - INFO - Loaded 118 OHLCV records for 1 symbols
+2025-12-07 01:01:18,321 - __main__ - WARNING - Feature mismatch for HDFCBANK.NS: 24/25
+2025-12-07 01:01:18,321 - __main__ - INFO -    ✅ HDFCBANK.NS: 0 signals generated
+2025-12-07 01:01:18,321 - __main__ - INFO - \n📊 Processing ICICIBANK.NS...
+2025-12-07 01:01:18,322 - utils.duckdb_tools - INFO - Loaded 118 OHLCV records for 1 symbols
+2025-12-07 01:01:18,351 - __main__ - WARNING - Feature mismatch for ICICIBANK.NS: 24/25
+2025-12-07 01:01:18,351 - __main__ - INFO -    ✅ ICICIBANK.NS: 0 signals generated
+2025-12-07 01:01:18,351 - __main__ - INFO - \n📊 Processing INFY.NS...
+2025-12-07 01:01:18,352 - utils.duckdb_tools - INFO - Loaded 118 OHLCV records for 1 symbols
+2025-12-07 01:01:18,381 - __main__ - WARNING - Feature mismatch for INFY.NS: 24/25
+2025-12-07 01:01:18,381 - __main__ - INFO -    ✅ INFY.NS: 0 signals generated
+2025-12-07 01:01:18,381 - __main__ - WARNING - No signals generated for 2020 COVID Crash
+2025-12-07 01:01:18,381 - __main__ - INFO - ✅ Completed backtest for 2020 COVID Crash
+2025-12-07 01:01:18,381 - __main__ - INFO - \n🏁 STARTING BACKTEST: 2021 Bull Market
+2025-12-07 01:01:18,381 - __main__ - INFO -    Period: 2021-01-01 to 2021-12-31
+2025-12-07 01:01:18,381 - __main__ - INFO -    Description: Post-COVID recovery and bull market
+2025-12-07 01:01:18,381 - __main__ - INFO - ================================================================================
+2025-12-07 01:01:18,381 - __main__ - INFO - \n📊 Processing RELIANCE.NS...
+2025-12-07 01:01:18,383 - utils.duckdb_tools - INFO - Loaded 246 OHLCV records for 1 symbols
+2025-12-07 01:01:18,880 - __main__ - INFO -    ✅ RELIANCE.NS: 147 signals generated
+2025-12-07 01:01:18,880 - __main__ - INFO - \n📊 Processing TCS.NS...
+2025-12-07 01:01:18,882 - utils.duckdb_tools - INFO - Loaded 246 OHLCV records for 1 symbols
+2025-12-07 01:01:19,381 - __main__ - INFO -    ✅ TCS.NS: 147 signals generated
+2025-12-07 01:01:19,382 - __main__ - INFO - \n📊 Processing HDFCBANK.NS...
+2025-12-07 01:01:19,383 - utils.duckdb_tools - INFO - Loaded 246 OHLCV records for 1 symbols
+2025-12-07 01:01:19,882 - __main__ - INFO -    ✅ HDFCBANK.NS: 147 signals generated
+2025-12-07 01:01:19,882 - __main__ - INFO - \n📊 Processing ICICIBANK.NS...
+2025-12-07 01:01:19,884 - utils.duckdb_tools - INFO - Loaded 246 OHLCV records for 1 symbols
+2025-12-07 01:01:20,382 - __main__ - INFO -    ✅ ICICIBANK.NS: 147 signals generated
+2025-12-07 01:01:20,382 - __main__ - INFO - \n📊 Processing INFY.NS...
+2025-12-07 01:01:20,384 - utils.duckdb_tools - INFO - Loaded 246 OHLCV records for 1 symbols
+2025-12-07 01:01:20,886 - __main__ - INFO -    ✅ INFY.NS: 147 signals generated
+2025-12-07 01:01:20,905 - __main__ - INFO - \n📈 2021 Bull Market AGGREGATE RESULTS:
+2025-12-07 01:01:20,905 - __main__ - INFO -    Total Signals: 735
+2025-12-07 01:01:20,906 - __main__ - INFO -    CAGR: 0.00%
+2025-12-07 01:01:20,906 - __main__ - INFO -    Sharpe Ratio: 0.00
+2025-12-07 01:01:20,906 - __main__ - INFO -    Max Drawdown: 0.00%
+2025-12-07 01:01:20,906 - __main__ - INFO -    Win Rate: 0.0%
+2025-12-07 01:01:20,906 - __main__ - INFO - ✅ Completed backtest for 2021 Bull Market
+2025-12-07 01:01:20,906 - __main__ - INFO - \n🏁 STARTING BACKTEST: 2022 Correction
+2025-12-07 01:01:20,906 - __main__ - INFO -    Period: 2022-01-01 to 2022-12-31
+2025-12-07 01:01:20,906 - __main__ - INFO -    Description: Market correction and bearish trends
+2025-12-07 01:01:20,906 - __main__ - INFO - ================================================================================
+2025-12-07 01:01:20,906 - __main__ - INFO - \n📊 Processing RELIANCE.NS...
+2025-12-07 01:01:20,907 - utils.duckdb_tools - INFO - Loaded 247 OHLCV records for 1 symbols
+2025-12-07 01:01:21,411 - __main__ - INFO -    ✅ RELIANCE.NS: 148 signals generated
+2025-12-07 01:01:21,411 - __main__ - INFO - \n📊 Processing TCS.NS...
+2025-12-07 01:01:21,412 - utils.duckdb_tools - INFO - Loaded 247 OHLCV records for 1 symbols
+2025-12-07 01:01:21,912 - __main__ - INFO -    ✅ TCS.NS: 148 signals generated
+2025-12-07 01:01:21,912 - __main__ - INFO - \n📊 Processing HDFCBANK.NS...
+2025-12-07 01:01:21,914 - utils.duckdb_tools - INFO - Loaded 247 OHLCV records for 1 symbols
+2025-12-07 01:01:22,439 - __main__ - INFO -    ✅ HDFCBANK.NS: 148 signals generated
+2025-12-07 01:01:22,439 - __main__ - INFO - \n📊 Processing ICICIBANK.NS...
+2025-12-07 01:01:22,441 - utils.duckdb_tools - INFO - Loaded 247 OHLCV records for 1 symbols
+2025-12-07 01:01:22,943 - __main__ - INFO -    ✅ ICICIBANK.NS: 148 signals generated
+2025-12-07 01:01:22,943 - __main__ - INFO - \n📊 Processing INFY.NS...
+2025-12-07 01:01:22,945 - utils.duckdb_tools - INFO - Loaded 247 OHLCV records for 1 symbols
+2025-12-07 01:01:23,448 - __main__ - INFO -    ✅ INFY.NS: 148 signals generated
+2025-12-07 01:01:23,468 - __main__ - INFO - \n📈 2022 Correction AGGREGATE RESULTS:
+2025-12-07 01:01:23,468 - __main__ - INFO -    Total Signals: 740
+2025-12-07 01:01:23,468 - __main__ - INFO -    CAGR: 0.00%
+2025-12-07 01:01:23,468 - __main__ - INFO -    Sharpe Ratio: 0.00
+2025-12-07 01:01:23,468 - __main__ - INFO -    Max Drawdown: 0.00%
+2025-12-07 01:01:23,468 - __main__ - INFO -    Win Rate: 0.0%
+2025-12-07 01:01:23,468 - __main__ - INFO - ✅ Completed backtest for 2022 Correction
+2025-12-07 01:01:23,468 - __main__ - INFO - \n🏁 STARTING BACKTEST: 2023-2024 Sideways
+2025-12-07 01:01:23,468 - __main__ - INFO -    Period: 2023-01-01 to 2024-10-31
+2025-12-07 01:01:23,468 - __main__ - INFO -    Description: Range-bound, sideways market conditions
+2025-12-07 01:01:23,468 - __main__ - INFO - ================================================================================
+2025-12-07 01:01:23,468 - __main__ - INFO - \n📊 Processing RELIANCE.NS...
+2025-12-07 01:01:23,470 - utils.duckdb_tools - INFO - Loaded 451 OHLCV records for 1 symbols
+2025-12-07 01:01:24,661 - __main__ - INFO -    ✅ RELIANCE.NS: 352 signals generated
+2025-12-07 01:01:24,661 - __main__ - INFO - \n📊 Processing TCS.NS...
+2025-12-07 01:01:24,662 - utils.duckdb_tools - INFO - Loaded 451 OHLCV records for 1 symbols
+2025-12-07 01:01:25,905 - __main__ - INFO -    ✅ TCS.NS: 352 signals generated
+2025-12-07 01:01:25,905 - __main__ - INFO - \n📊 Processing HDFCBANK.NS...
+2025-12-07 01:01:25,907 - utils.duckdb_tools - INFO - Loaded 451 OHLCV records for 1 symbols
+2025-12-07 01:01:27,161 - __main__ - INFO -    ✅ HDFCBANK.NS: 352 signals generated
+2025-12-07 01:01:27,161 - __main__ - INFO - \n📊 Processing ICICIBANK.NS...
+2025-12-07 01:01:27,163 - utils.duckdb_tools - INFO - Loaded 451 OHLCV records for 1 symbols
+2025-12-07 01:01:28,356 - __main__ - INFO -    ✅ ICICIBANK.NS: 352 signals generated
+2025-12-07 01:01:28,356 - __main__ - INFO - \n📊 Processing INFY.NS...
+2025-12-07 01:01:28,358 - utils.duckdb_tools - INFO - Loaded 451 OHLCV records for 1 symbols
+2025-12-07 01:01:29,553 - __main__ - INFO -    ✅ INFY.NS: 352 signals generated
+2025-12-07 01:01:29,596 - __main__ - INFO - \n📈 2023-2024 Sideways AGGREGATE RESULTS:
+2025-12-07 01:01:29,596 - __main__ - INFO -    Total Signals: 1760
+2025-12-07 01:01:29,596 - __main__ - INFO -    CAGR: 0.00%
+2025-12-07 01:01:29,596 - __main__ - INFO -    Sharpe Ratio: 0.00
+2025-12-07 01:01:29,596 - __main__ - INFO -    Max Drawdown: 0.00%
+2025-12-07 01:01:29,596 - __main__ - INFO -    Win Rate: 0.0%
+2025-12-07 01:01:29,596 - __main__ - INFO - ✅ Completed backtest for 2023-2024 Sideways
+2025-12-07 01:01:29,596 - __main__ - INFO - \n================================================================================
+2025-12-07 01:01:29,596 - __main__ - INFO - 📊 MARKET REGIME ANALYSIS REPORT
+2025-12-07 01:01:29,596 - __main__ - INFO - ================================================================================
+2025-12-07 01:01:35,367 - __main__ - INFO - 🚀 STARTING COMPREHENSIVE MARKET REGIME ANALYSIS
+2025-12-07 01:01:35,367 - __main__ - INFO - ================================================================================
+2025-12-07 01:01:35,368 - __main__ - INFO - 🔍 Loading trained ML model...
+2025-12-07 01:01:35,368 - __main__ - INFO - Loading model: models/artifacts/model_v1.0_20251206_180719.pkl
+2025-12-07 01:01:36,403 - __main__ - INFO - ✅ Model and calibrator loaded successfully
+2025-12-07 01:01:36,403 - __main__ - INFO - \n🏁 STARTING BACKTEST: 2018-2020 Pre-COVID
+2025-12-07 01:01:36,403 - __main__ - INFO -    Period: 2018-01-01 to 2019-12-31
+2025-12-07 01:01:36,403 - __main__ - INFO -    Description: Normal market conditions pre-COVID
+2025-12-07 01:01:36,403 - __main__ - INFO - ================================================================================
+2025-12-07 01:01:36,403 - __main__ - INFO - \n📊 Processing RELIANCE.NS...
+2025-12-07 01:01:36,403 - utils.db_duckdb - INFO - DuckDB manager initialized for data/nifty_analytics.duckdb
+2025-12-07 01:01:36,412 - utils.db_duckdb - INFO - DuckDB connection established to data/nifty_analytics.duckdb
+2025-12-07 01:01:36,416 - utils.duckdb_tools - INFO - Loaded 487 OHLCV records for 1 symbols
+2025-12-07 01:01:37,767 - __main__ - INFO -    ✅ RELIANCE.NS: 388 signals generated
+2025-12-07 01:01:37,767 - __main__ - INFO - \n📊 Processing TCS.NS...
+2025-12-07 01:01:37,772 - utils.duckdb_tools - INFO - Loaded 487 OHLCV records for 1 symbols
+2025-12-07 01:01:39,085 - __main__ - INFO -    ✅ TCS.NS: 388 signals generated
+2025-12-07 01:01:39,085 - __main__ - INFO - \n📊 Processing HDFCBANK.NS...
+2025-12-07 01:01:39,088 - utils.duckdb_tools - INFO - Loaded 487 OHLCV records for 1 symbols
+2025-12-07 01:01:40,406 - __main__ - INFO -    ✅ HDFCBANK.NS: 388 signals generated
+2025-12-07 01:01:40,406 - __main__ - INFO - \n📊 Processing ICICIBANK.NS...
+2025-12-07 01:01:40,408 - utils.duckdb_tools - INFO - Loaded 487 OHLCV records for 1 symbols
+2025-12-07 01:01:41,735 - __main__ - INFO -    ✅ ICICIBANK.NS: 388 signals generated
+2025-12-07 01:01:41,735 - __main__ - INFO - \n📊 Processing INFY.NS...
+2025-12-07 01:01:41,737 - utils.duckdb_tools - INFO - Loaded 487 OHLCV records for 1 symbols
+2025-12-07 01:01:43,087 - __main__ - INFO -    ✅ INFY.NS: 388 signals generated
+2025-12-07 01:01:43,134 - __main__ - INFO - \n📈 2018-2020 Pre-COVID AGGREGATE RESULTS:
+2025-12-07 01:01:43,134 - __main__ - INFO -    Total Signals: 1940
+2025-12-07 01:01:43,134 - __main__ - INFO -    CAGR: 0.00%
+2025-12-07 01:01:43,135 - __main__ - INFO -    Sharpe Ratio: 0.00
+2025-12-07 01:01:43,135 - __main__ - INFO -    Max Drawdown: 0.00%
+2025-12-07 01:01:43,135 - __main__ - INFO -    Win Rate: 0.0%
+2025-12-07 01:01:43,135 - __main__ - INFO - ✅ Completed backtest for 2018-2020 Pre-COVID
+2025-12-07 01:01:43,135 - __main__ - INFO - \n🏁 STARTING BACKTEST: 2020 COVID Crash
+2025-12-07 01:01:43,135 - __main__ - INFO -    Period: 2020-01-01 to 2020-06-30
+2025-12-07 01:01:43,135 - __main__ - INFO -    Description: COVID-19 market crash and volatility
+2025-12-07 01:01:43,135 - __main__ - INFO - ================================================================================
+2025-12-07 01:01:43,135 - __main__ - INFO - \n📊 Processing RELIANCE.NS...
+2025-12-07 01:01:43,136 - utils.duckdb_tools - INFO - Loaded 118 OHLCV records for 1 symbols
+2025-12-07 01:01:43,165 - __main__ - WARNING - Feature mismatch for RELIANCE.NS: 24/25
+2025-12-07 01:01:43,165 - __main__ - INFO -    ✅ RELIANCE.NS: 0 signals generated
+2025-12-07 01:01:43,165 - __main__ - INFO - \n📊 Processing TCS.NS...
+2025-12-07 01:01:43,166 - utils.duckdb_tools - INFO - Loaded 118 OHLCV records for 1 symbols
+2025-12-07 01:01:43,197 - __main__ - WARNING - Feature mismatch for TCS.NS: 24/25
+2025-12-07 01:01:43,197 - __main__ - INFO -    ✅ TCS.NS: 0 signals generated
+2025-12-07 01:01:43,197 - __main__ - INFO - \n📊 Processing HDFCBANK.NS...
+2025-12-07 01:01:43,198 - utils.duckdb_tools - INFO - Loaded 118 OHLCV records for 1 symbols
+2025-12-07 01:01:43,228 - __main__ - WARNING - Feature mismatch for HDFCBANK.NS: 24/25
+2025-12-07 01:01:43,228 - __main__ - INFO -    ✅ HDFCBANK.NS: 0 signals generated
+2025-12-07 01:01:43,228 - __main__ - INFO - \n📊 Processing ICICIBANK.NS...
+2025-12-07 01:01:43,229 - utils.duckdb_tools - INFO - Loaded 118 OHLCV records for 1 symbols
+2025-12-07 01:01:43,258 - __main__ - WARNING - Feature mismatch for ICICIBANK.NS: 24/25
+2025-12-07 01:01:43,258 - __main__ - INFO -    ✅ ICICIBANK.NS: 0 signals generated
+2025-12-07 01:01:43,258 - __main__ - INFO - \n📊 Processing INFY.NS...
+2025-12-07 01:01:43,259 - utils.duckdb_tools - INFO - Loaded 118 OHLCV records for 1 symbols
+2025-12-07 01:01:43,288 - __main__ - WARNING - Feature mismatch for INFY.NS: 24/25
+2025-12-07 01:01:43,288 - __main__ - INFO -    ✅ INFY.NS: 0 signals generated
+2025-12-07 01:01:43,288 - __main__ - WARNING - No signals generated for 2020 COVID Crash
+2025-12-07 01:01:43,288 - __main__ - INFO - ✅ Completed backtest for 2020 COVID Crash
+2025-12-07 01:01:43,288 - __main__ - INFO - \n🏁 STARTING BACKTEST: 2021 Bull Market
+2025-12-07 01:01:43,288 - __main__ - INFO -    Period: 2021-01-01 to 2021-12-31
+2025-12-07 01:01:43,288 - __main__ - INFO -    Description: Post-COVID recovery and bull market
+2025-12-07 01:01:43,288 - __main__ - INFO - ================================================================================
+2025-12-07 01:01:43,288 - __main__ - INFO - \n📊 Processing RELIANCE.NS...
+2025-12-07 01:01:43,289 - utils.duckdb_tools - INFO - Loaded 246 OHLCV records for 1 symbols
+2025-12-07 01:01:43,791 - __main__ - INFO -    ✅ RELIANCE.NS: 147 signals generated
+2025-12-07 01:01:43,791 - __main__ - INFO - \n📊 Processing TCS.NS...
+2025-12-07 01:01:43,793 - utils.duckdb_tools - INFO - Loaded 246 OHLCV records for 1 symbols
+2025-12-07 01:01:44,298 - __main__ - INFO -    ✅ TCS.NS: 147 signals generated
+2025-12-07 01:01:44,298 - __main__ - INFO - \n📊 Processing HDFCBANK.NS...
+2025-12-07 01:01:44,300 - utils.duckdb_tools - INFO - Loaded 246 OHLCV records for 1 symbols
+2025-12-07 01:01:44,797 - __main__ - INFO -    ✅ HDFCBANK.NS: 147 signals generated
+2025-12-07 01:01:44,797 - __main__ - INFO - \n📊 Processing ICICIBANK.NS...
+2025-12-07 01:01:44,798 - utils.duckdb_tools - INFO - Loaded 246 OHLCV records for 1 symbols
+2025-12-07 01:01:45,298 - __main__ - INFO -    ✅ ICICIBANK.NS: 147 signals generated
+2025-12-07 01:01:45,298 - __main__ - INFO - \n📊 Processing INFY.NS...
+2025-12-07 01:01:45,300 - utils.duckdb_tools - INFO - Loaded 246 OHLCV records for 1 symbols
+2025-12-07 01:01:45,801 - __main__ - INFO -    ✅ INFY.NS: 147 signals generated
+2025-12-07 01:01:45,822 - __main__ - INFO - \n📈 2021 Bull Market AGGREGATE RESULTS:
+2025-12-07 01:01:45,822 - __main__ - INFO -    Total Signals: 735
+2025-12-07 01:01:45,822 - __main__ - INFO -    CAGR: 0.00%
+2025-12-07 01:01:45,822 - __main__ - INFO -    Sharpe Ratio: 0.00
+2025-12-07 01:01:45,822 - __main__ - INFO -    Max Drawdown: 0.00%
+2025-12-07 01:01:45,822 - __main__ - INFO -    Win Rate: 0.0%
+2025-12-07 01:01:45,822 - __main__ - INFO - ✅ Completed backtest for 2021 Bull Market
+2025-12-07 01:01:45,822 - __main__ - INFO - \n🏁 STARTING BACKTEST: 2022 Correction
+2025-12-07 01:01:45,822 - __main__ - INFO -    Period: 2022-01-01 to 2022-12-31
+2025-12-07 01:01:45,822 - __main__ - INFO -    Description: Market correction and bearish trends
+2025-12-07 01:01:45,822 - __main__ - INFO - ================================================================================
+2025-12-07 01:01:45,822 - __main__ - INFO - \n📊 Processing RELIANCE.NS...
+2025-12-07 01:01:45,824 - utils.duckdb_tools - INFO - Loaded 247 OHLCV records for 1 symbols
+2025-12-07 01:01:46,327 - __main__ - INFO -    ✅ RELIANCE.NS: 148 signals generated
+2025-12-07 01:01:46,327 - __main__ - INFO - \n📊 Processing TCS.NS...
+2025-12-07 01:01:46,329 - utils.duckdb_tools - INFO - Loaded 247 OHLCV records for 1 symbols
+2025-12-07 01:01:46,829 - __main__ - INFO -    ✅ TCS.NS: 148 signals generated
+2025-12-07 01:01:46,829 - __main__ - INFO - \n📊 Processing HDFCBANK.NS...
+2025-12-07 01:01:46,831 - utils.duckdb_tools - INFO - Loaded 247 OHLCV records for 1 symbols
+2025-12-07 01:01:47,390 - __main__ - INFO -    ✅ HDFCBANK.NS: 148 signals generated
+2025-12-07 01:01:47,390 - __main__ - INFO - \n📊 Processing ICICIBANK.NS...
+2025-12-07 01:01:47,391 - utils.duckdb_tools - INFO - Loaded 247 OHLCV records for 1 symbols
+2025-12-07 01:01:47,896 - __main__ - INFO -    ✅ ICICIBANK.NS: 148 signals generated
+2025-12-07 01:01:47,896 - __main__ - INFO - \n📊 Processing INFY.NS...
+2025-12-07 01:01:47,897 - utils.duckdb_tools - INFO - Loaded 247 OHLCV records for 1 symbols
+2025-12-07 01:01:48,397 - __main__ - INFO -    ✅ INFY.NS: 148 signals generated
+2025-12-07 01:01:48,416 - __main__ - INFO - \n📈 2022 Correction AGGREGATE RESULTS:
+2025-12-07 01:01:48,417 - __main__ - INFO -    Total Signals: 740
+2025-12-07 01:01:48,417 - __main__ - INFO -    CAGR: 0.00%
+2025-12-07 01:01:48,417 - __main__ - INFO -    Sharpe Ratio: 0.00
+2025-12-07 01:01:48,417 - __main__ - INFO -    Max Drawdown: 0.00%
+2025-12-07 01:01:48,417 - __main__ - INFO -    Win Rate: 0.0%
+2025-12-07 01:01:48,417 - __main__ - INFO - ✅ Completed backtest for 2022 Correction
+2025-12-07 01:01:48,417 - __main__ - INFO - \n🏁 STARTING BACKTEST: 2023-2024 Sideways
+2025-12-07 01:01:48,417 - __main__ - INFO -    Period: 2023-01-01 to 2024-10-31
+2025-12-07 01:01:48,417 - __main__ - INFO -    Description: Range-bound, sideways market conditions
+2025-12-07 01:01:48,417 - __main__ - INFO - ================================================================================
+2025-12-07 01:01:48,417 - __main__ - INFO - \n📊 Processing RELIANCE.NS...
+2025-12-07 01:01:48,419 - utils.duckdb_tools - INFO - Loaded 451 OHLCV records for 1 symbols
+2025-12-07 01:01:49,604 - __main__ - INFO -    ✅ RELIANCE.NS: 352 signals generated
+2025-12-07 01:01:49,604 - __main__ - INFO - \n📊 Processing TCS.NS...
+2025-12-07 01:01:49,606 - utils.duckdb_tools - INFO - Loaded 451 OHLCV records for 1 symbols
+2025-12-07 01:01:50,799 - __main__ - INFO -    ✅ TCS.NS: 352 signals generated
+2025-12-07 01:01:50,799 - __main__ - INFO - \n📊 Processing HDFCBANK.NS...
+2025-12-07 01:01:50,801 - utils.duckdb_tools - INFO - Loaded 451 OHLCV records for 1 symbols
+2025-12-07 01:01:52,058 - __main__ - INFO -    ✅ HDFCBANK.NS: 352 signals generated
+2025-12-07 01:01:52,058 - __main__ - INFO - \n📊 Processing ICICIBANK.NS...
+2025-12-07 01:01:52,060 - utils.duckdb_tools - INFO - Loaded 451 OHLCV records for 1 symbols
+2025-12-07 01:01:53,263 - __main__ - INFO -    ✅ ICICIBANK.NS: 352 signals generated
+2025-12-07 01:01:53,263 - __main__ - INFO - \n📊 Processing INFY.NS...
+2025-12-07 01:01:53,265 - utils.duckdb_tools - INFO - Loaded 451 OHLCV records for 1 symbols
+2025-12-07 01:01:54,451 - __main__ - INFO -    ✅ INFY.NS: 352 signals generated
+2025-12-07 01:01:54,494 - __main__ - INFO - \n📈 2023-2024 Sideways AGGREGATE RESULTS:
+2025-12-07 01:01:54,494 - __main__ - INFO -    Total Signals: 1760
+2025-12-07 01:01:54,494 - __main__ - INFO -    CAGR: 0.00%
+2025-12-07 01:01:54,494 - __main__ - INFO -    Sharpe Ratio: 0.00
+2025-12-07 01:01:54,494 - __main__ - INFO -    Max Drawdown: 0.00%
+2025-12-07 01:01:54,494 - __main__ - INFO -    Win Rate: 0.0%
+2025-12-07 01:01:54,494 - __main__ - INFO - ✅ Completed backtest for 2023-2024 Sideways
+2025-12-07 01:01:54,494 - __main__ - INFO - \n================================================================================
+2025-12-07 01:01:54,494 - __main__ - INFO - 📊 MARKET REGIME ANALYSIS REPORT
+2025-12-07 01:01:54,494 - __main__ - INFO - ================================================================================

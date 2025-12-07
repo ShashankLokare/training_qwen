@@ -1,0 +1,122 @@
+{
+  "analysis_timestamp": "2025-12-07T01:00:30.553771",
+  "market_regimes_analyzed": [
+    "pre_covid",
+    "covid_crash",
+    "post_covid_bull",
+    "market_correction",
+    "sideways_market"
+  ],
+  "regime_results": {
+    "pre_covid": {
+      "error": "Can only use .dt accessor with datetimelike values"
+    },
+    "covid_crash": {
+      "regime_info": {
+        "name": "2020 COVID Crash",
+        "start": "2020-01-01",
+        "end": "2020-06-30",
+        "description": "COVID-19 market crash and volatility"
+      },
+      "symbol_results": {
+        "RELIANCE.NS": {
+          "signals": [],
+          "metrics": {
+            "message": "No signals"
+          },
+          "n_signals": 0
+        },
+        "TCS.NS": {
+          "signals": [],
+          "metrics": {
+            "message": "No signals"
+          },
+          "n_signals": 0
+        },
+        "HDFCBANK.NS": {
+          "signals": [],
+          "metrics": {
+            "message": "No signals"
+          },
+          "n_signals": 0
+        },
+        "ICICIBANK.NS": {
+          "signals": [],
+          "metrics": {
+            "message": "No signals"
+          },
+          "n_signals": 0
+        },
+        "INFY.NS": {
+          "signals": [],
+          "metrics": {
+            "message": "No signals"
+          },
+          "n_signals": 0
+        }
+      },
+      "aggregate_results": {
+        "message": "No signals generated"
+      },
+      "performance_metrics": {}
+    },
+    "post_covid_bull": {
+      "error": "Can only use .dt accessor with datetimelike values"
+    },
+    "market_correction": {
+      "error": "Can only use .dt accessor with datetimelike values"
+    },
+    "sideways_market": {
+      "error": "Can only use .dt accessor with datetimelike values"
+    }
+  },
+  "comparative_analysis": [
+    {
+      "regime": "pre_covid",
+      "signals": 0,
+      "cagr": 0,
+      "sharpe": 0,
+      "max_dd": 0,
+      "win_rate": 0,
+      "profit_factor": 0
+    },
+    {
+      "regime": "2020 COVID Crash",
+      "signals": 0,
+      "cagr": 0,
+      "sharpe": 0,
+      "max_dd": 0,
+      "win_rate": 0,
+      "profit_factor": 0
+    },
+    {
+      "regime": "post_covid_bull",
+      "signals": 0,
+      "cagr": 0,
+      "sharpe": 0,
+      "max_dd": 0,
+      "win_rate": 0,
+      "profit_factor": 0
+    },
+    {
+      "regime": "market_correction",
+      "signals": 0,
+      "cagr": 0,
+      "sharpe": 0,
+      "max_dd": 0,
+      "win_rate": 0,
+      "profit_factor": 0
+    },
+    {
+      "regime": "sideways_market",
+      "signals": 0,
+      "cagr": 0,
+      "sharpe": 0,
+      "max_dd": 0,
+      "win_rate": 0,
+      "profit_factor": 0
+    }
+  ],
+  "conviction_analysis": [],
+  "stability_analysis": []
+}

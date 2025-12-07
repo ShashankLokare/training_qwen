@@ -1,0 +1,203 @@
+{
+  "summary": {
+    "initial_capital": 1000000,
+    "final_equity": 1000000,
+    "total_return_pct": 0.0,
+    "total_trades": 0,
+    "win_rate_pct": 0,
+    "avg_trade_pnl": 0,
+    "avg_trade_pnl_pct": 0,
+    "max_drawdown_pct": 0,
+    "sharpe_ratio": 0
+  },
+  "equity_curve": [
+    {
+      "date": "2025-11-26T00:00:00",
+      "equity": 1000000,
+      "capital": 1000000,
+      "positions": 0,
+      "trades": 0
+    },
+    {
+      "date": "2025-11-27T00:00:00",
+      "equity": 1000000,
+      "capital": 1000000,
+      "positions": 0,
+      "trades": 0
+    },
+    {
+      "date": "2025-11-28T00:00:00",
+      "equity": 1000000,
+      "capital": 1000000,
+      "positions": 0,
+      "trades": 0
+    },
+    {
+      "date": "2025-12-01T00:00:00",
+      "equity": 1000000,
+      "capital": 1000000,
+      "positions": 0,
+      "trades": 0
+    },
+    {
+      "date": "2025-12-02T00:00:00",
+      "equity": 1000000,
+      "capital": 1000000,
+      "positions": 0,
+      "trades": 0
+    },
+    {
+      "date": "2025-12-03T00:00:00",
+      "equity": 1000000,
+      "capital": 1000000,
+      "positions": 0,
+      "trades": 0
+    },
+    {
+      "date": "2025-12-04T00:00:00",
+      "equity": 1000000,
+      "capital": 1000000,
+      "positions": 0,
+      "trades": 0
+    },
+    {
+      "date": "2025-12-05T00:00:00",
+      "equity": 1000000,
+      "capital": 1000000,
+      "positions": 0,
+      "trades": 0
+    },
+    {
+      "date": "2025-12-08T00:00:00",
+      "equity": 1000000,
+      "capital": 1000000,
+      "positions": 0,
+      "trades": 0
+    },
+    {
+      "date": "2025-12-09T00:00:00",
+      "equity": 1000000,
+      "capital": 1000000,
+      "positions": 0,
+      "trades": 0
+    },
+    {
+      "date": "2025-12-10T00:00:00",
+      "equity": 1000000,
+      "capital": 1000000,
+      "positions": 0,
+      "trades": 0
+    },
+    {
+      "date": "2025-12-11T00:00:00",
+      "equity": 1000000,
+      "capital": 1000000,
+      "positions": 0,
+      "trades": 0
+    },
+    {
+      "date": "2025-12-12T00:00:00",
+      "equity": 1000000,
+      "capital": 1000000,
+      "positions": 0,
+      "trades": 0
+    },
+    {
+      "date": "2025-12-15T00:00:00",
+      "equity": 1000000,
+      "capital": 1000000,
+      "positions": 0,
+      "trades": 0
+    },
+    {
+      "date": "2025-12-16T00:00:00",
+      "equity": 1000000,
+      "capital": 1000000,
+      "positions": 0,
+      "trades": 0
+    },
+    {
+      "date": "2025-12-17T00:00:00",
+      "equity": 1000000,
+      "capital": 1000000,
+      "positions": 0,
+      "trades": 0
+    },
+    {
+      "date": "2025-12-18T00:00:00",
+      "equity": 1000000,
+      "capital": 1000000,
+      "positions": 0,
+      "trades": 0
+    },
+    {
+      "date": "2025-12-19T00:00:00",
+      "equity": 1000000,
+      "capital": 1000000,
+      "positions": 0,
+      "trades": 0
+    },
+    {
+      "date": "2025-12-22T00:00:00",
+      "equity": 1000000,
+      "capital": 1000000,
+      "positions": 0,
+      "trades": 0
+    },
+    {
+      "date": "2025-12-23T00:00:00",
+      "equity": 1000000,
+      "capital": 1000000,
+      "positions": 0,
+      "trades": 0
+    },
+    {
+      "date": "2025-12-24T00:00:00",
+      "equity": 1000000,
+      "capital": 1000000,
+      "positions": 0,
+      "trades": 0
+    },
+    {
+      "date": "2025-12-25T00:00:00",
+      "equity": 1000000,
+      "capital": 1000000,
+      "positions": 0,
+      "trades": 0
+    },
+    {
+      "date": "2025-12-26T00:00:00",
+      "equity": 1000000,
+      "capital": 1000000,
+      "positions": 0,
+      "trades": 0
+    },
+    {
+      "date": "2025-12-29T00:00:00",
+      "equity": 1000000,
+      "capital": 1000000,
+      "positions": 0,
+      "trades": 0
+    },
+    {
+      "date": "2025-12-30T00:00:00",
+      "equity": 1000000,
+      "capital": 1000000,
+      "positions": 0,
+      "trades": 0
+    },
+    {
+      "date": "2025-12-31T00:00:00",
+      "equity": 1000000,
+      "capital": 1000000,
+      "positions": 0,
+      "trades": 0
+    }
+  ],
+  "trades": [],
+  "conviction_analysis": {},
+  "model_info": {
+    "version": "v1.0",
+    "features_used": 25
+  }
+}

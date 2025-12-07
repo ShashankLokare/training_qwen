@@ -1,0 +1,3 @@
+symbol,entry_range,target_price,stop_loss,position_size_pct,conviction,expected_return_pct,notes,signal_timestamp
+TCS.NS,"[np.float64(3205.8179516601563), np.float64(3270.5819506835937)]",3562.019946289063,3076.289953613281,0.05,0.85,10.0,Consistent 5-day growth of 2.4%,2025-12-06T17:37:08.266724
+INFY.NS,"[np.float64(1600.0379516601563), np.float64(1632.3619506835937)]",1777.8199462890627,1535.3899536132812,0.05,0.85,10.0,Consistent 5-day growth of 3.7%,2025-12-06T17:37:08.266730

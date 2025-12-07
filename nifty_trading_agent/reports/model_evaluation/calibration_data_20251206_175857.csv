@@ -1,0 +1,2 @@
+probability_bucket,count,avg_predicted_prob,actual_positive_rate,calibration_error,bucket_range
+0.0-0.5,280,0.3432685019773538,0.0035714285714285713,0.33969707340592525,0.0-0.5

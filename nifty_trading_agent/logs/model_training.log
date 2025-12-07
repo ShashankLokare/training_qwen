@@ -1,0 +1,51 @@
+2025-12-06 17:58:21,145 - __main__ - INFO - Loading training data from DuckDB
+2025-12-06 17:58:21,145 - utils.db_duckdb - INFO - DuckDB manager initialized for data/nifty_analytics.duckdb
+2025-12-06 17:58:21,153 - utils.db_duckdb - INFO - DuckDB connection established to data/nifty_analytics.duckdb
+2025-12-06 17:58:21,159 - utils.duckdb_tools - INFO - Loaded 280 feature records for training
+2025-12-06 17:58:21,159 - __main__ - INFO - Loaded 280 training samples with 25 features
+2025-12-06 17:58:21,161 - __main__ - INFO - Loading validation data from DuckDB
+2025-12-06 17:58:21,162 - utils.duckdb_tools - INFO - No feature data found for training period 2025-11-21 to 2025-11-25
+2025-12-06 17:58:21,162 - __main__ - WARNING - No validation data found, skipping calibration
+2025-12-06 17:58:21,163 - __main__ - INFO - Loading test data from DuckDB
+2025-12-06 17:58:21,163 - utils.duckdb_tools - INFO - No feature data found for training period 2025-11-26 to 2025-12-31
+2025-12-06 17:58:21,163 - __main__ - WARNING - No test data found
+2025-12-06 17:58:21,164 - __main__ - INFO - Training base Random Forest model
+2025-12-06 17:58:21,230 - __main__ - INFO - Base model training completed
+2025-12-06 17:58:21,230 - __main__ - INFO - Evaluating model on Training
+2025-12-06 17:58:21,241 - __main__ - INFO - Training metrics: Accuracy=0.996, ROC-AUC=0.500, Brier=0.119
+2025-12-06 17:58:21,241 - __main__ - WARNING - No validation data, skipping calibration
+2025-12-06 17:58:21,244 - __main__ - INFO - Model saved to models/artifacts/model_v1.0_20251206_175821.pkl
+2025-12-06 18:03:40,866 - __main__ - INFO - Loading training data from DuckDB
+2025-12-06 18:03:40,867 - utils.db_duckdb - INFO - DuckDB manager initialized for data/nifty_analytics.duckdb
+2025-12-06 18:03:40,875 - utils.db_duckdb - INFO - DuckDB connection established to data/nifty_analytics.duckdb
+2025-12-06 18:03:40,879 - utils.duckdb_tools - INFO - Loaded 280 feature records for training
+2025-12-06 18:03:40,879 - __main__ - INFO - Loaded 280 training samples with 25 features
+2025-12-06 18:03:40,881 - __main__ - INFO - Loading validation data from DuckDB
+2025-12-06 18:03:40,882 - utils.duckdb_tools - INFO - No feature data found for training period 2025-11-21 to 2025-11-25
+2025-12-06 18:03:40,882 - __main__ - WARNING - No validation data found, skipping calibration
+2025-12-06 18:03:40,883 - __main__ - INFO - Loading test data from DuckDB
+2025-12-06 18:03:40,883 - utils.duckdb_tools - INFO - No feature data found for training period 2025-11-26 to 2025-12-31
+2025-12-06 18:03:40,883 - __main__ - WARNING - No test data found
+2025-12-06 18:03:40,884 - __main__ - INFO - Training base Random Forest model
+2025-12-06 18:03:40,950 - __main__ - INFO - Base model training completed
+2025-12-06 18:03:40,950 - __main__ - INFO - Evaluating model on Training
+2025-12-06 18:03:40,963 - __main__ - INFO - Training metrics: Accuracy=0.996, ROC-AUC=0.500, Brier=0.119
+2025-12-06 18:03:40,963 - __main__ - WARNING - No validation data, skipping calibration
+2025-12-06 18:03:40,966 - __main__ - INFO - Model saved to models/artifacts/model_v1.0_20251206_180340.pkl
+2025-12-06 18:07:19,024 - __main__ - INFO - Loading training data from DuckDB
+2025-12-06 18:07:19,024 - utils.db_duckdb - INFO - DuckDB manager initialized for data/nifty_analytics.duckdb
+2025-12-06 18:07:19,032 - utils.db_duckdb - INFO - DuckDB connection established to data/nifty_analytics.duckdb
+2025-12-06 18:07:19,036 - utils.duckdb_tools - INFO - Loaded 280 feature records for training
+2025-12-06 18:07:19,037 - __main__ - INFO - Loaded 280 training samples with 25 features
+2025-12-06 18:07:19,039 - __main__ - INFO - Loading validation data from DuckDB
+2025-12-06 18:07:19,040 - utils.duckdb_tools - INFO - No feature data found for training period 2025-11-21 to 2025-11-25
+2025-12-06 18:07:19,040 - __main__ - WARNING - No validation data found, skipping calibration
+2025-12-06 18:07:19,040 - __main__ - INFO - Loading test data from DuckDB
+2025-12-06 18:07:19,041 - utils.duckdb_tools - INFO - No feature data found for training period 2025-11-26 to 2025-12-31
+2025-12-06 18:07:19,041 - __main__ - WARNING - No test data found
+2025-12-06 18:07:19,041 - __main__ - INFO - Training base Random Forest model
+2025-12-06 18:07:19,106 - __main__ - INFO - Base model training completed
+2025-12-06 18:07:19,106 - __main__ - INFO - Evaluating model on Training
+2025-12-06 18:07:19,119 - __main__ - INFO - Training metrics: Accuracy=0.996, ROC-AUC=0.500, Brier=0.119
+2025-12-06 18:07:19,119 - __main__ - WARNING - No validation data, skipping calibration
+2025-12-06 18:07:19,122 - __main__ - INFO - Model saved to models/artifacts/model_v1.0_20251206_180719.pkl

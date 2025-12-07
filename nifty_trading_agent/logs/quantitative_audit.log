@@ -1,0 +1,276 @@
+2025-12-07 00:46:15,528 - __main__ - INFO - 🚀 STARTING COMPREHENSIVE QUANTITATIVE AUDIT
+2025-12-07 00:46:15,528 - __main__ - INFO - ================================================================================
+2025-12-07 00:46:15,528 - __main__ - INFO - 🔍 Loading latest trained ML model...
+2025-12-07 00:46:15,528 - __main__ - INFO - Loading model: models/artifacts/model_v1.0_20251206_180719.pkl
+2025-12-07 00:46:15,684 - __main__ - INFO - ✅ Model and calibrator loaded successfully
+2025-12-07 00:46:15,684 - __main__ - INFO - 🔍 Loading test data from 2023-01-01 to 2024-10-31...
+2025-12-07 00:46:15,684 - utils.db_duckdb - INFO - DuckDB manager initialized for data/nifty_analytics.duckdb
+2025-12-07 00:46:15,696 - utils.db_duckdb - INFO - DuckDB connection established to data/nifty_analytics.duckdb
+2025-12-07 00:46:15,703 - utils.duckdb_tools - INFO - No feature data found for training period 2023-01-01 to 2024-10-31
+2025-12-07 00:46:15,705 - __main__ - WARNING - No feature data found for test period
+2025-12-07 00:46:15,705 - __main__ - INFO - Attempting to load OHLCV data for feature generation...
+2025-12-07 00:46:15,713 - __main__ - INFO - Testing with symbols: ['ADANIENT.NS', 'ADANIPORTS.NS', 'AMBUJACEM.NS', 'APOLLOHOSP.NS', 'ASIANPAINT.NS']
+2025-12-07 00:46:15,727 - utils.duckdb_tools - INFO - Loaded 2255 OHLCV records for 5 symbols
+2025-12-07 00:46:15,728 - __main__ - INFO - Loaded 2255 OHLCV records for testing
+2025-12-07 00:46:57,035 - __main__ - INFO - ✅ Generated 1760 test feature records
+2025-12-07 00:46:57,035 - __main__ - INFO - 🔍 Generating synthetic test labels for evaluation...
+2025-12-07 00:46:57,037 - __main__ - INFO - ✅ Generated synthetic labels: 1760 samples, 279 positive (15.0%)
+2025-12-07 00:46:57,037 - __main__ - INFO - \n============================================================
+2025-12-07 00:46:57,037 - __main__ - INFO - 🔍 PART 1 — MODEL PERFORMANCE TEST (OUT-OF-SAMPLE)
+2025-12-07 00:46:57,037 - __main__ - INFO - ============================================================
+2025-12-07 00:46:57,037 - __main__ - ERROR - ❌ Audit failed with error: 'RandomForestClassifier' object has no attribute 'get_booster'
+2025-12-07 00:46:57,038 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/quantitative_audit.py", line 811, in run_full_audit
+    self.evaluate_model_performance()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/quantitative_audit.py", line 172, in evaluate_model_performance
+    if col not in ['symbol', 'date'] and col in self.model.get_booster().feature_names]
+                                                ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'RandomForestClassifier' object has no attribute 'get_booster'
+
+2025-12-07 00:47:13,560 - __main__ - INFO - 🚀 STARTING COMPREHENSIVE QUANTITATIVE AUDIT
+2025-12-07 00:47:13,561 - __main__ - INFO - ================================================================================
+2025-12-07 00:47:13,561 - __main__ - INFO - 🔍 Loading latest trained ML model...
+2025-12-07 00:47:13,561 - __main__ - INFO - Loading model: models/artifacts/model_v1.0_20251206_180719.pkl
+2025-12-07 00:47:13,714 - __main__ - INFO - ✅ Model and calibrator loaded successfully
+2025-12-07 00:47:13,715 - __main__ - INFO - 🔍 Loading test data from 2023-01-01 to 2024-10-31...
+2025-12-07 00:47:13,715 - utils.db_duckdb - INFO - DuckDB manager initialized for data/nifty_analytics.duckdb
+2025-12-07 00:47:13,723 - utils.db_duckdb - INFO - DuckDB connection established to data/nifty_analytics.duckdb
+2025-12-07 00:47:13,724 - utils.duckdb_tools - INFO - No feature data found for training period 2023-01-01 to 2024-10-31
+2025-12-07 00:47:13,725 - __main__ - WARNING - No feature data found for test period
+2025-12-07 00:47:13,725 - __main__ - INFO - Attempting to load OHLCV data for feature generation...
+2025-12-07 00:47:13,727 - __main__ - INFO - Testing with symbols: ['ADANIENT.NS', 'ADANIPORTS.NS', 'AMBUJACEM.NS', 'APOLLOHOSP.NS', 'ASIANPAINT.NS']
+2025-12-07 00:47:13,738 - utils.duckdb_tools - INFO - Loaded 2255 OHLCV records for 5 symbols
+2025-12-07 00:47:13,739 - __main__ - INFO - Loaded 2255 OHLCV records for testing
+2025-12-07 00:47:55,183 - __main__ - INFO - ✅ Generated 1760 test feature records
+2025-12-07 00:47:55,183 - __main__ - INFO - 🔍 Generating synthetic test labels for evaluation...
+2025-12-07 00:47:55,183 - __main__ - INFO - ✅ Generated synthetic labels: 1760 samples, 279 positive (15.0%)
+2025-12-07 00:47:55,184 - __main__ - INFO - \n============================================================
+2025-12-07 00:47:55,184 - __main__ - INFO - 🔍 PART 1 — MODEL PERFORMANCE TEST (OUT-OF-SAMPLE)
+2025-12-07 00:47:55,184 - __main__ - INFO - ============================================================
+2025-12-07 00:47:55,186 - __main__ - INFO - Evaluating on 1760 test samples with 9 features
+2025-12-07 00:47:55,186 - __main__ - ERROR - ❌ Audit failed with error: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- bb_width
+- pb_ratio
+- pe_ratio
+- profit_margin
+- quarterly_eps_growth
+- ...
+
+2025-12-07 00:47:55,189 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/quantitative_audit.py", line 819, in run_full_audit
+    self.evaluate_model_performance()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/quantitative_audit.py", line 192, in evaluate_model_performance
+    raw_predictions = self.model.predict_proba(X_test)[:, 1]
+                      ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "/Users/shashanklokare/Documents/training_qwen/demoblaze_venv/lib/python3.14/site-packages/sklearn/ensemble/_forest.py", line 945, in predict_proba
+    X = self._validate_X_predict(X)
+  File "/Users/shashanklokare/Documents/training_qwen/demoblaze_venv/lib/python3.14/site-packages/sklearn/ensemble/_forest.py", line 637, in _validate_X_predict
+    X = validate_data(
+        self,
+    ...<4 lines>...
+        ensure_all_finite=ensure_all_finite,
+    )
+  File "/Users/shashanklokare/Documents/training_qwen/demoblaze_venv/lib/python3.14/site-packages/sklearn/utils/validation.py", line 2929, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shashanklokare/Documents/training_qwen/demoblaze_venv/lib/python3.14/site-packages/sklearn/utils/validation.py", line 2787, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names seen at fit time, yet now missing:
+- bb_width
+- pb_ratio
+- pe_ratio
+- profit_margin
+- quarterly_eps_growth
+- ...
+
+
+2025-12-07 00:55:47,212 - __main__ - INFO - 🚀 STARTING COMPREHENSIVE QUANTITATIVE AUDIT
+2025-12-07 00:55:47,213 - __main__ - INFO - ================================================================================
+2025-12-07 00:55:47,213 - __main__ - INFO - 🔍 Loading latest trained ML model...
+2025-12-07 00:55:47,213 - __main__ - INFO - Loading model: models/artifacts/model_v1.0_20251206_180719.pkl
+2025-12-07 00:55:47,343 - __main__ - INFO - ✅ Model and calibrator loaded successfully
+2025-12-07 00:55:47,344 - __main__ - INFO - 🔍 Loading test data from 2023-01-01 to 2024-10-31...
+2025-12-07 00:55:47,344 - utils.db_duckdb - INFO - DuckDB manager initialized for data/nifty_analytics.duckdb
+2025-12-07 00:55:47,360 - utils.db_duckdb - INFO - DuckDB connection established to data/nifty_analytics.duckdb
+2025-12-07 00:55:47,367 - utils.duckdb_tools - INFO - No feature data found for training period 2023-01-01 to 2024-10-31
+2025-12-07 00:55:47,367 - __main__ - WARNING - No feature data found for test period
+2025-12-07 00:55:47,367 - __main__ - INFO - Attempting to load OHLCV data for feature generation...
+2025-12-07 00:55:47,373 - __main__ - INFO - Testing with symbols: ['ADANIENT.NS', 'ADANIPORTS.NS', 'AMBUJACEM.NS', 'APOLLOHOSP.NS', 'ASIANPAINT.NS']
+2025-12-07 00:55:47,386 - utils.duckdb_tools - INFO - Loaded 2255 OHLCV records for 5 symbols
+2025-12-07 00:55:47,386 - __main__ - INFO - Loaded 2255 OHLCV records for testing
+2025-12-07 00:55:49,742 - __main__ - INFO - ✅ Generated 1760 test feature records
+2025-12-07 00:55:49,742 - __main__ - INFO - 🔍 Generating synthetic test labels for evaluation...
+2025-12-07 00:55:49,744 - __main__ - INFO - ✅ Generated synthetic labels: 1760 samples, 279 positive (15.0%)
+2025-12-07 00:55:49,744 - __main__ - INFO - \n============================================================
+2025-12-07 00:55:49,744 - __main__ - INFO - 🔍 PART 1 — MODEL PERFORMANCE TEST (OUT-OF-SAMPLE)
+2025-12-07 00:55:49,744 - __main__ - INFO - ============================================================
+2025-12-07 00:55:49,744 - __main__ - INFO - Evaluating on 1760 test samples with 25 features
+2025-12-07 00:55:49,745 - __main__ - ERROR - ❌ Audit failed with error: The feature names should match those that were passed during fit.
+Feature names must be in the same order as they were in fit.
+
+2025-12-07 00:55:49,747 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/quantitative_audit.py", line 819, in run_full_audit
+    self.evaluate_model_performance()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/quantitative_audit.py", line 192, in evaluate_model_performance
+    raw_predictions = self.model.predict_proba(X_test)[:, 1]
+                      ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "/Users/shashanklokare/Documents/training_qwen/demoblaze_venv/lib/python3.14/site-packages/sklearn/ensemble/_forest.py", line 945, in predict_proba
+    X = self._validate_X_predict(X)
+  File "/Users/shashanklokare/Documents/training_qwen/demoblaze_venv/lib/python3.14/site-packages/sklearn/ensemble/_forest.py", line 637, in _validate_X_predict
+    X = validate_data(
+        self,
+    ...<4 lines>...
+        ensure_all_finite=ensure_all_finite,
+    )
+  File "/Users/shashanklokare/Documents/training_qwen/demoblaze_venv/lib/python3.14/site-packages/sklearn/utils/validation.py", line 2929, in validate_data
+    _check_feature_names(_estimator, X, reset=reset)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shashanklokare/Documents/training_qwen/demoblaze_venv/lib/python3.14/site-packages/sklearn/utils/validation.py", line 2787, in _check_feature_names
+    raise ValueError(message)
+ValueError: The feature names should match those that were passed during fit.
+Feature names must be in the same order as they were in fit.
+
+
+2025-12-07 00:56:11,952 - __main__ - INFO - 🚀 STARTING COMPREHENSIVE QUANTITATIVE AUDIT
+2025-12-07 00:56:11,952 - __main__ - INFO - ================================================================================
+2025-12-07 00:56:11,952 - __main__ - INFO - 🔍 Loading latest trained ML model...
+2025-12-07 00:56:11,953 - __main__ - INFO - Loading model: models/artifacts/model_v1.0_20251206_180719.pkl
+2025-12-07 00:56:12,089 - __main__ - INFO - ✅ Model and calibrator loaded successfully
+2025-12-07 00:56:12,089 - __main__ - INFO - 🔍 Loading test data from 2023-01-01 to 2024-10-31...
+2025-12-07 00:56:12,089 - utils.db_duckdb - INFO - DuckDB manager initialized for data/nifty_analytics.duckdb
+2025-12-07 00:56:12,098 - utils.db_duckdb - INFO - DuckDB connection established to data/nifty_analytics.duckdb
+2025-12-07 00:56:12,099 - utils.duckdb_tools - INFO - No feature data found for training period 2023-01-01 to 2024-10-31
+2025-12-07 00:56:12,100 - __main__ - WARNING - No feature data found for test period
+2025-12-07 00:56:12,100 - __main__ - INFO - Attempting to load OHLCV data for feature generation...
+2025-12-07 00:56:12,102 - __main__ - INFO - Testing with symbols: ['ADANIENT.NS', 'ADANIPORTS.NS', 'AMBUJACEM.NS', 'APOLLOHOSP.NS', 'ASIANPAINT.NS']
+2025-12-07 00:56:12,119 - utils.duckdb_tools - INFO - Loaded 2255 OHLCV records for 5 symbols
+2025-12-07 00:56:12,119 - __main__ - INFO - Loaded 2255 OHLCV records for testing
+2025-12-07 00:56:14,501 - __main__ - INFO - ✅ Generated 1760 test feature records
+2025-12-07 00:56:14,501 - __main__ - INFO - 🔍 Generating synthetic test labels for evaluation...
+2025-12-07 00:56:14,501 - __main__ - INFO - ✅ Generated synthetic labels: 1760 samples, 279 positive (15.0%)
+2025-12-07 00:56:14,501 - __main__ - INFO - \n============================================================
+2025-12-07 00:56:14,501 - __main__ - INFO - 🔍 PART 1 — MODEL PERFORMANCE TEST (OUT-OF-SAMPLE)
+2025-12-07 00:56:14,501 - __main__ - INFO - ============================================================
+2025-12-07 00:56:14,502 - __main__ - INFO - Evaluating on 1760 test samples with 25 features
+2025-12-07 00:56:14,506 - __main__ - WARNING - ⚠️ No calibrator found - using raw predictions
+2025-12-07 00:56:14,509 - __main__ - INFO - 📊 ROC-AUC: 0.5000
+2025-12-07 00:56:14,510 - __main__ - INFO - 📊 Precision@5: 0.2000
+2025-12-07 00:56:14,511 - __main__ - INFO - 📊 Precision@10: 0.1000
+2025-12-07 00:56:14,513 - __main__ - INFO - 📊 Recall: 0.0000
+2025-12-07 00:56:14,513 - __main__ - INFO - 📊 F1-Score: 0.0000
+2025-12-07 00:56:14,514 - __main__ - INFO - 📊 Brier Score: 0.1675
+2025-12-07 00:56:14,514 - __main__ - INFO - ✅ Performance report saved to reports/quant_audit_performance_20251207_005614.json
+2025-12-07 00:56:14,514 - __main__ - INFO - \n============================================================
+2025-12-07 00:56:14,514 - __main__ - INFO - 🔍 PART 2 — CALIBRATION RELIABILITY TEST
+2025-12-07 00:56:14,514 - __main__ - INFO - ============================================================
+2025-12-07 00:56:14,514 - __main__ - WARNING - No predictions in bucket 0.5-0.6
+2025-12-07 00:56:14,514 - __main__ - WARNING - No predictions in bucket 0.6-0.7
+2025-12-07 00:56:14,514 - __main__ - WARNING - No predictions in bucket 0.7-0.8
+2025-12-07 00:56:14,514 - __main__ - WARNING - No predictions in bucket 0.8-0.9
+2025-12-07 00:56:14,514 - __main__ - WARNING - No predictions in bucket 0.9-1.0
+2025-12-07 00:56:14,514 - __main__ - WARNING - ⚠️ No calibration data available
+2025-12-07 00:56:14,516 - __main__ - INFO - ✅ Calibration table saved to reports/quant_audit_calibration_20251207_005614.csv
+2025-12-07 00:56:14,516 - __main__ - INFO - \n============================================================
+2025-12-07 00:56:14,516 - __main__ - INFO - 🔍 PART 3 — BACKTESTING QUALITY TEST
+2025-12-07 00:56:14,516 - __main__ - INFO - ============================================================
+2025-12-07 00:56:14,521 - backtest.backtest_signals_with_model - INFO - Loading model from models/artifacts/model_v1.0_20251206_180719.pkl
+2025-12-07 00:56:14,523 - __main__ - INFO - Running simulated backtest evaluation...
+2025-12-07 00:56:14,523 - __main__ - WARNING - ⚠️ No high-confidence signals generated
+2025-12-07 00:56:14,523 - __main__ - INFO - \n============================================================
+2025-12-07 00:56:14,523 - __main__ - INFO - 🔍 PART 4 — DECISION-SUPPORT QUALITY TEST
+2025-12-07 00:56:14,523 - __main__ - INFO - ============================================================
+2025-12-07 00:56:14,523 - __main__ - INFO - 🎯 Predictive Power: 1/10 (ROC-AUC: 0.500)
+2025-12-07 00:56:14,523 - __main__ - INFO - 🎯 Probability Calibration: 0.0/10
+2025-12-07 00:56:14,523 - __main__ - INFO - 🎯 Statistical Robustness: 5/10 (1760 samples)
+2025-12-07 00:56:14,523 - __main__ - INFO - 🎯 Risk Management: 2/10 (Max DD: 0.0%)
+2025-12-07 00:56:14,523 - __main__ - INFO - 🎯 Conviction Meaningfulness: 5/10
+2025-12-07 00:56:14,523 - __main__ - INFO - 🎯 Real-world Tradability: 6/10 (1.8 signals/day)
+2025-12-07 00:56:14,523 - __main__ - INFO - 🎯 Market Regime Stability: 6/10
+2025-12-07 00:56:14,523 - __main__ - INFO - 🎯 Data Quality & Coverage: 9/10
+2025-12-07 00:56:14,523 - __main__ - INFO - 🎯 Lookahead Bias Avoidance: 9/10
+2025-12-07 00:56:14,523 - __main__ - INFO - 🎯 Ease of Interpretation: 7/10
+2025-12-07 00:56:14,523 - __main__ - INFO - \n🎯 FINAL WEIGHTED SCORE: 1.8/10
+2025-12-07 00:56:14,523 - __main__ - INFO - \n================================================================================
+2025-12-07 00:56:14,523 - __main__ - INFO - 🔍 PART 5 — FINAL GRADE & APPROVAL REPORT
+2025-12-07 00:56:14,523 - __main__ - INFO - ================================================================================
+2025-12-07 00:56:14,524 - __main__ - ERROR - ❌ Audit failed with error: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+2025-12-07 00:56:14,526 - __main__ - ERROR - Traceback (most recent call last):
+  File "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/quantitative_audit.py", line 836, in run_full_audit
+    self.generate_final_report()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/quantitative_audit.py", line 688, in generate_final_report
+    if len(self.test_features or []) < 1000:
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shashanklokare/Documents/training_qwen/demoblaze_venv/lib/python3.14/site-packages/pandas/core/generic.py", line 1580, in __nonzero__
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: The truth value of a DataFrame is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+
+2025-12-07 00:56:39,215 - __main__ - INFO - 🚀 STARTING COMPREHENSIVE QUANTITATIVE AUDIT
+2025-12-07 00:56:39,215 - __main__ - INFO - ================================================================================
+2025-12-07 00:56:39,215 - __main__ - INFO - 🔍 Loading latest trained ML model...
+2025-12-07 00:56:39,216 - __main__ - INFO - Loading model: models/artifacts/model_v1.0_20251206_180719.pkl
+2025-12-07 00:56:39,357 - __main__ - INFO - ✅ Model and calibrator loaded successfully
+2025-12-07 00:56:39,357 - __main__ - INFO - 🔍 Loading test data from 2023-01-01 to 2024-10-31...
+2025-12-07 00:56:39,357 - utils.db_duckdb - INFO - DuckDB manager initialized for data/nifty_analytics.duckdb
+2025-12-07 00:56:39,365 - utils.db_duckdb - INFO - DuckDB connection established to data/nifty_analytics.duckdb
+2025-12-07 00:56:39,366 - utils.duckdb_tools - INFO - No feature data found for training period 2023-01-01 to 2024-10-31
+2025-12-07 00:56:39,367 - __main__ - WARNING - No feature data found for test period
+2025-12-07 00:56:39,367 - __main__ - INFO - Attempting to load OHLCV data for feature generation...
+2025-12-07 00:56:39,368 - __main__ - INFO - Testing with symbols: ['ADANIENT.NS', 'ADANIPORTS.NS', 'AMBUJACEM.NS', 'APOLLOHOSP.NS', 'ASIANPAINT.NS']
+2025-12-07 00:56:39,381 - utils.duckdb_tools - INFO - Loaded 2255 OHLCV records for 5 symbols
+2025-12-07 00:56:39,381 - __main__ - INFO - Loaded 2255 OHLCV records for testing
+2025-12-07 00:56:41,636 - __main__ - INFO - ✅ Generated 1760 test feature records
+2025-12-07 00:56:41,636 - __main__ - INFO - 🔍 Generating synthetic test labels for evaluation...
+2025-12-07 00:56:41,637 - __main__ - INFO - ✅ Generated synthetic labels: 1760 samples, 279 positive (15.0%)
+2025-12-07 00:56:41,637 - __main__ - INFO - \n============================================================
+2025-12-07 00:56:41,638 - __main__ - INFO - 🔍 PART 1 — MODEL PERFORMANCE TEST (OUT-OF-SAMPLE)
+2025-12-07 00:56:41,638 - __main__ - INFO - ============================================================
+2025-12-07 00:56:41,639 - __main__ - INFO - Evaluating on 1760 test samples with 25 features
+2025-12-07 00:56:41,643 - __main__ - WARNING - ⚠️ No calibrator found - using raw predictions
+2025-12-07 00:56:41,644 - __main__ - INFO - 📊 ROC-AUC: 0.5000
+2025-12-07 00:56:41,646 - __main__ - INFO - 📊 Precision@5: 0.2000
+2025-12-07 00:56:41,647 - __main__ - INFO - 📊 Precision@10: 0.1000
+2025-12-07 00:56:41,648 - __main__ - INFO - 📊 Recall: 0.0000
+2025-12-07 00:56:41,648 - __main__ - INFO - 📊 F1-Score: 0.0000
+2025-12-07 00:56:41,649 - __main__ - INFO - 📊 Brier Score: 0.1675
+2025-12-07 00:56:41,649 - __main__ - INFO - ✅ Performance report saved to reports/quant_audit_performance_20251207_005641.json
+2025-12-07 00:56:41,649 - __main__ - INFO - \n============================================================
+2025-12-07 00:56:41,649 - __main__ - INFO - 🔍 PART 2 — CALIBRATION RELIABILITY TEST
+2025-12-07 00:56:41,649 - __main__ - INFO - ============================================================
+2025-12-07 00:56:41,649 - __main__ - WARNING - No predictions in bucket 0.5-0.6
+2025-12-07 00:56:41,649 - __main__ - WARNING - No predictions in bucket 0.6-0.7
+2025-12-07 00:56:41,649 - __main__ - WARNING - No predictions in bucket 0.7-0.8
+2025-12-07 00:56:41,649 - __main__ - WARNING - No predictions in bucket 0.8-0.9
+2025-12-07 00:56:41,649 - __main__ - WARNING - No predictions in bucket 0.9-1.0
+2025-12-07 00:56:41,650 - __main__ - WARNING - ⚠️ No calibration data available
+2025-12-07 00:56:41,651 - __main__ - INFO - ✅ Calibration table saved to reports/quant_audit_calibration_20251207_005641.csv
+2025-12-07 00:56:41,651 - __main__ - INFO - \n============================================================
+2025-12-07 00:56:41,651 - __main__ - INFO - 🔍 PART 3 — BACKTESTING QUALITY TEST
+2025-12-07 00:56:41,651 - __main__ - INFO - ============================================================
+2025-12-07 00:56:41,656 - backtest.backtest_signals_with_model - INFO - Loading model from models/artifacts/model_v1.0_20251206_180719.pkl
+2025-12-07 00:56:41,657 - __main__ - INFO - Running simulated backtest evaluation...
+2025-12-07 00:56:41,657 - __main__ - WARNING - ⚠️ No high-confidence signals generated
+2025-12-07 00:56:41,657 - __main__ - INFO - \n============================================================
+2025-12-07 00:56:41,657 - __main__ - INFO - 🔍 PART 4 — DECISION-SUPPORT QUALITY TEST
+2025-12-07 00:56:41,657 - __main__ - INFO - ============================================================
+2025-12-07 00:56:41,657 - __main__ - INFO - 🎯 Predictive Power: 1/10 (ROC-AUC: 0.500)
+2025-12-07 00:56:41,658 - __main__ - INFO - 🎯 Probability Calibration: 0.0/10
+2025-12-07 00:56:41,658 - __main__ - INFO - 🎯 Statistical Robustness: 5/10 (1760 samples)
+2025-12-07 00:56:41,658 - __main__ - INFO - 🎯 Risk Management: 2/10 (Max DD: 0.0%)
+2025-12-07 00:56:41,658 - __main__ - INFO - 🎯 Conviction Meaningfulness: 5/10
+2025-12-07 00:56:41,658 - __main__ - INFO - 🎯 Real-world Tradability: 6/10 (1.8 signals/day)
+2025-12-07 00:56:41,658 - __main__ - INFO - 🎯 Market Regime Stability: 6/10
+2025-12-07 00:56:41,658 - __main__ - INFO - 🎯 Data Quality & Coverage: 9/10
+2025-12-07 00:56:41,658 - __main__ - INFO - 🎯 Lookahead Bias Avoidance: 9/10
+2025-12-07 00:56:41,658 - __main__ - INFO - 🎯 Ease of Interpretation: 7/10
+2025-12-07 00:56:41,658 - __main__ - INFO - \n🎯 FINAL WEIGHTED SCORE: 1.8/10
+2025-12-07 00:56:41,658 - __main__ - INFO - \n================================================================================
+2025-12-07 00:56:41,658 - __main__ - INFO - 🔍 PART 5 — FINAL GRADE & APPROVAL REPORT
+2025-12-07 00:56:41,658 - __main__ - INFO - ================================================================================

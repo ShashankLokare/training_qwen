@@ -1,0 +1,20 @@
+{
+  "timestamp": "2025-12-07T00:56:14.514198",
+  "test_period": "2023-01-01 to 2024-10-31",
+  "n_samples": 1760,
+  "n_features": 25,
+  "metrics": {
+    "roc_auc": 0.5,
+    "precision_at_5": 0.2,
+    "precision_at_10": 0.1,
+    "recall": 0.0,
+    "f1_score": 0.0,
+    "brier_score": 0.16752427348195645
+  },
+  "predictions_summary": {
+    "mean_prediction": 0.34326850197735387,
+    "std_prediction": 5.551115123125783e-17,
+    "min_prediction": 0.3432685019773538,
+    "max_prediction": 0.3432685019773538
+  }
+}

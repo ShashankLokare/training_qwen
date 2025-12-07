@@ -1,0 +1,310 @@
+2025-12-06 17:23:25,668 - __main__ - INFO - User preferences collected successfully
+2025-12-06 17:23:25,668 - __main__ - INFO - Selected index: Nifty 50
+2025-12-06 17:23:25,668 - __main__ - INFO - Number of stocks: 10
+2025-12-06 17:23:25,668 - __main__ - INFO - Strategy: SMA 20 Crossover
+2025-12-06 17:23:25,672 - __main__ - INFO - Starting analysis pipeline with custom configuration
+2025-12-06 17:23:25,676 - data_providers.market_data_provider - INFO - MarketDataProvider initialized with cache_dir: data/price_data/
+2025-12-06 17:23:25,676 - pipeline.daily_pipeline - INFO - Daily Pipeline initialized
+2025-12-06 17:23:25,676 - pipeline.daily_pipeline - INFO - Starting daily analysis pipeline
+2025-12-06 17:23:25,676 - pipeline.daily_pipeline - INFO - Fetching Nifty50 summary
+2025-12-06 17:23:25,676 - data_providers.market_data_provider - INFO - Fetching index data for ^NSEI
+2025-12-06 17:23:25,676 - data_providers.market_data_provider - INFO - Fetching OHLCV data for ^NSEI from 2025-11-06 to 2025-12-06
+2025-12-06 17:23:25,684 - data_providers.market_data_provider - INFO - Loaded 22 rows from cache for ^NSEI
+2025-12-06 17:23:25,685 - pipeline.daily_pipeline - INFO - Analyzing stock universe
+2025-12-06 17:23:25,685 - pipeline.daily_pipeline - INFO - Analyzing 5 stocks from universe
+2025-12-06 17:23:25,685 - data_providers.market_data_provider - INFO - Fetching OHLCV data for RELIANCE.NS from 2025-11-26 to 2025-12-06
+2025-12-06 17:23:25,686 - data_providers.market_data_provider - INFO - Loaded 8 rows from cache for RELIANCE.NS
+2025-12-06 17:23:25,687 - data_providers.market_data_provider - INFO - Fetching OHLCV data for TCS.NS from 2025-11-26 to 2025-12-06
+2025-12-06 17:23:25,689 - data_providers.market_data_provider - INFO - Loaded 8 rows from cache for TCS.NS
+2025-12-06 17:23:25,689 - data_providers.market_data_provider - INFO - Fetching OHLCV data for HDFCBANK.NS from 2025-11-26 to 2025-12-06
+2025-12-06 17:23:25,691 - data_providers.market_data_provider - INFO - Loaded 8 rows from cache for HDFCBANK.NS
+2025-12-06 17:23:25,691 - data_providers.market_data_provider - INFO - Fetching OHLCV data for ICICIBANK.NS from 2025-11-26 to 2025-12-06
+2025-12-06 17:23:25,693 - data_providers.market_data_provider - INFO - Loaded 8 rows from cache for ICICIBANK.NS
+2025-12-06 17:23:25,693 - data_providers.market_data_provider - INFO - Fetching OHLCV data for INFY.NS from 2025-11-26 to 2025-12-06
+2025-12-06 17:23:25,694 - data_providers.market_data_provider - INFO - Loaded 8 rows from cache for INFY.NS
+2025-12-06 17:23:25,694 - pipeline.daily_pipeline - INFO - Generating basic trading signals
+2025-12-06 17:23:25,694 - pipeline.daily_pipeline - INFO - Generated 2 trading signals
+2025-12-06 17:23:25,694 - pipeline.daily_pipeline - INFO - Preparing final analysis report
+2025-12-06 17:23:25,695 - pipeline.daily_pipeline - INFO - Daily analysis pipeline completed successfully
+2025-12-06 17:23:25,700 - __main__ - INFO - Interactive session completed successfully
+2025-12-06 17:37:08,244 - __main__ - INFO - User preferences collected successfully
+2025-12-06 17:37:08,244 - __main__ - INFO - Selected index: Nifty 50
+2025-12-06 17:37:08,244 - __main__ - INFO - Number of stocks: 10
+2025-12-06 17:37:08,245 - __main__ - INFO - Strategy: SMA 20 Crossover
+2025-12-06 17:37:08,249 - __main__ - INFO - Starting analysis pipeline with custom configuration
+2025-12-06 17:37:08,253 - data_providers.market_data_provider - INFO - MarketDataProvider initialized with cache_dir: data/price_data/
+2025-12-06 17:37:08,253 - pipeline.daily_pipeline - INFO - Daily Pipeline initialized
+2025-12-06 17:37:08,253 - pipeline.daily_pipeline - INFO - Starting daily analysis pipeline
+2025-12-06 17:37:08,253 - pipeline.daily_pipeline - INFO - Fetching Nifty50 summary
+2025-12-06 17:37:08,253 - data_providers.market_data_provider - INFO - Fetching index data for ^NSEI
+2025-12-06 17:37:08,253 - data_providers.market_data_provider - INFO - Fetching OHLCV data for ^NSEI from 2025-11-06 to 2025-12-06
+2025-12-06 17:37:08,258 - data_providers.market_data_provider - INFO - Loaded 22 rows from cache for ^NSEI
+2025-12-06 17:37:08,258 - pipeline.daily_pipeline - INFO - Analyzing stock universe
+2025-12-06 17:37:08,258 - pipeline.daily_pipeline - INFO - Analyzing 5 stocks from universe
+2025-12-06 17:37:08,258 - data_providers.market_data_provider - INFO - Fetching OHLCV data for RELIANCE.NS from 2025-11-26 to 2025-12-06
+2025-12-06 17:37:08,260 - data_providers.market_data_provider - INFO - Loaded 8 rows from cache for RELIANCE.NS
+2025-12-06 17:37:08,260 - data_providers.market_data_provider - INFO - Fetching OHLCV data for TCS.NS from 2025-11-26 to 2025-12-06
+2025-12-06 17:37:08,262 - data_providers.market_data_provider - INFO - Loaded 8 rows from cache for TCS.NS
+2025-12-06 17:37:08,262 - data_providers.market_data_provider - INFO - Fetching OHLCV data for HDFCBANK.NS from 2025-11-26 to 2025-12-06
+2025-12-06 17:37:08,263 - data_providers.market_data_provider - INFO - Loaded 8 rows from cache for HDFCBANK.NS
+2025-12-06 17:37:08,263 - data_providers.market_data_provider - INFO - Fetching OHLCV data for ICICIBANK.NS from 2025-11-26 to 2025-12-06
+2025-12-06 17:37:08,265 - data_providers.market_data_provider - INFO - Loaded 8 rows from cache for ICICIBANK.NS
+2025-12-06 17:37:08,265 - data_providers.market_data_provider - INFO - Fetching OHLCV data for INFY.NS from 2025-11-26 to 2025-12-06
+2025-12-06 17:37:08,266 - data_providers.market_data_provider - INFO - Loaded 8 rows from cache for INFY.NS
+2025-12-06 17:37:08,266 - pipeline.daily_pipeline - INFO - Generating basic trading signals
+2025-12-06 17:37:08,266 - pipeline.daily_pipeline - INFO - Generated 2 trading signals
+2025-12-06 17:37:08,266 - pipeline.daily_pipeline - INFO - Preparing final analysis report
+2025-12-06 17:37:08,266 - pipeline.daily_pipeline - INFO - Daily analysis pipeline completed successfully
+2025-12-06 17:37:08,268 - __main__ - INFO - Interactive session completed successfully
+2025-12-06 17:42:14,675 - __main__ - INFO - User preferences collected successfully
+2025-12-06 17:42:14,676 - __main__ - INFO - Selected index: Nifty 50
+2025-12-06 17:42:14,676 - __main__ - INFO - Number of stocks: 10
+2025-12-06 17:42:14,676 - __main__ - INFO - Strategy: SMA 20 Crossover
+2025-12-06 17:42:14,681 - __main__ - INFO - Starting analysis pipeline with custom configuration
+2025-12-06 17:42:14,685 - data_providers.market_data_provider - INFO - MarketDataProvider initialized with cache_dir: data/price_data/
+2025-12-06 17:42:14,685 - pipeline.daily_pipeline - INFO - Daily Pipeline initialized
+2025-12-06 17:42:14,685 - pipeline.daily_pipeline - INFO - Starting daily analysis pipeline
+2025-12-06 17:42:14,685 - pipeline.daily_pipeline - INFO - Fetching Nifty50 summary
+2025-12-06 17:42:14,685 - data_providers.market_data_provider - INFO - Fetching index data for ^NSEI
+2025-12-06 17:42:14,685 - data_providers.market_data_provider - INFO - Fetching OHLCV data for ^NSEI from 2025-11-06 to 2025-12-06
+2025-12-06 17:42:14,692 - data_providers.market_data_provider - INFO - Loaded 22 rows from cache for ^NSEI
+2025-12-06 17:42:14,693 - pipeline.daily_pipeline - INFO - Analyzing stock universe
+2025-12-06 17:42:14,693 - pipeline.daily_pipeline - INFO - Analyzing 5 stocks from universe
+2025-12-06 17:42:14,693 - data_providers.market_data_provider - INFO - Fetching OHLCV data for RELIANCE.NS from 2025-11-26 to 2025-12-06
+2025-12-06 17:42:14,694 - data_providers.market_data_provider - INFO - Loaded 8 rows from cache for RELIANCE.NS
+2025-12-06 17:42:14,695 - data_providers.market_data_provider - INFO - Fetching OHLCV data for TCS.NS from 2025-11-26 to 2025-12-06
+2025-12-06 17:42:14,696 - data_providers.market_data_provider - INFO - Loaded 8 rows from cache for TCS.NS
+2025-12-06 17:42:14,696 - data_providers.market_data_provider - INFO - Fetching OHLCV data for HDFCBANK.NS from 2025-11-26 to 2025-12-06
+2025-12-06 17:42:14,697 - data_providers.market_data_provider - INFO - Loaded 8 rows from cache for HDFCBANK.NS
+2025-12-06 17:42:14,697 - data_providers.market_data_provider - INFO - Fetching OHLCV data for ICICIBANK.NS from 2025-11-26 to 2025-12-06
+2025-12-06 17:42:14,699 - data_providers.market_data_provider - INFO - Loaded 8 rows from cache for ICICIBANK.NS
+2025-12-06 17:42:14,699 - data_providers.market_data_provider - INFO - Fetching OHLCV data for INFY.NS from 2025-11-26 to 2025-12-06
+2025-12-06 17:42:14,700 - data_providers.market_data_provider - INFO - Loaded 8 rows from cache for INFY.NS
+2025-12-06 17:42:14,700 - pipeline.daily_pipeline - INFO - Generating basic trading signals
+2025-12-06 17:42:14,700 - pipeline.daily_pipeline - INFO - Generated 2 trading signals
+2025-12-06 17:42:14,701 - pipeline.daily_pipeline - INFO - Preparing final analysis report
+2025-12-06 17:42:14,701 - pipeline.daily_pipeline - INFO - Daily analysis pipeline completed successfully
+2025-12-06 17:42:14,701 - __main__ - ERROR - Error during interactive session: 'position_size'
+Traceback (most recent call last):
+  File "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/interactive_main.py", line 73, in main
+    display_results(results, user_preferences)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/interactive_main.py", line 228, in display_results
+    print(f"   Position: ₹{signal['position_size']:.0f} ({position_size_pct:.1f}% of capital)")
+                           ~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: 'position_size'
+2025-12-06 17:43:36,682 - __main__ - INFO - User preferences collected successfully
+2025-12-06 17:43:36,682 - __main__ - INFO - Selected index: Nifty 50
+2025-12-06 17:43:36,682 - __main__ - INFO - Number of stocks: 10
+2025-12-06 17:43:36,682 - __main__ - INFO - Strategy: SMA 20 Crossover
+2025-12-06 17:43:36,687 - __main__ - INFO - Starting analysis pipeline with custom configuration
+2025-12-06 17:43:36,691 - data_providers.market_data_provider - INFO - MarketDataProvider initialized with cache_dir: data/price_data/
+2025-12-06 17:43:36,691 - pipeline.daily_pipeline - INFO - Daily Pipeline initialized
+2025-12-06 17:43:36,692 - pipeline.daily_pipeline - INFO - Starting daily analysis pipeline
+2025-12-06 17:43:36,692 - pipeline.daily_pipeline - INFO - Fetching Nifty50 summary
+2025-12-06 17:43:36,692 - data_providers.market_data_provider - INFO - Fetching index data for ^NSEI
+2025-12-06 17:43:36,692 - data_providers.market_data_provider - INFO - Fetching OHLCV data for ^NSEI from 2025-11-06 to 2025-12-06
+2025-12-06 17:43:36,695 - data_providers.market_data_provider - INFO - Loaded 22 rows from cache for ^NSEI
+2025-12-06 17:43:36,695 - pipeline.daily_pipeline - INFO - Analyzing stock universe
+2025-12-06 17:43:36,695 - pipeline.daily_pipeline - INFO - Analyzing 5 stocks from universe
+2025-12-06 17:43:36,695 - data_providers.market_data_provider - INFO - Fetching OHLCV data for RELIANCE.NS from 2025-11-26 to 2025-12-06
+2025-12-06 17:43:36,697 - data_providers.market_data_provider - INFO - Loaded 8 rows from cache for RELIANCE.NS
+2025-12-06 17:43:36,697 - data_providers.market_data_provider - INFO - Fetching OHLCV data for TCS.NS from 2025-11-26 to 2025-12-06
+2025-12-06 17:43:36,698 - data_providers.market_data_provider - INFO - Loaded 8 rows from cache for TCS.NS
+2025-12-06 17:43:36,698 - data_providers.market_data_provider - INFO - Fetching OHLCV data for HDFCBANK.NS from 2025-11-26 to 2025-12-06
+2025-12-06 17:43:36,699 - data_providers.market_data_provider - INFO - Loaded 8 rows from cache for HDFCBANK.NS
+2025-12-06 17:43:36,699 - data_providers.market_data_provider - INFO - Fetching OHLCV data for ICICIBANK.NS from 2025-11-26 to 2025-12-06
+2025-12-06 17:43:36,700 - data_providers.market_data_provider - INFO - Loaded 8 rows from cache for ICICIBANK.NS
+2025-12-06 17:43:36,700 - data_providers.market_data_provider - INFO - Fetching OHLCV data for INFY.NS from 2025-11-26 to 2025-12-06
+2025-12-06 17:43:36,702 - data_providers.market_data_provider - INFO - Loaded 8 rows from cache for INFY.NS
+2025-12-06 17:43:36,702 - pipeline.daily_pipeline - INFO - Generating basic trading signals
+2025-12-06 17:43:36,702 - pipeline.daily_pipeline - INFO - Generated 2 trading signals
+2025-12-06 17:43:36,702 - pipeline.daily_pipeline - INFO - Preparing final analysis report
+2025-12-06 17:43:36,702 - pipeline.daily_pipeline - INFO - Daily analysis pipeline completed successfully
+2025-12-06 17:43:36,703 - __main__ - ERROR - Error during interactive session: 'position_size'
+Traceback (most recent call last):
+  File "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/interactive_main.py", line 73, in main
+    display_results(results, user_preferences)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/interactive_main.py", line 228, in display_results
+    print(f"   Position: ₹{signal['position_size']:.0f} ({position_size_pct:.1f}% of capital)")
+                           ~~~~~~^^^^^^^^^^^^^^^^^
+KeyError: 'position_size'
+2025-12-06 17:45:17,293 - __main__ - INFO - User preferences collected successfully
+2025-12-06 17:45:17,293 - __main__ - INFO - Selected index: Nifty 50
+2025-12-06 17:45:17,293 - __main__ - INFO - Number of stocks: 10
+2025-12-06 17:45:17,293 - __main__ - INFO - Strategy: SMA 20 Crossover
+2025-12-06 17:45:17,298 - __main__ - INFO - Starting analysis pipeline with custom configuration
+2025-12-06 17:45:17,302 - data_providers.market_data_provider - INFO - MarketDataProvider initialized with cache_dir: data/price_data/
+2025-12-06 17:45:17,302 - pipeline.daily_pipeline - INFO - Daily Pipeline initialized
+2025-12-06 17:45:17,302 - pipeline.daily_pipeline - INFO - Starting daily analysis pipeline
+2025-12-06 17:45:17,302 - pipeline.daily_pipeline - INFO - Fetching Nifty50 summary
+2025-12-06 17:45:17,302 - data_providers.market_data_provider - INFO - Fetching index data for ^NSEI
+2025-12-06 17:45:17,302 - data_providers.market_data_provider - INFO - Fetching OHLCV data for ^NSEI from 2025-11-06 to 2025-12-06
+2025-12-06 17:45:17,310 - data_providers.market_data_provider - INFO - Loaded 22 rows from cache for ^NSEI
+2025-12-06 17:45:17,310 - pipeline.daily_pipeline - INFO - Analyzing stock universe
+2025-12-06 17:45:17,310 - pipeline.daily_pipeline - INFO - Analyzing 5 stocks from universe
+2025-12-06 17:45:17,311 - data_providers.market_data_provider - INFO - Fetching OHLCV data for RELIANCE.NS from 2025-11-26 to 2025-12-06
+2025-12-06 17:45:17,312 - data_providers.market_data_provider - INFO - Loaded 8 rows from cache for RELIANCE.NS
+2025-12-06 17:45:17,312 - data_providers.market_data_provider - INFO - Fetching OHLCV data for TCS.NS from 2025-11-26 to 2025-12-06
+2025-12-06 17:45:17,314 - data_providers.market_data_provider - INFO - Loaded 8 rows from cache for TCS.NS
+2025-12-06 17:45:17,314 - data_providers.market_data_provider - INFO - Fetching OHLCV data for HDFCBANK.NS from 2025-11-26 to 2025-12-06
+2025-12-06 17:45:17,315 - data_providers.market_data_provider - INFO - Loaded 8 rows from cache for HDFCBANK.NS
+2025-12-06 17:45:17,315 - data_providers.market_data_provider - INFO - Fetching OHLCV data for ICICIBANK.NS from 2025-11-26 to 2025-12-06
+2025-12-06 17:45:17,317 - data_providers.market_data_provider - INFO - Loaded 8 rows from cache for ICICIBANK.NS
+2025-12-06 17:45:17,317 - data_providers.market_data_provider - INFO - Fetching OHLCV data for INFY.NS from 2025-11-26 to 2025-12-06
+2025-12-06 17:45:17,318 - data_providers.market_data_provider - INFO - Loaded 8 rows from cache for INFY.NS
+2025-12-06 17:45:17,318 - pipeline.daily_pipeline - INFO - Generating basic trading signals
+2025-12-06 17:45:17,318 - pipeline.daily_pipeline - INFO - Generated 2 trading signals
+2025-12-06 17:45:17,318 - pipeline.daily_pipeline - INFO - Preparing final analysis report
+2025-12-06 17:45:17,318 - pipeline.daily_pipeline - INFO - Daily analysis pipeline completed successfully
+2025-12-06 17:45:17,320 - __main__ - INFO - Interactive session completed successfully
+2025-12-06 17:55:50,455 - __main__ - INFO - User preferences collected successfully
+2025-12-06 17:55:50,456 - __main__ - INFO - Selected index: Nifty 50
+2025-12-06 17:55:50,456 - __main__ - INFO - Number of stocks: 10
+2025-12-06 17:55:50,456 - __main__ - INFO - Strategy: SMA 20 Crossover
+2025-12-06 17:55:50,461 - __main__ - INFO - Starting analysis pipeline with custom configuration
+2025-12-06 17:55:50,466 - data_providers.market_data_provider - INFO - MarketDataProvider initialized with cache_dir: data/price_data/
+2025-12-06 17:55:50,466 - pipeline.daily_pipeline - INFO - Model directory not found, using heuristic signals
+2025-12-06 17:55:50,466 - pipeline.daily_pipeline - INFO - Daily Pipeline initialized
+2025-12-06 17:55:50,466 - pipeline.daily_pipeline - INFO - Starting daily analysis pipeline
+2025-12-06 17:55:50,466 - pipeline.daily_pipeline - INFO - Fetching Nifty50 summary
+2025-12-06 17:55:50,466 - data_providers.market_data_provider - INFO - Fetching index data for ^NSEI
+2025-12-06 17:55:50,466 - data_providers.market_data_provider - INFO - Fetching OHLCV data for ^NSEI from 2025-11-06 to 2025-12-06
+2025-12-06 17:55:50,472 - data_providers.market_data_provider - INFO - Loaded 22 rows from cache for ^NSEI
+2025-12-06 17:55:50,472 - pipeline.daily_pipeline - INFO - Analyzing stock universe
+2025-12-06 17:55:50,472 - pipeline.daily_pipeline - INFO - Analyzing 5 stocks from universe
+2025-12-06 17:55:50,472 - data_providers.market_data_provider - INFO - Fetching OHLCV data for RELIANCE.NS from 2025-11-26 to 2025-12-06
+2025-12-06 17:55:50,474 - data_providers.market_data_provider - INFO - Loaded 8 rows from cache for RELIANCE.NS
+2025-12-06 17:55:50,474 - data_providers.market_data_provider - INFO - Fetching OHLCV data for TCS.NS from 2025-11-26 to 2025-12-06
+2025-12-06 17:55:50,475 - data_providers.market_data_provider - INFO - Loaded 8 rows from cache for TCS.NS
+2025-12-06 17:55:50,475 - data_providers.market_data_provider - INFO - Fetching OHLCV data for HDFCBANK.NS from 2025-11-26 to 2025-12-06
+2025-12-06 17:55:50,476 - data_providers.market_data_provider - INFO - Loaded 8 rows from cache for HDFCBANK.NS
+2025-12-06 17:55:50,477 - data_providers.market_data_provider - INFO - Fetching OHLCV data for ICICIBANK.NS from 2025-11-26 to 2025-12-06
+2025-12-06 17:55:50,478 - data_providers.market_data_provider - INFO - Loaded 8 rows from cache for ICICIBANK.NS
+2025-12-06 17:55:50,478 - data_providers.market_data_provider - INFO - Fetching OHLCV data for INFY.NS from 2025-11-26 to 2025-12-06
+2025-12-06 17:55:50,479 - data_providers.market_data_provider - INFO - Loaded 8 rows from cache for INFY.NS
+2025-12-06 17:55:50,480 - pipeline.daily_pipeline - INFO - Generating trading signals
+2025-12-06 17:55:50,480 - pipeline.daily_pipeline - INFO - No ML model available, using heuristic signals
+2025-12-06 17:55:50,480 - pipeline.daily_pipeline - INFO - Generating heuristic-based signals
+2025-12-06 17:55:50,480 - pipeline.daily_pipeline - INFO - Generated 2 trading signals
+2025-12-06 17:55:50,480 - pipeline.daily_pipeline - INFO - Preparing final analysis report
+2025-12-06 17:55:50,480 - pipeline.daily_pipeline - INFO - Daily analysis pipeline completed successfully
+2025-12-06 17:55:50,483 - __main__ - INFO - Interactive session completed successfully
+2025-12-06 18:00:00,211 - __main__ - INFO - User preferences collected successfully
+2025-12-06 18:00:00,212 - __main__ - INFO - Selected index: Nifty 50
+2025-12-06 18:00:00,212 - __main__ - INFO - Number of stocks: 10
+2025-12-06 18:00:00,212 - __main__ - INFO - Strategy: SMA 20 Crossover
+2025-12-06 18:00:00,217 - __main__ - INFO - Starting analysis pipeline with custom configuration
+2025-12-06 18:00:00,222 - data_providers.market_data_provider - INFO - MarketDataProvider initialized with cache_dir: data/price_data/
+2025-12-06 18:00:00,222 - pipeline.daily_pipeline - INFO - Loading ML model from models/artifacts/model_v1.0_20251206_175821.pkl
+2025-12-06 18:00:01,701 - pipeline.daily_pipeline - INFO - ML model loaded: v1.0
+2025-12-06 18:00:01,702 - pipeline.daily_pipeline - INFO - Daily Pipeline initialized
+2025-12-06 18:00:01,702 - pipeline.daily_pipeline - INFO - Starting daily analysis pipeline
+2025-12-06 18:00:01,702 - pipeline.daily_pipeline - INFO - Fetching Nifty50 summary
+2025-12-06 18:00:01,702 - data_providers.market_data_provider - INFO - Fetching index data for ^NSEI
+2025-12-06 18:00:01,702 - data_providers.market_data_provider - INFO - Fetching OHLCV data for ^NSEI from 2025-11-06 to 2025-12-06
+2025-12-06 18:00:01,710 - data_providers.market_data_provider - INFO - Loaded 22 rows from cache for ^NSEI
+2025-12-06 18:00:01,710 - pipeline.daily_pipeline - INFO - Analyzing stock universe
+2025-12-06 18:00:01,710 - pipeline.daily_pipeline - INFO - Analyzing 5 stocks from universe
+2025-12-06 18:00:01,710 - data_providers.market_data_provider - INFO - Fetching OHLCV data for RELIANCE.NS from 2025-11-26 to 2025-12-06
+2025-12-06 18:00:01,712 - data_providers.market_data_provider - INFO - Loaded 8 rows from cache for RELIANCE.NS
+2025-12-06 18:00:01,712 - data_providers.market_data_provider - INFO - Fetching OHLCV data for TCS.NS from 2025-11-26 to 2025-12-06
+2025-12-06 18:00:01,713 - data_providers.market_data_provider - INFO - Loaded 8 rows from cache for TCS.NS
+2025-12-06 18:00:01,713 - data_providers.market_data_provider - INFO - Fetching OHLCV data for HDFCBANK.NS from 2025-11-26 to 2025-12-06
+2025-12-06 18:00:01,714 - data_providers.market_data_provider - INFO - Loaded 8 rows from cache for HDFCBANK.NS
+2025-12-06 18:00:01,715 - data_providers.market_data_provider - INFO - Fetching OHLCV data for ICICIBANK.NS from 2025-11-26 to 2025-12-06
+2025-12-06 18:00:01,716 - data_providers.market_data_provider - INFO - Loaded 8 rows from cache for ICICIBANK.NS
+2025-12-06 18:00:01,716 - data_providers.market_data_provider - INFO - Fetching OHLCV data for INFY.NS from 2025-11-26 to 2025-12-06
+2025-12-06 18:00:01,718 - data_providers.market_data_provider - INFO - Loaded 8 rows from cache for INFY.NS
+2025-12-06 18:00:01,718 - pipeline.daily_pipeline - INFO - Generating trading signals
+2025-12-06 18:00:01,718 - pipeline.daily_pipeline - INFO - Generating ML-based signals
+2025-12-06 18:00:01,718 - utils.db_duckdb - INFO - DuckDB manager initialized for data/nifty_analytics.duckdb
+2025-12-06 18:00:01,735 - utils.db_duckdb - INFO - DuckDB connection established to data/nifty_analytics.duckdb
+2025-12-06 18:00:01,745 - utils.duckdb_tools - INFO - Loaded 44 OHLCV records for 1 symbols
+2025-12-06 18:00:01,746 - utils.duckdb_tools - INFO - Loaded 44 OHLCV records for 1 symbols
+2025-12-06 18:00:01,748 - utils.duckdb_tools - INFO - Loaded 44 OHLCV records for 1 symbols
+2025-12-06 18:00:01,749 - utils.duckdb_tools - INFO - Loaded 44 OHLCV records for 1 symbols
+2025-12-06 18:00:01,750 - utils.duckdb_tools - INFO - Loaded 44 OHLCV records for 1 symbols
+2025-12-06 18:00:01,750 - pipeline.daily_pipeline - INFO - Generated 0 trading signals
+2025-12-06 18:00:01,750 - pipeline.daily_pipeline - INFO - Preparing final analysis report
+2025-12-06 18:00:01,750 - pipeline.daily_pipeline - INFO - Daily analysis pipeline completed successfully
+2025-12-06 18:00:01,751 - __main__ - INFO - Interactive session completed successfully
+2025-12-06 18:03:48,958 - __main__ - INFO - User preferences collected successfully
+2025-12-06 18:03:48,959 - __main__ - INFO - Selected index: Nifty 50
+2025-12-06 18:03:48,959 - __main__ - INFO - Number of stocks: 10
+2025-12-06 18:03:48,959 - __main__ - INFO - Strategy: SMA 20 Crossover
+2025-12-06 18:03:48,964 - __main__ - INFO - Starting analysis pipeline with custom configuration
+2025-12-06 18:03:48,969 - data_providers.market_data_provider - INFO - MarketDataProvider initialized with cache_dir: data/price_data/
+2025-12-06 18:03:48,969 - pipeline.daily_pipeline - INFO - Loading ML model from models/artifacts/model_v1.0_20251206_180340.pkl
+2025-12-06 18:03:50,332 - pipeline.daily_pipeline - INFO - ML model loaded: v1.0
+2025-12-06 18:03:50,332 - pipeline.daily_pipeline - INFO - Daily Pipeline initialized
+2025-12-06 18:03:50,332 - pipeline.daily_pipeline - INFO - Starting daily analysis pipeline
+2025-12-06 18:03:50,332 - pipeline.daily_pipeline - INFO - Fetching Nifty50 summary
+2025-12-06 18:03:50,332 - data_providers.market_data_provider - INFO - Fetching index data for ^NSEI
+2025-12-06 18:03:50,332 - data_providers.market_data_provider - INFO - Fetching OHLCV data for ^NSEI from 2025-11-06 to 2025-12-06
+2025-12-06 18:03:50,338 - data_providers.market_data_provider - INFO - Loaded 22 rows from cache for ^NSEI
+2025-12-06 18:03:50,338 - pipeline.daily_pipeline - INFO - Analyzing stock universe
+2025-12-06 18:03:50,338 - pipeline.daily_pipeline - INFO - Analyzing 5 stocks from universe
+2025-12-06 18:03:50,338 - data_providers.market_data_provider - INFO - Fetching OHLCV data for RELIANCE.NS from 2025-11-26 to 2025-12-06
+2025-12-06 18:03:50,340 - data_providers.market_data_provider - INFO - Loaded 8 rows from cache for RELIANCE.NS
+2025-12-06 18:03:50,340 - data_providers.market_data_provider - INFO - Fetching OHLCV data for TCS.NS from 2025-11-26 to 2025-12-06
+2025-12-06 18:03:50,342 - data_providers.market_data_provider - INFO - Loaded 8 rows from cache for TCS.NS
+2025-12-06 18:03:50,342 - data_providers.market_data_provider - INFO - Fetching OHLCV data for HDFCBANK.NS from 2025-11-26 to 2025-12-06
+2025-12-06 18:03:50,343 - data_providers.market_data_provider - INFO - Loaded 8 rows from cache for HDFCBANK.NS
+2025-12-06 18:03:50,343 - data_providers.market_data_provider - INFO - Fetching OHLCV data for ICICIBANK.NS from 2025-11-26 to 2025-12-06
+2025-12-06 18:03:50,345 - data_providers.market_data_provider - INFO - Loaded 8 rows from cache for ICICIBANK.NS
+2025-12-06 18:03:50,345 - data_providers.market_data_provider - INFO - Fetching OHLCV data for INFY.NS from 2025-11-26 to 2025-12-06
+2025-12-06 18:03:50,347 - data_providers.market_data_provider - INFO - Loaded 8 rows from cache for INFY.NS
+2025-12-06 18:03:50,347 - pipeline.daily_pipeline - INFO - Generating trading signals
+2025-12-06 18:03:50,347 - pipeline.daily_pipeline - INFO - Generating ML-based signals
+2025-12-06 18:03:50,347 - utils.db_duckdb - INFO - DuckDB manager initialized for data/nifty_analytics.duckdb
+2025-12-06 18:03:50,356 - utils.db_duckdb - INFO - DuckDB connection established to data/nifty_analytics.duckdb
+2025-12-06 18:03:50,358 - utils.duckdb_tools - INFO - Loaded 44 OHLCV records for 1 symbols
+2025-12-06 18:03:50,360 - utils.duckdb_tools - INFO - Loaded 44 OHLCV records for 1 symbols
+2025-12-06 18:03:50,362 - utils.duckdb_tools - INFO - Loaded 44 OHLCV records for 1 symbols
+2025-12-06 18:03:50,363 - utils.duckdb_tools - INFO - Loaded 44 OHLCV records for 1 symbols
+2025-12-06 18:03:50,365 - utils.duckdb_tools - INFO - Loaded 44 OHLCV records for 1 symbols
+2025-12-06 18:03:50,365 - pipeline.daily_pipeline - INFO - Generated 0 trading signals
+2025-12-06 18:03:50,365 - pipeline.daily_pipeline - INFO - Preparing final analysis report
+2025-12-06 18:03:50,365 - pipeline.daily_pipeline - INFO - Daily analysis pipeline completed successfully
+2025-12-06 18:03:50,365 - __main__ - INFO - Interactive session completed successfully
+2025-12-06 18:07:24,075 - __main__ - INFO - User preferences collected successfully
+2025-12-06 18:07:24,081 - __main__ - INFO - Selected index: Nifty 50
+2025-12-06 18:07:24,087 - __main__ - INFO - Number of stocks: 10
+2025-12-06 18:07:24,087 - __main__ - INFO - Strategy: SMA 20 Crossover
+2025-12-06 18:07:24,116 - __main__ - INFO - Starting analysis pipeline with custom configuration
+2025-12-06 18:07:24,138 - data_providers.market_data_provider - INFO - MarketDataProvider initialized with cache_dir: data/price_data/
+2025-12-06 18:07:24,139 - pipeline.daily_pipeline - INFO - Loading ML model from models/artifacts/model_v1.0_20251206_180719.pkl
+2025-12-06 18:07:25,551 - pipeline.daily_pipeline - INFO - ML model loaded: v1.0
+2025-12-06 18:07:25,551 - pipeline.daily_pipeline - INFO - Daily Pipeline initialized
+2025-12-06 18:07:25,551 - pipeline.daily_pipeline - INFO - Starting daily analysis pipeline
+2025-12-06 18:07:25,551 - pipeline.daily_pipeline - INFO - Fetching Nifty50 summary
+2025-12-06 18:07:25,551 - data_providers.market_data_provider - INFO - Fetching index data for ^NSEI
+2025-12-06 18:07:25,551 - data_providers.market_data_provider - INFO - Fetching OHLCV data for ^NSEI from 2025-11-06 to 2025-12-06
+2025-12-06 18:07:25,556 - data_providers.market_data_provider - INFO - Loaded 22 rows from cache for ^NSEI
+2025-12-06 18:07:25,557 - pipeline.daily_pipeline - INFO - Analyzing stock universe
+2025-12-06 18:07:25,557 - pipeline.daily_pipeline - INFO - Analyzing 5 stocks from universe
+2025-12-06 18:07:25,557 - data_providers.market_data_provider - INFO - Fetching OHLCV data for RELIANCE.NS from 2025-11-26 to 2025-12-06
+2025-12-06 18:07:25,559 - data_providers.market_data_provider - INFO - Loaded 8 rows from cache for RELIANCE.NS
+2025-12-06 18:07:25,560 - data_providers.market_data_provider - INFO - Fetching OHLCV data for TCS.NS from 2025-11-26 to 2025-12-06
+2025-12-06 18:07:25,561 - data_providers.market_data_provider - INFO - Loaded 8 rows from cache for TCS.NS
+2025-12-06 18:07:25,561 - data_providers.market_data_provider - INFO - Fetching OHLCV data for HDFCBANK.NS from 2025-11-26 to 2025-12-06
+2025-12-06 18:07:25,563 - data_providers.market_data_provider - INFO - Loaded 8 rows from cache for HDFCBANK.NS
+2025-12-06 18:07:25,563 - data_providers.market_data_provider - INFO - Fetching OHLCV data for ICICIBANK.NS from 2025-11-26 to 2025-12-06
+2025-12-06 18:07:25,564 - data_providers.market_data_provider - INFO - Loaded 8 rows from cache for ICICIBANK.NS
+2025-12-06 18:07:25,564 - data_providers.market_data_provider - INFO - Fetching OHLCV data for INFY.NS from 2025-11-26 to 2025-12-06
+2025-12-06 18:07:25,565 - data_providers.market_data_provider - INFO - Loaded 8 rows from cache for INFY.NS
+2025-12-06 18:07:25,566 - pipeline.daily_pipeline - INFO - Generating trading signals
+2025-12-06 18:07:25,566 - pipeline.daily_pipeline - INFO - Generating ML-based signals
+2025-12-06 18:07:25,566 - utils.db_duckdb - INFO - DuckDB manager initialized for data/nifty_analytics.duckdb
+2025-12-06 18:07:25,574 - utils.db_duckdb - INFO - DuckDB connection established to data/nifty_analytics.duckdb
+2025-12-06 18:07:25,576 - utils.duckdb_tools - INFO - Loaded 44 OHLCV records for 1 symbols
+2025-12-06 18:07:25,578 - utils.duckdb_tools - INFO - Loaded 44 OHLCV records for 1 symbols
+2025-12-06 18:07:25,579 - utils.duckdb_tools - INFO - Loaded 44 OHLCV records for 1 symbols
+2025-12-06 18:07:25,580 - utils.duckdb_tools - INFO - Loaded 44 OHLCV records for 1 symbols
+2025-12-06 18:07:25,582 - utils.duckdb_tools - INFO - Loaded 44 OHLCV records for 1 symbols
+2025-12-06 18:07:25,582 - pipeline.daily_pipeline - INFO - Generated 0 trading signals
+2025-12-06 18:07:25,582 - pipeline.daily_pipeline - INFO - Preparing final analysis report
+2025-12-06 18:07:25,582 - pipeline.daily_pipeline - INFO - Daily analysis pipeline completed successfully
+2025-12-06 18:07:25,582 - __main__ - INFO - Interactive session completed successfully

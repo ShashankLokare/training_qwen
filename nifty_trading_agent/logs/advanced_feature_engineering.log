@@ -1,0 +1,243 @@
+2025-12-07 00:24:23,132 - __main__ - INFO - Starting comprehensive feature engineering...
+2025-12-07 00:24:23,132 - __main__ - INFO - 🚀 Starting advanced feature engineering for all Nifty 50 symbols
+2025-12-07 00:24:23,132 - __main__ - INFO - Date range: 2018-01-01 to 2024-10-31
+2025-12-07 00:24:23,132 - __main__ - INFO - Processing 20 symbols
+2025-12-07 00:24:23,132 - __main__ - INFO - Processing RELIANCE.NS (1/20)
+2025-12-07 00:24:23,137 - utils.db_duckdb - INFO - DuckDB manager initialized for data/nifty_analytics.duckdb
+2025-12-07 00:24:23,156 - utils.db_duckdb - INFO - DuckDB connection established to data/nifty_analytics.duckdb
+2025-12-07 00:24:23,164 - utils.duckdb_tools - INFO - No OHLCV data found for ['RELIANCE.NS'] between 2017-04-26 and 2024-11-10
+2025-12-07 00:24:23,166 - __main__ - WARNING - Insufficient data for RELIANCE.NS: 0 records
+2025-12-07 00:24:23,166 - __main__ - INFO - Processing TCS.NS (2/20)
+2025-12-07 00:24:23,167 - utils.duckdb_tools - INFO - No OHLCV data found for ['TCS.NS'] between 2017-04-26 and 2024-11-10
+2025-12-07 00:24:23,168 - __main__ - WARNING - Insufficient data for TCS.NS: 0 records
+2025-12-07 00:24:23,168 - __main__ - INFO - Processing HDFCBANK.NS (3/20)
+2025-12-07 00:24:23,169 - utils.duckdb_tools - INFO - No OHLCV data found for ['HDFCBANK.NS'] between 2017-04-26 and 2024-11-10
+2025-12-07 00:24:23,169 - __main__ - WARNING - Insufficient data for HDFCBANK.NS: 0 records
+2025-12-07 00:24:23,169 - __main__ - INFO - Processing ICICIBANK.NS (4/20)
+2025-12-07 00:24:23,170 - utils.duckdb_tools - INFO - No OHLCV data found for ['ICICIBANK.NS'] between 2017-04-26 and 2024-11-10
+2025-12-07 00:24:23,170 - __main__ - WARNING - Insufficient data for ICICIBANK.NS: 0 records
+2025-12-07 00:24:23,170 - __main__ - INFO - Processing INFY.NS (5/20)
+2025-12-07 00:24:23,171 - utils.duckdb_tools - INFO - No OHLCV data found for ['INFY.NS'] between 2017-04-26 and 2024-11-10
+2025-12-07 00:24:23,172 - __main__ - WARNING - Insufficient data for INFY.NS: 0 records
+2025-12-07 00:24:23,172 - __main__ - INFO - Processing HINDUNILVR.NS (6/20)
+2025-12-07 00:24:23,173 - utils.duckdb_tools - INFO - No OHLCV data found for ['HINDUNILVR.NS'] between 2017-04-26 and 2024-11-10
+2025-12-07 00:24:23,173 - __main__ - WARNING - Insufficient data for HINDUNILVR.NS: 0 records
+2025-12-07 00:24:23,173 - __main__ - INFO - Processing ITC.NS (7/20)
+2025-12-07 00:24:23,174 - utils.duckdb_tools - INFO - No OHLCV data found for ['ITC.NS'] between 2017-04-26 and 2024-11-10
+2025-12-07 00:24:23,174 - __main__ - WARNING - Insufficient data for ITC.NS: 0 records
+2025-12-07 00:24:23,174 - __main__ - INFO - Processing KOTAKBANK.NS (8/20)
+2025-12-07 00:24:23,175 - utils.duckdb_tools - INFO - No OHLCV data found for ['KOTAKBANK.NS'] between 2017-04-26 and 2024-11-10
+2025-12-07 00:24:23,176 - __main__ - WARNING - Insufficient data for KOTAKBANK.NS: 0 records
+2025-12-07 00:24:23,176 - __main__ - INFO - Processing LT.NS (9/20)
+2025-12-07 00:24:23,177 - utils.duckdb_tools - INFO - No OHLCV data found for ['LT.NS'] between 2017-04-26 and 2024-11-10
+2025-12-07 00:24:23,177 - __main__ - WARNING - Insufficient data for LT.NS: 0 records
+2025-12-07 00:24:23,177 - __main__ - INFO - Processing AXISBANK.NS (10/20)
+2025-12-07 00:24:23,179 - utils.duckdb_tools - INFO - No OHLCV data found for ['AXISBANK.NS'] between 2017-04-26 and 2024-11-10
+2025-12-07 00:24:23,179 - __main__ - WARNING - Insufficient data for AXISBANK.NS: 0 records
+2025-12-07 00:24:23,179 - __main__ - INFO - Processing BAJFINANCE.NS (11/20)
+2025-12-07 00:24:23,180 - utils.duckdb_tools - INFO - No OHLCV data found for ['BAJFINANCE.NS'] between 2017-04-26 and 2024-11-10
+2025-12-07 00:24:23,181 - __main__ - WARNING - Insufficient data for BAJFINANCE.NS: 0 records
+2025-12-07 00:24:23,181 - __main__ - INFO - Processing MARUTI.NS (12/20)
+2025-12-07 00:24:23,182 - utils.duckdb_tools - INFO - No OHLCV data found for ['MARUTI.NS'] between 2017-04-26 and 2024-11-10
+2025-12-07 00:24:23,182 - __main__ - WARNING - Insufficient data for MARUTI.NS: 0 records
+2025-12-07 00:24:23,182 - __main__ - INFO - Processing BAJAJ-AUTO.NS (13/20)
+2025-12-07 00:24:23,184 - utils.duckdb_tools - INFO - No OHLCV data found for ['BAJAJ-AUTO.NS'] between 2017-04-26 and 2024-11-10
+2025-12-07 00:24:23,184 - __main__ - WARNING - Insufficient data for BAJAJ-AUTO.NS: 0 records
+2025-12-07 00:24:23,184 - __main__ - INFO - Processing WIPRO.NS (14/20)
+2025-12-07 00:24:23,185 - utils.duckdb_tools - INFO - No OHLCV data found for ['WIPRO.NS'] between 2017-04-26 and 2024-11-10
+2025-12-07 00:24:23,185 - __main__ - WARNING - Insufficient data for WIPRO.NS: 0 records
+2025-12-07 00:24:23,185 - __main__ - INFO - Processing HCLTECH.NS (15/20)
+2025-12-07 00:24:23,186 - utils.duckdb_tools - INFO - No OHLCV data found for ['HCLTECH.NS'] between 2017-04-26 and 2024-11-10
+2025-12-07 00:24:23,186 - __main__ - WARNING - Insufficient data for HCLTECH.NS: 0 records
+2025-12-07 00:24:23,186 - __main__ - INFO - Processing ADANIPORTS.NS (16/20)
+2025-12-07 00:24:23,187 - utils.duckdb_tools - INFO - No OHLCV data found for ['ADANIPORTS.NS'] between 2017-04-26 and 2024-11-10
+2025-12-07 00:24:23,187 - __main__ - WARNING - Insufficient data for ADANIPORTS.NS: 0 records
+2025-12-07 00:24:23,187 - __main__ - INFO - Processing DIVISLAB.NS (17/20)
+2025-12-07 00:24:23,189 - utils.duckdb_tools - INFO - No OHLCV data found for ['DIVISLAB.NS'] between 2017-04-26 and 2024-11-10
+2025-12-07 00:24:23,189 - __main__ - WARNING - Insufficient data for DIVISLAB.NS: 0 records
+2025-12-07 00:24:23,189 - __main__ - INFO - Processing SUNPHARMA.NS (18/20)
+2025-12-07 00:24:23,190 - utils.duckdb_tools - INFO - No OHLCV data found for ['SUNPHARMA.NS'] between 2017-04-26 and 2024-11-10
+2025-12-07 00:24:23,190 - __main__ - WARNING - Insufficient data for SUNPHARMA.NS: 0 records
+2025-12-07 00:24:23,190 - __main__ - INFO - Processing DRREDDY.NS (19/20)
+2025-12-07 00:24:23,191 - utils.duckdb_tools - INFO - No OHLCV data found for ['DRREDDY.NS'] between 2017-04-26 and 2024-11-10
+2025-12-07 00:24:23,192 - __main__ - WARNING - Insufficient data for DRREDDY.NS: 0 records
+2025-12-07 00:24:23,192 - __main__ - INFO - Processing CIPLA.NS (20/20)
+2025-12-07 00:24:23,192 - utils.duckdb_tools - INFO - No OHLCV data found for ['CIPLA.NS'] between 2017-04-26 and 2024-11-10
+2025-12-07 00:24:23,193 - __main__ - WARNING - Insufficient data for CIPLA.NS: 0 records
+2025-12-07 00:24:23,193 - __main__ - ERROR - No features generated for any symbol
+2025-12-07 00:24:23,193 - __main__ - ERROR - No features generated
+2025-12-07 00:27:53,638 - __main__ - INFO - Starting comprehensive feature engineering...
+2025-12-07 00:27:53,638 - __main__ - INFO - 🚀 Starting advanced feature engineering for all Nifty 50 symbols
+2025-12-07 00:27:53,638 - __main__ - INFO - Date range: 2018-01-01 to 2024-10-31
+2025-12-07 00:27:53,638 - __main__ - INFO - Processing 20 symbols
+2025-12-07 00:27:53,638 - __main__ - INFO - Processing RELIANCE.NS (1/20)
+2025-12-07 00:27:53,640 - utils.db_duckdb - INFO - DuckDB manager initialized for data/nifty_analytics.duckdb
+2025-12-07 00:27:53,650 - utils.db_duckdb - ERROR - Failed to connect to DuckDB: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,650 - utils.db_duckdb - ERROR - DuckDB operation failed: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,650 - utils.db_duckdb - ERROR - Query execution failed: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,650 - utils.duckdb_tools - INFO - No OHLCV data found for ['RELIANCE.NS'] between 2017-04-26 and 2024-11-10
+2025-12-07 00:27:53,651 - __main__ - WARNING - Insufficient data for RELIANCE.NS: 0 records
+2025-12-07 00:27:53,651 - __main__ - INFO - Processing TCS.NS (2/20)
+2025-12-07 00:27:53,654 - utils.db_duckdb - ERROR - Failed to connect to DuckDB: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,654 - utils.db_duckdb - ERROR - DuckDB operation failed: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,654 - utils.db_duckdb - ERROR - Query execution failed: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,654 - utils.duckdb_tools - INFO - No OHLCV data found for ['TCS.NS'] between 2017-04-26 and 2024-11-10
+2025-12-07 00:27:53,655 - __main__ - WARNING - Insufficient data for TCS.NS: 0 records
+2025-12-07 00:27:53,655 - __main__ - INFO - Processing HDFCBANK.NS (3/20)
+2025-12-07 00:27:53,658 - utils.db_duckdb - ERROR - Failed to connect to DuckDB: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,658 - utils.db_duckdb - ERROR - DuckDB operation failed: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,658 - utils.db_duckdb - ERROR - Query execution failed: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,658 - utils.duckdb_tools - INFO - No OHLCV data found for ['HDFCBANK.NS'] between 2017-04-26 and 2024-11-10
+2025-12-07 00:27:53,658 - __main__ - WARNING - Insufficient data for HDFCBANK.NS: 0 records
+2025-12-07 00:27:53,658 - __main__ - INFO - Processing ICICIBANK.NS (4/20)
+2025-12-07 00:27:53,662 - utils.db_duckdb - ERROR - Failed to connect to DuckDB: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,662 - utils.db_duckdb - ERROR - DuckDB operation failed: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,662 - utils.db_duckdb - ERROR - Query execution failed: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,662 - utils.duckdb_tools - INFO - No OHLCV data found for ['ICICIBANK.NS'] between 2017-04-26 and 2024-11-10
+2025-12-07 00:27:53,662 - __main__ - WARNING - Insufficient data for ICICIBANK.NS: 0 records
+2025-12-07 00:27:53,662 - __main__ - INFO - Processing INFY.NS (5/20)
+2025-12-07 00:27:53,666 - utils.db_duckdb - ERROR - Failed to connect to DuckDB: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,666 - utils.db_duckdb - ERROR - DuckDB operation failed: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,666 - utils.db_duckdb - ERROR - Query execution failed: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,666 - utils.duckdb_tools - INFO - No OHLCV data found for ['INFY.NS'] between 2017-04-26 and 2024-11-10
+2025-12-07 00:27:53,666 - __main__ - WARNING - Insufficient data for INFY.NS: 0 records
+2025-12-07 00:27:53,666 - __main__ - INFO - Processing HINDUNILVR.NS (6/20)
+2025-12-07 00:27:53,669 - utils.db_duckdb - ERROR - Failed to connect to DuckDB: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,669 - utils.db_duckdb - ERROR - DuckDB operation failed: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,669 - utils.db_duckdb - ERROR - Query execution failed: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,669 - utils.duckdb_tools - INFO - No OHLCV data found for ['HINDUNILVR.NS'] between 2017-04-26 and 2024-11-10
+2025-12-07 00:27:53,670 - __main__ - WARNING - Insufficient data for HINDUNILVR.NS: 0 records
+2025-12-07 00:27:53,670 - __main__ - INFO - Processing ITC.NS (7/20)
+2025-12-07 00:27:53,673 - utils.db_duckdb - ERROR - Failed to connect to DuckDB: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,673 - utils.db_duckdb - ERROR - DuckDB operation failed: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,673 - utils.db_duckdb - ERROR - Query execution failed: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,673 - utils.duckdb_tools - INFO - No OHLCV data found for ['ITC.NS'] between 2017-04-26 and 2024-11-10
+2025-12-07 00:27:53,673 - __main__ - WARNING - Insufficient data for ITC.NS: 0 records
+2025-12-07 00:27:53,673 - __main__ - INFO - Processing KOTAKBANK.NS (8/20)
+2025-12-07 00:27:53,677 - utils.db_duckdb - ERROR - Failed to connect to DuckDB: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,677 - utils.db_duckdb - ERROR - DuckDB operation failed: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,677 - utils.db_duckdb - ERROR - Query execution failed: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,677 - utils.duckdb_tools - INFO - No OHLCV data found for ['KOTAKBANK.NS'] between 2017-04-26 and 2024-11-10
+2025-12-07 00:27:53,677 - __main__ - WARNING - Insufficient data for KOTAKBANK.NS: 0 records
+2025-12-07 00:27:53,677 - __main__ - INFO - Processing LT.NS (9/20)
+2025-12-07 00:27:53,680 - utils.db_duckdb - ERROR - Failed to connect to DuckDB: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,680 - utils.db_duckdb - ERROR - DuckDB operation failed: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,680 - utils.db_duckdb - ERROR - Query execution failed: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,680 - utils.duckdb_tools - INFO - No OHLCV data found for ['LT.NS'] between 2017-04-26 and 2024-11-10
+2025-12-07 00:27:53,681 - __main__ - WARNING - Insufficient data for LT.NS: 0 records
+2025-12-07 00:27:53,681 - __main__ - INFO - Processing AXISBANK.NS (10/20)
+2025-12-07 00:27:53,684 - utils.db_duckdb - ERROR - Failed to connect to DuckDB: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,684 - utils.db_duckdb - ERROR - DuckDB operation failed: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,684 - utils.db_duckdb - ERROR - Query execution failed: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,684 - utils.duckdb_tools - INFO - No OHLCV data found for ['AXISBANK.NS'] between 2017-04-26 and 2024-11-10
+2025-12-07 00:27:53,684 - __main__ - WARNING - Insufficient data for AXISBANK.NS: 0 records
+2025-12-07 00:27:53,684 - __main__ - INFO - Processing BAJFINANCE.NS (11/20)
+2025-12-07 00:27:53,688 - utils.db_duckdb - ERROR - Failed to connect to DuckDB: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,688 - utils.db_duckdb - ERROR - DuckDB operation failed: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,688 - utils.db_duckdb - ERROR - Query execution failed: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,688 - utils.duckdb_tools - INFO - No OHLCV data found for ['BAJFINANCE.NS'] between 2017-04-26 and 2024-11-10
+2025-12-07 00:27:53,688 - __main__ - WARNING - Insufficient data for BAJFINANCE.NS: 0 records
+2025-12-07 00:27:53,688 - __main__ - INFO - Processing MARUTI.NS (12/20)
+2025-12-07 00:27:53,691 - utils.db_duckdb - ERROR - Failed to connect to DuckDB: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,691 - utils.db_duckdb - ERROR - DuckDB operation failed: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,691 - utils.db_duckdb - ERROR - Query execution failed: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,691 - utils.duckdb_tools - INFO - No OHLCV data found for ['MARUTI.NS'] between 2017-04-26 and 2024-11-10
+2025-12-07 00:27:53,691 - __main__ - WARNING - Insufficient data for MARUTI.NS: 0 records
+2025-12-07 00:27:53,691 - __main__ - INFO - Processing BAJAJ-AUTO.NS (13/20)
+2025-12-07 00:27:53,694 - utils.db_duckdb - ERROR - Failed to connect to DuckDB: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,695 - utils.db_duckdb - ERROR - DuckDB operation failed: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,695 - utils.db_duckdb - ERROR - Query execution failed: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,695 - utils.duckdb_tools - INFO - No OHLCV data found for ['BAJAJ-AUTO.NS'] between 2017-04-26 and 2024-11-10
+2025-12-07 00:27:53,695 - __main__ - WARNING - Insufficient data for BAJAJ-AUTO.NS: 0 records
+2025-12-07 00:27:53,695 - __main__ - INFO - Processing WIPRO.NS (14/20)
+2025-12-07 00:27:53,698 - utils.db_duckdb - ERROR - Failed to connect to DuckDB: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,698 - utils.db_duckdb - ERROR - DuckDB operation failed: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,698 - utils.db_duckdb - ERROR - Query execution failed: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,698 - utils.duckdb_tools - INFO - No OHLCV data found for ['WIPRO.NS'] between 2017-04-26 and 2024-11-10
+2025-12-07 00:27:53,699 - __main__ - WARNING - Insufficient data for WIPRO.NS: 0 records
+2025-12-07 00:27:53,699 - __main__ - INFO - Processing HCLTECH.NS (15/20)
+2025-12-07 00:27:53,702 - utils.db_duckdb - ERROR - Failed to connect to DuckDB: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,702 - utils.db_duckdb - ERROR - DuckDB operation failed: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,702 - utils.db_duckdb - ERROR - Query execution failed: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,702 - utils.duckdb_tools - INFO - No OHLCV data found for ['HCLTECH.NS'] between 2017-04-26 and 2024-11-10
+2025-12-07 00:27:53,702 - __main__ - WARNING - Insufficient data for HCLTECH.NS: 0 records
+2025-12-07 00:27:53,702 - __main__ - INFO - Processing ADANIPORTS.NS (16/20)
+2025-12-07 00:27:53,705 - utils.db_duckdb - ERROR - Failed to connect to DuckDB: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,705 - utils.db_duckdb - ERROR - DuckDB operation failed: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,705 - utils.db_duckdb - ERROR - Query execution failed: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,705 - utils.duckdb_tools - INFO - No OHLCV data found for ['ADANIPORTS.NS'] between 2017-04-26 and 2024-11-10
+2025-12-07 00:27:53,706 - __main__ - WARNING - Insufficient data for ADANIPORTS.NS: 0 records
+2025-12-07 00:27:53,706 - __main__ - INFO - Processing DIVISLAB.NS (17/20)
+2025-12-07 00:27:53,709 - utils.db_duckdb - ERROR - Failed to connect to DuckDB: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,709 - utils.db_duckdb - ERROR - DuckDB operation failed: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,709 - utils.db_duckdb - ERROR - Query execution failed: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,709 - utils.duckdb_tools - INFO - No OHLCV data found for ['DIVISLAB.NS'] between 2017-04-26 and 2024-11-10
+2025-12-07 00:27:53,709 - __main__ - WARNING - Insufficient data for DIVISLAB.NS: 0 records
+2025-12-07 00:27:53,709 - __main__ - INFO - Processing SUNPHARMA.NS (18/20)
+2025-12-07 00:27:53,713 - utils.db_duckdb - ERROR - Failed to connect to DuckDB: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,713 - utils.db_duckdb - ERROR - DuckDB operation failed: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,713 - utils.db_duckdb - ERROR - Query execution failed: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,713 - utils.duckdb_tools - INFO - No OHLCV data found for ['SUNPHARMA.NS'] between 2017-04-26 and 2024-11-10
+2025-12-07 00:27:53,713 - __main__ - WARNING - Insufficient data for SUNPHARMA.NS: 0 records
+2025-12-07 00:27:53,713 - __main__ - INFO - Processing DRREDDY.NS (19/20)
+2025-12-07 00:27:53,717 - utils.db_duckdb - ERROR - Failed to connect to DuckDB: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,717 - utils.db_duckdb - ERROR - DuckDB operation failed: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,717 - utils.db_duckdb - ERROR - Query execution failed: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,717 - utils.duckdb_tools - INFO - No OHLCV data found for ['DRREDDY.NS'] between 2017-04-26 and 2024-11-10
+2025-12-07 00:27:53,717 - __main__ - WARNING - Insufficient data for DRREDDY.NS: 0 records
+2025-12-07 00:27:53,717 - __main__ - INFO - Processing CIPLA.NS (20/20)
+2025-12-07 00:27:53,721 - utils.db_duckdb - ERROR - Failed to connect to DuckDB: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,721 - utils.db_duckdb - ERROR - DuckDB operation failed: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,721 - utils.db_duckdb - ERROR - Query execution failed: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 67715) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:27:53,721 - utils.duckdb_tools - INFO - No OHLCV data found for ['CIPLA.NS'] between 2017-04-26 and 2024-11-10
+2025-12-07 00:27:53,721 - __main__ - WARNING - Insufficient data for CIPLA.NS: 0 records
+2025-12-07 00:27:53,721 - __main__ - ERROR - No features generated for any symbol
+2025-12-07 00:27:53,721 - __main__ - ERROR - No features generated
+2025-12-07 00:33:03,677 - __main__ - INFO - Starting comprehensive feature engineering...
+2025-12-07 00:33:03,678 - __main__ - INFO - 🚀 Starting advanced feature engineering for all Nifty 50 symbols
+2025-12-07 00:33:03,678 - __main__ - INFO - Date range: 2018-01-01 to 2024-10-31
+2025-12-07 00:33:03,678 - __main__ - INFO - Processing 20 symbols
+2025-12-07 00:33:03,678 - __main__ - INFO - Processing RELIANCE.NS (1/20)
+2025-12-07 00:33:03,679 - utils.db_duckdb - INFO - DuckDB manager initialized for data/nifty_analytics.duckdb
+2025-12-07 00:33:03,687 - utils.db_duckdb - INFO - DuckDB connection established to data/nifty_analytics.duckdb
+2025-12-07 00:33:03,694 - utils.duckdb_tools - INFO - Loaded 1854 OHLCV records for 1 symbols
+2025-12-07 00:33:04,382 - __main__ - INFO - Processing TCS.NS (2/20)
+2025-12-07 00:33:04,386 - utils.duckdb_tools - INFO - Loaded 1854 OHLCV records for 1 symbols
+2025-12-07 00:33:05,162 - __main__ - INFO - Processing HDFCBANK.NS (3/20)
+2025-12-07 00:33:05,166 - utils.duckdb_tools - INFO - Loaded 1854 OHLCV records for 1 symbols
+2025-12-07 00:33:05,910 - __main__ - INFO - Processing ICICIBANK.NS (4/20)
+2025-12-07 00:33:05,914 - utils.duckdb_tools - INFO - Loaded 1854 OHLCV records for 1 symbols
+2025-12-07 00:33:06,624 - __main__ - INFO - Processing INFY.NS (5/20)
+2025-12-07 00:33:06,628 - utils.duckdb_tools - INFO - Loaded 1854 OHLCV records for 1 symbols
+2025-12-07 00:33:07,371 - __main__ - INFO - Processing HINDUNILVR.NS (6/20)
+2025-12-07 00:33:07,375 - utils.duckdb_tools - INFO - Loaded 1854 OHLCV records for 1 symbols
+2025-12-07 00:33:08,165 - __main__ - INFO - Processing ITC.NS (7/20)
+2025-12-07 00:33:08,169 - utils.duckdb_tools - INFO - Loaded 1854 OHLCV records for 1 symbols
+2025-12-07 00:33:08,848 - __main__ - INFO - Processing KOTAKBANK.NS (8/20)
+2025-12-07 00:33:08,852 - utils.duckdb_tools - INFO - Loaded 1854 OHLCV records for 1 symbols
+2025-12-07 00:33:09,606 - __main__ - INFO - Processing LT.NS (9/20)
+2025-12-07 00:33:09,610 - utils.duckdb_tools - INFO - Loaded 1854 OHLCV records for 1 symbols
+2025-12-07 00:33:10,356 - __main__ - INFO - Processing AXISBANK.NS (10/20)
+2025-12-07 00:33:10,360 - utils.duckdb_tools - INFO - Loaded 1854 OHLCV records for 1 symbols
+2025-12-07 00:33:11,071 - __main__ - INFO - Processing BAJFINANCE.NS (11/20)
+2025-12-07 00:33:11,074 - utils.duckdb_tools - INFO - Loaded 1854 OHLCV records for 1 symbols
+2025-12-07 00:33:11,895 - __main__ - INFO - Processing MARUTI.NS (12/20)
+2025-12-07 00:33:11,899 - utils.duckdb_tools - INFO - Loaded 1854 OHLCV records for 1 symbols
+2025-12-07 00:33:12,603 - __main__ - INFO - Processing BAJAJ-AUTO.NS (13/20)
+2025-12-07 00:33:12,607 - utils.duckdb_tools - INFO - Loaded 1854 OHLCV records for 1 symbols
+2025-12-07 00:33:13,353 - __main__ - INFO - Processing WIPRO.NS (14/20)
+2025-12-07 00:33:13,357 - utils.duckdb_tools - INFO - Loaded 1854 OHLCV records for 1 symbols
+2025-12-07 00:33:14,135 - __main__ - INFO - Processing HCLTECH.NS (15/20)
+2025-12-07 00:33:14,138 - utils.duckdb_tools - INFO - Loaded 1854 OHLCV records for 1 symbols
+2025-12-07 00:33:14,821 - __main__ - INFO - Processing ADANIPORTS.NS (16/20)
+2025-12-07 00:33:14,824 - utils.duckdb_tools - INFO - Loaded 1854 OHLCV records for 1 symbols
+2025-12-07 00:33:15,594 - __main__ - INFO - Processing DIVISLAB.NS (17/20)
+2025-12-07 00:33:15,598 - utils.duckdb_tools - INFO - Loaded 1854 OHLCV records for 1 symbols
+2025-12-07 00:33:16,358 - __main__ - INFO - Processing SUNPHARMA.NS (18/20)
+2025-12-07 00:33:16,362 - utils.duckdb_tools - INFO - Loaded 1854 OHLCV records for 1 symbols
+2025-12-07 00:33:17,045 - __main__ - INFO - Processing DRREDDY.NS (19/20)
+2025-12-07 00:33:17,048 - utils.duckdb_tools - INFO - Loaded 1854 OHLCV records for 1 symbols
+2025-12-07 00:33:17,823 - __main__ - INFO - Processing CIPLA.NS (20/20)
+2025-12-07 00:33:17,827 - utils.duckdb_tools - INFO - Loaded 1854 OHLCV records for 1 symbols
+2025-12-07 00:33:18,566 - __main__ - ERROR - No features generated for any symbol
+2025-12-07 00:33:18,566 - __main__ - ERROR - No features generated

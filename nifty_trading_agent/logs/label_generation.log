@@ -1,0 +1,411 @@
+2025-12-06 17:55:40,312 - __main__ - INFO - Generating labels for 20 symbols from 2020-01-01 to 2023-12-31
+2025-12-06 17:55:40,313 - __main__ - INFO - Generating labels for 20 symbols from 2020-01-01 to 2023-12-31
+2025-12-06 17:55:40,317 - utils.db_duckdb - INFO - DuckDB manager initialized for data/nifty_analytics.duckdb
+2025-12-06 17:55:40,331 - utils.db_duckdb - INFO - DuckDB connection established to data/nifty_analytics.duckdb
+2025-12-06 17:55:40,336 - utils.duckdb_tools - INFO - No OHLCV data found for ['RELIANCE.NS'] between 2019-12-12 and 2024-01-20
+2025-12-06 17:55:40,338 - __main__ - WARNING - No OHLCV data found for RELIANCE.NS
+2025-12-06 17:55:40,339 - utils.duckdb_tools - INFO - No OHLCV data found for ['TCS.NS'] between 2019-12-12 and 2024-01-20
+2025-12-06 17:55:40,340 - __main__ - WARNING - No OHLCV data found for TCS.NS
+2025-12-06 17:55:40,341 - utils.duckdb_tools - INFO - No OHLCV data found for ['HDFCBANK.NS'] between 2019-12-12 and 2024-01-20
+2025-12-06 17:55:40,341 - __main__ - WARNING - No OHLCV data found for HDFCBANK.NS
+2025-12-06 17:55:40,342 - utils.duckdb_tools - INFO - No OHLCV data found for ['ICICIBANK.NS'] between 2019-12-12 and 2024-01-20
+2025-12-06 17:55:40,342 - __main__ - WARNING - No OHLCV data found for ICICIBANK.NS
+2025-12-06 17:55:40,343 - utils.duckdb_tools - INFO - No OHLCV data found for ['INFY.NS'] between 2019-12-12 and 2024-01-20
+2025-12-06 17:55:40,343 - __main__ - WARNING - No OHLCV data found for INFY.NS
+2025-12-06 17:55:40,344 - utils.duckdb_tools - INFO - No OHLCV data found for ['HINDUNILVR.NS'] between 2019-12-12 and 2024-01-20
+2025-12-06 17:55:40,344 - __main__ - WARNING - No OHLCV data found for HINDUNILVR.NS
+2025-12-06 17:55:40,345 - utils.duckdb_tools - INFO - No OHLCV data found for ['ITC.NS'] between 2019-12-12 and 2024-01-20
+2025-12-06 17:55:40,345 - __main__ - WARNING - No OHLCV data found for ITC.NS
+2025-12-06 17:55:40,346 - utils.duckdb_tools - INFO - No OHLCV data found for ['KOTAKBANK.NS'] between 2019-12-12 and 2024-01-20
+2025-12-06 17:55:40,346 - __main__ - WARNING - No OHLCV data found for KOTAKBANK.NS
+2025-12-06 17:55:40,347 - utils.duckdb_tools - INFO - No OHLCV data found for ['LT.NS'] between 2019-12-12 and 2024-01-20
+2025-12-06 17:55:40,348 - __main__ - WARNING - No OHLCV data found for LT.NS
+2025-12-06 17:55:40,348 - utils.duckdb_tools - INFO - No OHLCV data found for ['AXISBANK.NS'] between 2019-12-12 and 2024-01-20
+2025-12-06 17:55:40,349 - __main__ - WARNING - No OHLCV data found for AXISBANK.NS
+2025-12-06 17:55:40,350 - utils.duckdb_tools - INFO - No OHLCV data found for ['BAJFINANCE.NS'] between 2019-12-12 and 2024-01-20
+2025-12-06 17:55:40,350 - __main__ - WARNING - No OHLCV data found for BAJFINANCE.NS
+2025-12-06 17:55:40,351 - utils.duckdb_tools - INFO - No OHLCV data found for ['MARUTI.NS'] between 2019-12-12 and 2024-01-20
+2025-12-06 17:55:40,351 - __main__ - WARNING - No OHLCV data found for MARUTI.NS
+2025-12-06 17:55:40,352 - utils.duckdb_tools - INFO - No OHLCV data found for ['BAJAJ-AUTO.NS'] between 2019-12-12 and 2024-01-20
+2025-12-06 17:55:40,352 - __main__ - WARNING - No OHLCV data found for BAJAJ-AUTO.NS
+2025-12-06 17:55:40,353 - utils.duckdb_tools - INFO - No OHLCV data found for ['WIPRO.NS'] between 2019-12-12 and 2024-01-20
+2025-12-06 17:55:40,354 - __main__ - WARNING - No OHLCV data found for WIPRO.NS
+2025-12-06 17:55:40,355 - utils.duckdb_tools - INFO - No OHLCV data found for ['HCLTECH.NS'] between 2019-12-12 and 2024-01-20
+2025-12-06 17:55:40,355 - __main__ - WARNING - No OHLCV data found for HCLTECH.NS
+2025-12-06 17:55:40,355 - utils.duckdb_tools - INFO - No OHLCV data found for ['ADANIPORTS.NS'] between 2019-12-12 and 2024-01-20
+2025-12-06 17:55:40,356 - __main__ - WARNING - No OHLCV data found for ADANIPORTS.NS
+2025-12-06 17:55:40,356 - utils.duckdb_tools - INFO - No OHLCV data found for ['DIVISLAB.NS'] between 2019-12-12 and 2024-01-20
+2025-12-06 17:55:40,357 - __main__ - WARNING - No OHLCV data found for DIVISLAB.NS
+2025-12-06 17:55:40,358 - utils.duckdb_tools - INFO - No OHLCV data found for ['SUNPHARMA.NS'] between 2019-12-12 and 2024-01-20
+2025-12-06 17:55:40,358 - __main__ - WARNING - No OHLCV data found for SUNPHARMA.NS
+2025-12-06 17:55:40,358 - utils.duckdb_tools - INFO - No OHLCV data found for ['DRREDDY.NS'] between 2019-12-12 and 2024-01-20
+2025-12-06 17:55:40,359 - __main__ - WARNING - No OHLCV data found for DRREDDY.NS
+2025-12-06 17:55:40,359 - utils.duckdb_tools - INFO - No OHLCV data found for ['CIPLA.NS'] between 2019-12-12 and 2024-01-20
+2025-12-06 17:55:40,360 - __main__ - WARNING - No OHLCV data found for CIPLA.NS
+2025-12-06 17:55:40,360 - __main__ - WARNING - No labels generated for any symbol
+2025-12-06 17:55:40,360 - __main__ - ERROR - No labels generated
+2025-12-06 17:56:09,708 - __main__ - INFO - Generating labels for 20 symbols from 2024-01-01 to 2024-10-31
+2025-12-06 17:56:09,709 - __main__ - INFO - Generating labels for 20 symbols from 2024-01-01 to 2024-10-31
+2025-12-06 17:56:09,710 - utils.db_duckdb - INFO - DuckDB manager initialized for data/nifty_analytics.duckdb
+2025-12-06 17:56:09,719 - utils.db_duckdb - INFO - DuckDB connection established to data/nifty_analytics.duckdb
+2025-12-06 17:56:09,720 - utils.duckdb_tools - INFO - No OHLCV data found for ['RELIANCE.NS'] between 2023-12-12 and 2024-11-20
+2025-12-06 17:56:09,721 - __main__ - WARNING - No OHLCV data found for RELIANCE.NS
+2025-12-06 17:56:09,722 - utils.duckdb_tools - INFO - No OHLCV data found for ['TCS.NS'] between 2023-12-12 and 2024-11-20
+2025-12-06 17:56:09,722 - __main__ - WARNING - No OHLCV data found for TCS.NS
+2025-12-06 17:56:09,723 - utils.duckdb_tools - INFO - No OHLCV data found for ['HDFCBANK.NS'] between 2023-12-12 and 2024-11-20
+2025-12-06 17:56:09,723 - __main__ - WARNING - No OHLCV data found for HDFCBANK.NS
+2025-12-06 17:56:09,724 - utils.duckdb_tools - INFO - No OHLCV data found for ['ICICIBANK.NS'] between 2023-12-12 and 2024-11-20
+2025-12-06 17:56:09,724 - __main__ - WARNING - No OHLCV data found for ICICIBANK.NS
+2025-12-06 17:56:09,725 - utils.duckdb_tools - INFO - No OHLCV data found for ['INFY.NS'] between 2023-12-12 and 2024-11-20
+2025-12-06 17:56:09,725 - __main__ - WARNING - No OHLCV data found for INFY.NS
+2025-12-06 17:56:09,726 - utils.duckdb_tools - INFO - No OHLCV data found for ['HINDUNILVR.NS'] between 2023-12-12 and 2024-11-20
+2025-12-06 17:56:09,727 - __main__ - WARNING - No OHLCV data found for HINDUNILVR.NS
+2025-12-06 17:56:09,728 - utils.duckdb_tools - INFO - No OHLCV data found for ['ITC.NS'] between 2023-12-12 and 2024-11-20
+2025-12-06 17:56:09,728 - __main__ - WARNING - No OHLCV data found for ITC.NS
+2025-12-06 17:56:09,729 - utils.duckdb_tools - INFO - No OHLCV data found for ['KOTAKBANK.NS'] between 2023-12-12 and 2024-11-20
+2025-12-06 17:56:09,729 - __main__ - WARNING - No OHLCV data found for KOTAKBANK.NS
+2025-12-06 17:56:09,730 - utils.duckdb_tools - INFO - No OHLCV data found for ['LT.NS'] between 2023-12-12 and 2024-11-20
+2025-12-06 17:56:09,731 - __main__ - WARNING - No OHLCV data found for LT.NS
+2025-12-06 17:56:09,732 - utils.duckdb_tools - INFO - No OHLCV data found for ['AXISBANK.NS'] between 2023-12-12 and 2024-11-20
+2025-12-06 17:56:09,732 - __main__ - WARNING - No OHLCV data found for AXISBANK.NS
+2025-12-06 17:56:09,733 - utils.duckdb_tools - INFO - No OHLCV data found for ['BAJFINANCE.NS'] between 2023-12-12 and 2024-11-20
+2025-12-06 17:56:09,733 - __main__ - WARNING - No OHLCV data found for BAJFINANCE.NS
+2025-12-06 17:56:09,734 - utils.duckdb_tools - INFO - No OHLCV data found for ['MARUTI.NS'] between 2023-12-12 and 2024-11-20
+2025-12-06 17:56:09,734 - __main__ - WARNING - No OHLCV data found for MARUTI.NS
+2025-12-06 17:56:09,735 - utils.duckdb_tools - INFO - No OHLCV data found for ['BAJAJ-AUTO.NS'] between 2023-12-12 and 2024-11-20
+2025-12-06 17:56:09,735 - __main__ - WARNING - No OHLCV data found for BAJAJ-AUTO.NS
+2025-12-06 17:56:09,736 - utils.duckdb_tools - INFO - No OHLCV data found for ['WIPRO.NS'] between 2023-12-12 and 2024-11-20
+2025-12-06 17:56:09,736 - __main__ - WARNING - No OHLCV data found for WIPRO.NS
+2025-12-06 17:56:09,737 - utils.duckdb_tools - INFO - No OHLCV data found for ['HCLTECH.NS'] between 2023-12-12 and 2024-11-20
+2025-12-06 17:56:09,738 - __main__ - WARNING - No OHLCV data found for HCLTECH.NS
+2025-12-06 17:56:09,739 - utils.duckdb_tools - INFO - No OHLCV data found for ['ADANIPORTS.NS'] between 2023-12-12 and 2024-11-20
+2025-12-06 17:56:09,739 - __main__ - WARNING - No OHLCV data found for ADANIPORTS.NS
+2025-12-06 17:56:09,739 - utils.duckdb_tools - INFO - No OHLCV data found for ['DIVISLAB.NS'] between 2023-12-12 and 2024-11-20
+2025-12-06 17:56:09,740 - __main__ - WARNING - No OHLCV data found for DIVISLAB.NS
+2025-12-06 17:56:09,741 - utils.duckdb_tools - INFO - No OHLCV data found for ['SUNPHARMA.NS'] between 2023-12-12 and 2024-11-20
+2025-12-06 17:56:09,741 - __main__ - WARNING - No OHLCV data found for SUNPHARMA.NS
+2025-12-06 17:56:09,742 - utils.duckdb_tools - INFO - No OHLCV data found for ['DRREDDY.NS'] between 2023-12-12 and 2024-11-20
+2025-12-06 17:56:09,742 - __main__ - WARNING - No OHLCV data found for DRREDDY.NS
+2025-12-06 17:56:09,743 - utils.duckdb_tools - INFO - No OHLCV data found for ['CIPLA.NS'] between 2023-12-12 and 2024-11-20
+2025-12-06 17:56:09,743 - __main__ - WARNING - No OHLCV data found for CIPLA.NS
+2025-12-06 17:56:09,743 - __main__ - WARNING - No labels generated for any symbol
+2025-12-06 17:56:09,743 - __main__ - ERROR - No labels generated
+2025-12-06 17:56:51,190 - __main__ - INFO - Generating labels for 20 symbols from 2025-11-01 to 2025-11-20
+2025-12-06 17:56:51,190 - __main__ - INFO - Generating labels for 20 symbols from 2025-11-01 to 2025-11-20
+2025-12-06 17:56:51,192 - utils.db_duckdb - INFO - DuckDB manager initialized for data/nifty_analytics.duckdb
+2025-12-06 17:56:51,199 - utils.db_duckdb - INFO - DuckDB connection established to data/nifty_analytics.duckdb
+2025-12-06 17:56:51,200 - utils.duckdb_tools - INFO - No OHLCV data found for ['RELIANCE.NS'] between 2025-10-19 and 2025-12-03
+2025-12-06 17:56:51,201 - __main__ - WARNING - No OHLCV data found for RELIANCE.NS
+2025-12-06 17:56:51,202 - utils.duckdb_tools - INFO - No OHLCV data found for ['TCS.NS'] between 2025-10-19 and 2025-12-03
+2025-12-06 17:56:51,202 - __main__ - WARNING - No OHLCV data found for TCS.NS
+2025-12-06 17:56:51,203 - utils.duckdb_tools - INFO - No OHLCV data found for ['HDFCBANK.NS'] between 2025-10-19 and 2025-12-03
+2025-12-06 17:56:51,203 - __main__ - WARNING - No OHLCV data found for HDFCBANK.NS
+2025-12-06 17:56:51,204 - utils.duckdb_tools - INFO - No OHLCV data found for ['ICICIBANK.NS'] between 2025-10-19 and 2025-12-03
+2025-12-06 17:56:51,204 - __main__ - WARNING - No OHLCV data found for ICICIBANK.NS
+2025-12-06 17:56:51,205 - utils.duckdb_tools - INFO - No OHLCV data found for ['INFY.NS'] between 2025-10-19 and 2025-12-03
+2025-12-06 17:56:51,205 - __main__ - WARNING - No OHLCV data found for INFY.NS
+2025-12-06 17:56:51,206 - utils.duckdb_tools - INFO - No OHLCV data found for ['HINDUNILVR.NS'] between 2025-10-19 and 2025-12-03
+2025-12-06 17:56:51,206 - __main__ - WARNING - No OHLCV data found for HINDUNILVR.NS
+2025-12-06 17:56:51,207 - utils.duckdb_tools - INFO - No OHLCV data found for ['ITC.NS'] between 2025-10-19 and 2025-12-03
+2025-12-06 17:56:51,207 - __main__ - WARNING - No OHLCV data found for ITC.NS
+2025-12-06 17:56:51,208 - utils.duckdb_tools - INFO - No OHLCV data found for ['KOTAKBANK.NS'] between 2025-10-19 and 2025-12-03
+2025-12-06 17:56:51,209 - __main__ - WARNING - No OHLCV data found for KOTAKBANK.NS
+2025-12-06 17:56:51,209 - utils.duckdb_tools - INFO - No OHLCV data found for ['LT.NS'] between 2025-10-19 and 2025-12-03
+2025-12-06 17:56:51,210 - __main__ - WARNING - No OHLCV data found for LT.NS
+2025-12-06 17:56:51,211 - utils.duckdb_tools - INFO - No OHLCV data found for ['AXISBANK.NS'] between 2025-10-19 and 2025-12-03
+2025-12-06 17:56:51,211 - __main__ - WARNING - No OHLCV data found for AXISBANK.NS
+2025-12-06 17:56:51,211 - utils.duckdb_tools - INFO - No OHLCV data found for ['BAJFINANCE.NS'] between 2025-10-19 and 2025-12-03
+2025-12-06 17:56:51,212 - __main__ - WARNING - No OHLCV data found for BAJFINANCE.NS
+2025-12-06 17:56:51,212 - utils.duckdb_tools - INFO - No OHLCV data found for ['MARUTI.NS'] between 2025-10-19 and 2025-12-03
+2025-12-06 17:56:51,213 - __main__ - WARNING - No OHLCV data found for MARUTI.NS
+2025-12-06 17:56:51,214 - utils.duckdb_tools - INFO - No OHLCV data found for ['BAJAJ-AUTO.NS'] between 2025-10-19 and 2025-12-03
+2025-12-06 17:56:51,214 - __main__ - WARNING - No OHLCV data found for BAJAJ-AUTO.NS
+2025-12-06 17:56:51,215 - utils.duckdb_tools - INFO - No OHLCV data found for ['WIPRO.NS'] between 2025-10-19 and 2025-12-03
+2025-12-06 17:56:51,216 - __main__ - WARNING - No OHLCV data found for WIPRO.NS
+2025-12-06 17:56:51,217 - utils.duckdb_tools - INFO - No OHLCV data found for ['HCLTECH.NS'] between 2025-10-19 and 2025-12-03
+2025-12-06 17:56:51,217 - __main__ - WARNING - No OHLCV data found for HCLTECH.NS
+2025-12-06 17:56:51,218 - utils.duckdb_tools - INFO - No OHLCV data found for ['ADANIPORTS.NS'] between 2025-10-19 and 2025-12-03
+2025-12-06 17:56:51,218 - __main__ - WARNING - No OHLCV data found for ADANIPORTS.NS
+2025-12-06 17:56:51,219 - utils.duckdb_tools - INFO - No OHLCV data found for ['DIVISLAB.NS'] between 2025-10-19 and 2025-12-03
+2025-12-06 17:56:51,219 - __main__ - WARNING - No OHLCV data found for DIVISLAB.NS
+2025-12-06 17:56:51,220 - utils.duckdb_tools - INFO - No OHLCV data found for ['SUNPHARMA.NS'] between 2025-10-19 and 2025-12-03
+2025-12-06 17:56:51,220 - __main__ - WARNING - No OHLCV data found for SUNPHARMA.NS
+2025-12-06 17:56:51,221 - utils.duckdb_tools - INFO - No OHLCV data found for ['DRREDDY.NS'] between 2025-10-19 and 2025-12-03
+2025-12-06 17:56:51,221 - __main__ - WARNING - No OHLCV data found for DRREDDY.NS
+2025-12-06 17:56:51,222 - utils.duckdb_tools - INFO - No OHLCV data found for ['CIPLA.NS'] between 2025-10-19 and 2025-12-03
+2025-12-06 17:56:51,222 - __main__ - WARNING - No OHLCV data found for CIPLA.NS
+2025-12-06 17:56:51,222 - __main__ - WARNING - No labels generated for any symbol
+2025-12-06 17:56:51,222 - __main__ - ERROR - No labels generated
+2025-12-06 17:57:33,408 - __main__ - INFO - Generating labels for 20 symbols from 2025-11-01 to 2025-11-20
+2025-12-06 17:57:33,408 - __main__ - INFO - Generating labels for 20 symbols from 2025-11-01 to 2025-11-20
+2025-12-06 17:57:33,410 - utils.db_duckdb - INFO - DuckDB manager initialized for data/nifty_analytics.duckdb
+2025-12-06 17:57:33,418 - utils.db_duckdb - INFO - DuckDB connection established to data/nifty_analytics.duckdb
+2025-12-06 17:57:33,424 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 17:57:33,435 - __main__ - INFO - Generated 14 labels for RELIANCE.NS
+2025-12-06 17:57:33,437 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 17:57:33,448 - __main__ - INFO - Generated 14 labels for TCS.NS
+2025-12-06 17:57:33,449 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 17:57:33,459 - __main__ - INFO - Generated 14 labels for HDFCBANK.NS
+2025-12-06 17:57:33,461 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 17:57:33,472 - __main__ - INFO - Generated 14 labels for ICICIBANK.NS
+2025-12-06 17:57:33,475 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 17:57:33,485 - __main__ - INFO - Generated 14 labels for INFY.NS
+2025-12-06 17:57:33,487 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 17:57:33,497 - __main__ - INFO - Generated 14 labels for HINDUNILVR.NS
+2025-12-06 17:57:33,499 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 17:57:33,510 - __main__ - INFO - Generated 14 labels for ITC.NS
+2025-12-06 17:57:33,513 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 17:57:33,521 - __main__ - INFO - Generated 14 labels for KOTAKBANK.NS
+2025-12-06 17:57:33,523 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 17:57:33,533 - __main__ - INFO - Generated 14 labels for LT.NS
+2025-12-06 17:57:33,535 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 17:57:33,544 - __main__ - INFO - Generated 14 labels for AXISBANK.NS
+2025-12-06 17:57:33,546 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 17:57:33,557 - __main__ - INFO - Generated 14 labels for BAJFINANCE.NS
+2025-12-06 17:57:33,559 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 17:57:33,568 - __main__ - INFO - Generated 14 labels for MARUTI.NS
+2025-12-06 17:57:33,570 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 17:57:33,579 - __main__ - INFO - Generated 14 labels for BAJAJ-AUTO.NS
+2025-12-06 17:57:33,581 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 17:57:33,590 - __main__ - INFO - Generated 14 labels for WIPRO.NS
+2025-12-06 17:57:33,591 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 17:57:33,600 - __main__ - INFO - Generated 14 labels for HCLTECH.NS
+2025-12-06 17:57:33,602 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 17:57:33,610 - __main__ - INFO - Generated 14 labels for ADANIPORTS.NS
+2025-12-06 17:57:33,612 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 17:57:33,620 - __main__ - INFO - Generated 14 labels for DIVISLAB.NS
+2025-12-06 17:57:33,622 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 17:57:33,631 - __main__ - INFO - Generated 14 labels for SUNPHARMA.NS
+2025-12-06 17:57:33,634 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 17:57:33,642 - __main__ - INFO - Generated 14 labels for DRREDDY.NS
+2025-12-06 17:57:33,644 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 17:57:33,653 - __main__ - INFO - Generated 14 labels for CIPLA.NS
+2025-12-06 17:57:33,656 - __main__ - INFO - Generated total of 280 labels
+2025-12-06 17:57:33,662 - utils.db_duckdb - ERROR - DuckDB operation failed: INTERNAL Error: Column with name "forward_10d_max_return_pct" does not exist
+
+Stack Trace:
+
+0        duckdb_adbc_init + 3495360
+1        duckdb_adbc_init + 3414524
+2        duckdb_adbc_init + 19114660
+3        PyInit__duckdb + 3613136
+4        PyInit__duckdb + 2459488
+5        PyInit__duckdb + 2345260
+6        PyInit__duckdb + 2973660
+7        PyInit__duckdb + 3036308
+8        duckdb_adbc_init + 7166032
+9        duckdb_adbc_init + 7169352
+10       duckdb_adbc_init + 7185876
+11       duckdb_adbc_init + 7192396
+12       duckdb_adbc_init + 7183944
+13       duckdb_adbc_init + 7187888
+14       duckdb_adbc_init + 7199612
+15       duckdb_adbc_init + 7243400
+16       PyInit__duckdb + 393976
+17       PyInit__duckdb + 395580
+18       PyInit__duckdb + 537816
+19       PyInit__duckdb + 537016
+20       PyInit__duckdb + 536908
+21       _duckdb.cpython-314-darwin.so + 41716
+22       cfunction_call + 72
+23       _PyObject_MakeTpCall + 120
+24       _PyEval_EvalFrameDefault + 23180
+25       PyEval_EvalCode + 248
+26       run_mod + 172
+27       pyrun_file + 164
+28       _PyRun_SimpleFileObject + 256
+29       _PyRun_AnyFileObject + 80
+30       pymain_run_file_obj + 164
+31       pymain_run_file + 72
+32       Py_RunMain + 852
+33       pymain_main + 232
+34       Py_BytesMain + 40
+35       start + 7184
+
+This error signals an assertion failure within DuckDB. This usually occurs due to unexpected conditions or errors in the program's logic.
+For more information, see https://duckdb.org/docs/stable/dev/internal_errors
+2025-12-06 17:57:33,662 - utils.duckdb_tools - ERROR - Failed to store features: INTERNAL Error: Column with name "forward_10d_max_return_pct" does not exist
+
+Stack Trace:
+
+0        duckdb_adbc_init + 3495360
+1        duckdb_adbc_init + 3414524
+2        duckdb_adbc_init + 19114660
+3        PyInit__duckdb + 3613136
+4        PyInit__duckdb + 2459488
+5        PyInit__duckdb + 2345260
+6        PyInit__duckdb + 2973660
+7        PyInit__duckdb + 3036308
+8        duckdb_adbc_init + 7166032
+9        duckdb_adbc_init + 7169352
+10       duckdb_adbc_init + 7185876
+11       duckdb_adbc_init + 7192396
+12       duckdb_adbc_init + 7183944
+13       duckdb_adbc_init + 7187888
+14       duckdb_adbc_init + 7199612
+15       duckdb_adbc_init + 7243400
+16       PyInit__duckdb + 393976
+17       PyInit__duckdb + 395580
+18       PyInit__duckdb + 537816
+19       PyInit__duckdb + 537016
+20       PyInit__duckdb + 536908
+21       _duckdb.cpython-314-darwin.so + 41716
+22       cfunction_call + 72
+23       _PyObject_MakeTpCall + 120
+24       _PyEval_EvalFrameDefault + 23180
+25       PyEval_EvalCode + 248
+26       run_mod + 172
+27       pyrun_file + 164
+28       _PyRun_SimpleFileObject + 256
+29       _PyRun_AnyFileObject + 80
+30       pymain_run_file_obj + 164
+31       pymain_run_file + 72
+32       Py_RunMain + 852
+33       pymain_main + 232
+34       Py_BytesMain + 40
+35       start + 7184
+
+This error signals an assertion failure within DuckDB. This usually occurs due to unexpected conditions or errors in the program's logic.
+For more information, see https://duckdb.org/docs/stable/dev/internal_errors
+2025-12-06 17:57:33,663 - __main__ - ERROR - Failed to store labels
+2025-12-06 17:57:50,776 - __main__ - INFO - Generating labels for 20 symbols from 2025-11-01 to 2025-11-20
+2025-12-06 17:57:50,776 - __main__ - INFO - Generating labels for 20 symbols from 2025-11-01 to 2025-11-20
+2025-12-06 17:57:50,778 - utils.db_duckdb - INFO - DuckDB manager initialized for data/nifty_analytics.duckdb
+2025-12-06 17:57:50,786 - utils.db_duckdb - INFO - DuckDB connection established to data/nifty_analytics.duckdb
+2025-12-06 17:57:50,788 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 17:57:50,799 - __main__ - INFO - Generated 14 labels for RELIANCE.NS
+2025-12-06 17:57:50,801 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 17:57:50,811 - __main__ - INFO - Generated 14 labels for TCS.NS
+2025-12-06 17:57:50,813 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 17:57:50,822 - __main__ - INFO - Generated 14 labels for HDFCBANK.NS
+2025-12-06 17:57:50,824 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 17:57:50,833 - __main__ - INFO - Generated 14 labels for ICICIBANK.NS
+2025-12-06 17:57:50,835 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 17:57:50,844 - __main__ - INFO - Generated 14 labels for INFY.NS
+2025-12-06 17:57:50,846 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 17:57:50,856 - __main__ - INFO - Generated 14 labels for HINDUNILVR.NS
+2025-12-06 17:57:50,858 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 17:57:50,867 - __main__ - INFO - Generated 14 labels for ITC.NS
+2025-12-06 17:57:50,869 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 17:57:50,879 - __main__ - INFO - Generated 14 labels for KOTAKBANK.NS
+2025-12-06 17:57:50,881 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 17:57:50,891 - __main__ - INFO - Generated 14 labels for LT.NS
+2025-12-06 17:57:50,892 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 17:57:50,901 - __main__ - INFO - Generated 14 labels for AXISBANK.NS
+2025-12-06 17:57:50,903 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 17:57:50,912 - __main__ - INFO - Generated 14 labels for BAJFINANCE.NS
+2025-12-06 17:57:50,914 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 17:57:50,923 - __main__ - INFO - Generated 14 labels for MARUTI.NS
+2025-12-06 17:57:50,925 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 17:57:50,934 - __main__ - INFO - Generated 14 labels for BAJAJ-AUTO.NS
+2025-12-06 17:57:50,936 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 17:57:50,946 - __main__ - INFO - Generated 14 labels for WIPRO.NS
+2025-12-06 17:57:50,948 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 17:57:50,957 - __main__ - INFO - Generated 14 labels for HCLTECH.NS
+2025-12-06 17:57:50,959 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 17:57:50,968 - __main__ - INFO - Generated 14 labels for ADANIPORTS.NS
+2025-12-06 17:57:50,970 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 17:57:50,979 - __main__ - INFO - Generated 14 labels for DIVISLAB.NS
+2025-12-06 17:57:50,981 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 17:57:50,989 - __main__ - INFO - Generated 14 labels for SUNPHARMA.NS
+2025-12-06 17:57:50,991 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 17:57:51,000 - __main__ - INFO - Generated 14 labels for DRREDDY.NS
+2025-12-06 17:57:51,002 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 17:57:51,012 - __main__ - INFO - Generated 14 labels for CIPLA.NS
+2025-12-06 17:57:51,013 - __main__ - INFO - Generated total of 280 labels
+2025-12-06 17:57:51,938 - utils.duckdb_tools - INFO - Stored 280 feature records
+2025-12-06 17:57:51,938 - __main__ - INFO - Successfully stored 280 label records
+2025-12-06 18:03:38,262 - __main__ - INFO - Generating labels for 20 symbols from 2025-11-01 to 2025-11-20
+2025-12-06 18:03:38,264 - __main__ - INFO - Generating labels for 20 symbols from 2025-11-01 to 2025-11-20
+2025-12-06 18:03:38,269 - utils.db_duckdb - INFO - DuckDB manager initialized for data/nifty_analytics.duckdb
+2025-12-06 18:03:38,277 - utils.db_duckdb - INFO - DuckDB connection established to data/nifty_analytics.duckdb
+2025-12-06 18:03:38,286 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 18:03:38,298 - __main__ - INFO - Generated 14 labels for RELIANCE.NS
+2025-12-06 18:03:38,299 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 18:03:38,308 - __main__ - INFO - Generated 14 labels for TCS.NS
+2025-12-06 18:03:38,310 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 18:03:38,319 - __main__ - INFO - Generated 14 labels for HDFCBANK.NS
+2025-12-06 18:03:38,320 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 18:03:38,329 - __main__ - INFO - Generated 14 labels for ICICIBANK.NS
+2025-12-06 18:03:38,331 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 18:03:38,340 - __main__ - INFO - Generated 14 labels for INFY.NS
+2025-12-06 18:03:38,342 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 18:03:38,350 - __main__ - INFO - Generated 14 labels for HINDUNILVR.NS
+2025-12-06 18:03:38,352 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 18:03:38,361 - __main__ - INFO - Generated 14 labels for ITC.NS
+2025-12-06 18:03:38,362 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 18:03:38,371 - __main__ - INFO - Generated 14 labels for KOTAKBANK.NS
+2025-12-06 18:03:38,373 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 18:03:38,381 - __main__ - INFO - Generated 14 labels for LT.NS
+2025-12-06 18:03:38,383 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 18:03:38,391 - __main__ - INFO - Generated 14 labels for AXISBANK.NS
+2025-12-06 18:03:38,393 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 18:03:38,401 - __main__ - INFO - Generated 14 labels for BAJFINANCE.NS
+2025-12-06 18:03:38,403 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 18:03:38,411 - __main__ - INFO - Generated 14 labels for MARUTI.NS
+2025-12-06 18:03:38,412 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 18:03:38,421 - __main__ - INFO - Generated 14 labels for BAJAJ-AUTO.NS
+2025-12-06 18:03:38,423 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 18:03:38,432 - __main__ - INFO - Generated 14 labels for WIPRO.NS
+2025-12-06 18:03:38,433 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 18:03:38,442 - __main__ - INFO - Generated 14 labels for HCLTECH.NS
+2025-12-06 18:03:38,443 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 18:03:38,452 - __main__ - INFO - Generated 14 labels for ADANIPORTS.NS
+2025-12-06 18:03:38,453 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 18:03:38,462 - __main__ - INFO - Generated 14 labels for DIVISLAB.NS
+2025-12-06 18:03:38,463 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 18:03:38,472 - __main__ - INFO - Generated 14 labels for SUNPHARMA.NS
+2025-12-06 18:03:38,473 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 18:03:38,481 - __main__ - INFO - Generated 14 labels for DRREDDY.NS
+2025-12-06 18:03:38,483 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 18:03:38,492 - __main__ - INFO - Generated 14 labels for CIPLA.NS
+2025-12-06 18:03:38,496 - __main__ - INFO - Generated total of 280 labels
+2025-12-06 18:03:39,023 - utils.duckdb_tools - INFO - Stored 280 feature records
+2025-12-06 18:03:39,023 - __main__ - INFO - Successfully stored 280 label records
+2025-12-06 18:07:16,460 - __main__ - INFO - Generating labels for 20 symbols from 2025-11-01 to 2025-11-20
+2025-12-06 18:07:16,461 - __main__ - INFO - Generating labels for 20 symbols from 2025-11-01 to 2025-11-20
+2025-12-06 18:07:16,464 - utils.db_duckdb - INFO - DuckDB manager initialized for data/nifty_analytics.duckdb
+2025-12-06 18:07:16,476 - utils.db_duckdb - INFO - DuckDB connection established to data/nifty_analytics.duckdb
+2025-12-06 18:07:16,486 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 18:07:16,497 - __main__ - INFO - Generated 14 labels for RELIANCE.NS
+2025-12-06 18:07:16,499 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 18:07:16,508 - __main__ - INFO - Generated 14 labels for TCS.NS
+2025-12-06 18:07:16,509 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 18:07:16,518 - __main__ - INFO - Generated 14 labels for HDFCBANK.NS
+2025-12-06 18:07:16,520 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 18:07:16,529 - __main__ - INFO - Generated 14 labels for ICICIBANK.NS
+2025-12-06 18:07:16,531 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 18:07:16,539 - __main__ - INFO - Generated 14 labels for INFY.NS
+2025-12-06 18:07:16,541 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 18:07:16,550 - __main__ - INFO - Generated 14 labels for HINDUNILVR.NS
+2025-12-06 18:07:16,552 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 18:07:16,560 - __main__ - INFO - Generated 14 labels for ITC.NS
+2025-12-06 18:07:16,562 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 18:07:16,572 - __main__ - INFO - Generated 14 labels for KOTAKBANK.NS
+2025-12-06 18:07:16,574 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 18:07:16,583 - __main__ - INFO - Generated 14 labels for LT.NS
+2025-12-06 18:07:16,585 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 18:07:16,594 - __main__ - INFO - Generated 14 labels for AXISBANK.NS
+2025-12-06 18:07:16,596 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 18:07:16,605 - __main__ - INFO - Generated 14 labels for BAJFINANCE.NS
+2025-12-06 18:07:16,607 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 18:07:16,616 - __main__ - INFO - Generated 14 labels for MARUTI.NS
+2025-12-06 18:07:16,618 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 18:07:16,627 - __main__ - INFO - Generated 14 labels for BAJAJ-AUTO.NS
+2025-12-06 18:07:16,629 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 18:07:16,638 - __main__ - INFO - Generated 14 labels for WIPRO.NS
+2025-12-06 18:07:16,640 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 18:07:16,649 - __main__ - INFO - Generated 14 labels for HCLTECH.NS
+2025-12-06 18:07:16,651 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 18:07:16,659 - __main__ - INFO - Generated 14 labels for ADANIPORTS.NS
+2025-12-06 18:07:16,661 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 18:07:16,670 - __main__ - INFO - Generated 14 labels for DIVISLAB.NS
+2025-12-06 18:07:16,672 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 18:07:16,680 - __main__ - INFO - Generated 14 labels for SUNPHARMA.NS
+2025-12-06 18:07:16,682 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 18:07:16,690 - __main__ - INFO - Generated 14 labels for DRREDDY.NS
+2025-12-06 18:07:16,692 - utils.duckdb_tools - INFO - Loaded 33 OHLCV records for 1 symbols
+2025-12-06 18:07:16,700 - __main__ - INFO - Generated 14 labels for CIPLA.NS
+2025-12-06 18:07:16,704 - __main__ - INFO - Generated total of 280 labels
+2025-12-06 18:07:17,220 - utils.duckdb_tools - INFO - Stored 280 feature records
+2025-12-06 18:07:17,220 - __main__ - INFO - Successfully stored 280 label records

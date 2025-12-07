@@ -1,0 +1,36 @@
+2025-12-07 00:34:29,922 - __main__ - INFO - Starting XGBOOST model training...
+2025-12-07 00:34:29,922 - __main__ - INFO - Training XGBOOST model...
+2025-12-07 00:34:29,922 - __main__ - INFO - Loading training data with advanced features...
+2025-12-07 00:34:29,923 - utils.db_duckdb - INFO - DuckDB manager initialized for data/nifty_analytics.duckdb
+2025-12-07 00:34:29,945 - utils.db_duckdb - INFO - DuckDB connection established to data/nifty_analytics.duckdb
+2025-12-07 00:34:29,953 - utils.duckdb_tools - INFO - No feature data found for training period 2018-01-01 to 2023-12-31
+2025-12-07 00:34:29,954 - __main__ - ERROR - Model training failed: No training data found
+Traceback (most recent call last):
+  File "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/train_model_advanced.py", line 288, in main
+    model, metadata = trainer.train_model()
+                      ~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/train_model_advanced.py", line 168, in train_model
+    X, y = self.load_training_data()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/train_model_advanced.py", line 113, in load_training_data
+    raise ValueError("No training data found")
+ValueError: No training data found
+2025-12-07 00:37:19,292 - __main__ - INFO - Starting XGBOOST model training...
+2025-12-07 00:37:19,292 - __main__ - INFO - Training XGBOOST model...
+2025-12-07 00:37:19,292 - __main__ - INFO - Loading training data with advanced features...
+2025-12-07 00:37:19,292 - utils.db_duckdb - INFO - DuckDB manager initialized for data/nifty_analytics.duckdb
+2025-12-07 00:37:19,304 - utils.db_duckdb - ERROR - Failed to connect to DuckDB: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 90896) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:37:19,304 - utils.db_duckdb - ERROR - DuckDB operation failed: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 90896) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:37:19,304 - utils.db_duckdb - ERROR - Query execution failed: IO Error: Could not set lock on file "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/data/nifty_analytics.duckdb": Conflicting lock is held in /opt/homebrew/Cellar/python@3.14/3.14.1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python (PID 90896) by user shashanklokare. See also https://duckdb.org/docs/stable/connect/concurrency
+2025-12-07 00:37:19,304 - utils.duckdb_tools - INFO - No feature data found for training period 2018-01-01 to 2023-12-31
+2025-12-07 00:37:19,305 - __main__ - ERROR - Model training failed: No training data found
+Traceback (most recent call last):
+  File "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/train_model_advanced.py", line 288, in main
+    model, metadata = trainer.train_model()
+                      ~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/train_model_advanced.py", line 168, in train_model
+    X, y = self.load_training_data()
+           ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/train_model_advanced.py", line 113, in load_training_data
+    raise ValueError("No training data found")
+ValueError: No training data found

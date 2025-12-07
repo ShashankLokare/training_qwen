@@ -1,0 +1,25 @@
+2025-12-06 17:10:02,167 - __main__ - INFO - Starting daily trading analysis pipeline
+2025-12-06 17:10:02,171 - data_providers.market_data_provider - INFO - MarketDataProvider initialized with cache_dir: data/price_data/
+2025-12-06 17:10:02,171 - pipeline.daily_pipeline - INFO - Daily Pipeline initialized
+2025-12-06 17:10:02,171 - pipeline.daily_pipeline - INFO - Starting daily analysis pipeline
+2025-12-06 17:10:02,171 - pipeline.daily_pipeline - INFO - Fetching Nifty50 summary
+2025-12-06 17:10:02,171 - data_providers.market_data_provider - INFO - Fetching index data for ^NSEI
+2025-12-06 17:10:02,171 - data_providers.market_data_provider - INFO - Fetching OHLCV data for ^NSEI from 2025-11-06 to 2025-12-06
+2025-12-06 17:10:02,548 - data_providers.market_data_provider - INFO - Successfully fetched 22 rows of OHLCV data for ^NSEI
+2025-12-06 17:10:02,550 - pipeline.daily_pipeline - INFO - Analyzing stock universe
+2025-12-06 17:10:02,550 - pipeline.daily_pipeline - INFO - Analyzing 5 stocks from universe
+2025-12-06 17:10:02,550 - data_providers.market_data_provider - INFO - Fetching OHLCV data for RELIANCE.NS from 2025-11-26 to 2025-12-06
+2025-12-06 17:10:02,650 - data_providers.market_data_provider - INFO - Successfully fetched 8 rows of OHLCV data for RELIANCE.NS
+2025-12-06 17:10:02,653 - data_providers.market_data_provider - INFO - Fetching OHLCV data for TCS.NS from 2025-11-26 to 2025-12-06
+2025-12-06 17:10:02,761 - data_providers.market_data_provider - INFO - Successfully fetched 8 rows of OHLCV data for TCS.NS
+2025-12-06 17:10:02,762 - data_providers.market_data_provider - INFO - Fetching OHLCV data for HDFCBANK.NS from 2025-11-26 to 2025-12-06
+2025-12-06 17:10:02,943 - data_providers.market_data_provider - INFO - Successfully fetched 8 rows of OHLCV data for HDFCBANK.NS
+2025-12-06 17:10:02,944 - data_providers.market_data_provider - INFO - Fetching OHLCV data for ICICIBANK.NS from 2025-11-26 to 2025-12-06
+2025-12-06 17:10:03,037 - data_providers.market_data_provider - INFO - Successfully fetched 8 rows of OHLCV data for ICICIBANK.NS
+2025-12-06 17:10:03,038 - data_providers.market_data_provider - INFO - Fetching OHLCV data for INFY.NS from 2025-11-26 to 2025-12-06
+2025-12-06 17:10:03,179 - data_providers.market_data_provider - INFO - Successfully fetched 8 rows of OHLCV data for INFY.NS
+2025-12-06 17:10:03,180 - pipeline.daily_pipeline - INFO - Generating basic trading signals
+2025-12-06 17:10:03,180 - pipeline.daily_pipeline - INFO - Generated 2 trading signals
+2025-12-06 17:10:03,180 - pipeline.daily_pipeline - INFO - Preparing final analysis report
+2025-12-06 17:10:03,181 - pipeline.daily_pipeline - INFO - Daily analysis pipeline completed successfully
+2025-12-06 17:10:03,181 - __main__ - INFO - Daily analysis pipeline completed successfully

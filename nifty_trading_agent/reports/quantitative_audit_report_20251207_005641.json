@@ -1,0 +1,38 @@
+{
+  "audit_timestamp": "2025-12-07T00:56:41.658350",
+  "auditor": "Quantitative Systems Auditor",
+  "model_version": "v1.0",
+  "test_period": "2023-01-01 to 2024-10-31",
+  "final_score": 1.8499999999999999,
+  "approval_status": "REJECT - NOT SUITABLE",
+  "recommendation": "Model does not meet minimum quantitative standards.",
+  "all_results": {
+    "model_performance": {
+      "roc_auc": 0.5,
+      "precision_at_5": 0.2,
+      "precision_at_10": 0.1,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "brier_score": 0.16752427348195645
+    },
+    "calibration_reliability": [],
+    "calibration_score": 0,
+    "backtesting": {
+      "total_trades": 0,
+      "message": "No high-confidence signals"
+    },
+    "decision_support_scores": {
+      "predictive_power": 1,
+      "probability_calibration": 0,
+      "statistical_robustness": 5,
+      "risk_management": 2,
+      "conviction_meaningfulness": 5,
+      "real_world_tradability": 6,
+      "market_regime_stability": 6,
+      "data_quality_coverage": 9,
+      "lookahead_bias_avoidance": 9,
+      "ease_of_interpretation": 7
+    },
+    "final_weighted_score": 1.8499999999999999
+  }
+}

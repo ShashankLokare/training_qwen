@@ -1,0 +1,76 @@
+{
+  "report_title": "NSE Nifty Daily Market Analysis Report",
+  "generated_at": "2025-12-06T18:00:01.750477",
+  "nifty50_summary": {
+    "current_level": 26186.44921875,
+    "daily_change_pct": 0.5865433091659864,
+    "period_high": 26325.80078125,
+    "period_low": 25318.44921875,
+    "period_return_pct": 2.3173973646565744,
+    "data_points": 22,
+    "last_updated": "2025-12-06T18:00:01.710394"
+  },
+  "universe_analysis": {
+    "total_stocks_analyzed": 5,
+    "successful_fetches": 5,
+    "stock_summaries": [
+      {
+        "symbol": "RELIANCE.NS",
+        "current_price": 1540.5999755859375,
+        "daily_change_pct": 0.3256056316419355,
+        "return_5d_pct": -1.8663639959532279,
+        "volume": "10183266",
+        "data_points": 8
+      },
+      {
+        "symbol": "TCS.NS",
+        "current_price": 3238.199951171875,
+        "daily_change_pct": 0.278706804660204,
+        "return_5d_pct": 2.3807281657040957,
+        "volume": "5244013",
+        "data_points": 8
+      },
+      {
+        "symbol": "HDFCBANK.NS",
+        "current_price": 1003.2999877929688,
+        "daily_change_pct": 0.6117103400788034,
+        "return_5d_pct": -0.05977055548373499,
+        "volume": "12843366",
+        "data_points": 8
+      },
+      {
+        "symbol": "ICICIBANK.NS",
+        "current_price": 1392.5,
+        "daily_change_pct": 0.4182627123642345,
+        "return_5d_pct": 1.2727272727272727,
+        "volume": "4942638",
+        "data_points": 8
+      },
+      {
+        "symbol": "INFY.NS",
+        "current_price": 1616.199951171875,
+        "daily_change_pct": 1.1642448591748227,
+        "return_5d_pct": 3.7422123271189704,
+        "volume": "10344725",
+        "data_points": 8
+      }
+    ],
+    "analysis_timestamp": "2025-12-06T18:00:01.718376"
+  },
+  "trading_signals": [],
+  "market_sentiment": "NEUTRAL (Confidence: LOW, 0 signals generated)",
+  "recommendations": [
+    "No strong signals generated - maintain defensive position",
+    "Always perform thorough due diligence before trading",
+    "Consider consulting with a financial advisor",
+    "This is for educational purposes only - not financial advice"
+  ],
+  "config_used": [
+    "RELIANCE.NS",
+    "TCS.NS",
+    "HDFCBANK.NS",
+    "ICICIBANK.NS",
+    "INFY.NS"
+  ],
+  "disclaimer": "This analysis is for educational purposes only. Not financial advice."
+}

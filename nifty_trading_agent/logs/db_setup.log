@@ -1,0 +1,37 @@
+2025-12-06 17:36:42,447 - utils.db_duckdb - INFO - DuckDB manager initialized for data/nifty_analytics.duckdb
+2025-12-06 17:36:42,456 - utils.db_duckdb - INFO - DuckDB connection established to data/nifty_analytics.duckdb
+2025-12-06 17:36:42,457 - utils.db_duckdb - INFO - DuckDB connection test successful
+2025-12-06 17:36:59,656 - utils.db_duckdb - INFO - DuckDB manager initialized for data/nifty_analytics.duckdb
+2025-12-06 17:36:59,663 - utils.db_duckdb - INFO - DuckDB connection established to data/nifty_analytics.duckdb
+2025-12-06 17:36:59,664 - utils.db_duckdb - INFO - DuckDB connection test successful
+2025-12-06 17:55:23,052 - utils.db_duckdb - INFO - DuckDB manager initialized for data/nifty_analytics.duckdb
+2025-12-06 17:55:23,068 - utils.db_duckdb - INFO - DuckDB connection established to data/nifty_analytics.duckdb
+2025-12-06 17:55:23,072 - utils.db_duckdb - INFO - DuckDB connection test successful
+2025-12-06 17:57:41,038 - utils.db_duckdb - INFO - DuckDB manager initialized for data/nifty_analytics.duckdb
+2025-12-06 17:57:41,047 - utils.db_duckdb - INFO - DuckDB connection established to data/nifty_analytics.duckdb
+2025-12-06 17:57:41,048 - utils.db_duckdb - INFO - DuckDB connection test successful
+2025-12-06 18:03:10,975 - utils.db_postgres - INFO - PostgreSQL connection pool initialized for nifty_trading
+2025-12-06 18:03:10,977 - utils.db_postgres - INFO - PostgreSQL connection test successful
+2025-12-06 18:03:10,977 - utils.db_duckdb - INFO - DuckDB manager initialized for data/nifty_analytics.duckdb
+2025-12-06 18:03:10,994 - utils.db_duckdb - INFO - DuckDB connection established to data/nifty_analytics.duckdb
+2025-12-06 18:03:10,998 - utils.db_duckdb - INFO - DuckDB connection test successful
+2025-12-06 18:03:11,060 - utils.postgres_tools - INFO - Created/updated symbol: RELIANCE.NS
+2025-12-06 18:03:11,061 - utils.postgres_tools - INFO - Created/updated symbol: TCS.NS
+2025-12-06 18:03:11,062 - utils.postgres_tools - INFO - Created/updated symbol: HDFCBANK.NS
+2025-12-06 18:03:11,062 - utils.postgres_tools - INFO - Created/updated symbol: ICICIBANK.NS
+2025-12-06 18:03:11,062 - utils.postgres_tools - INFO - Created/updated symbol: INFY.NS
+2025-12-06 18:03:11,063 - utils.postgres_tools - INFO - Created/updated symbol: HINDUNILVR.NS
+2025-12-06 18:03:11,063 - utils.postgres_tools - INFO - Created/updated symbol: ITC.NS
+2025-12-06 18:03:11,064 - utils.postgres_tools - INFO - Created/updated symbol: KOTAKBANK.NS
+2025-12-06 18:03:11,064 - utils.postgres_tools - INFO - Created/updated symbol: LT.NS
+2025-12-06 18:03:11,064 - utils.postgres_tools - INFO - Created/updated symbol: AXISBANK.NS
+2025-12-06 18:03:11,065 - utils.postgres_tools - INFO - Created/updated symbol: BAJFINANCE.NS
+2025-12-06 18:03:11,065 - utils.postgres_tools - INFO - Created/updated symbol: MARUTI.NS
+2025-12-06 18:03:11,065 - utils.postgres_tools - INFO - Created/updated symbol: BAJAJ-AUTO.NS
+2025-12-06 18:03:11,065 - utils.postgres_tools - INFO - Created/updated symbol: WIPRO.NS
+2025-12-06 18:03:11,066 - utils.postgres_tools - INFO - Created/updated symbol: HCLTECH.NS
+2025-12-06 18:03:11,066 - utils.postgres_tools - INFO - Created/updated symbol: ADANIPORTS.NS
+2025-12-06 18:03:11,066 - utils.postgres_tools - INFO - Created/updated symbol: DIVISLAB.NS
+2025-12-06 18:03:11,067 - utils.postgres_tools - INFO - Created/updated symbol: SUNPHARMA.NS
+2025-12-06 18:03:11,067 - utils.postgres_tools - INFO - Created/updated symbol: DRREDDY.NS
+2025-12-06 18:03:11,067 - utils.postgres_tools - INFO - Created/updated symbol: CIPLA.NS

@@ -1,0 +1,306 @@
+2025-12-07 00:24:31,591 - __main__ - INFO - Starting comprehensive Nifty 50 data import...
+2025-12-07 00:24:31,592 - __main__ - INFO - Time period: 2015-01-01 to 2025-12-07
+2025-12-07 00:24:31,592 - __main__ - INFO - Expected records per symbol: ~2,500 trading days over 10 years
+2025-12-07 00:24:31,592 - __main__ - INFO - Starting import of 55 Nifty 50 symbols
+2025-12-07 00:24:31,592 - __main__ - INFO - Date range: 2015-01-01 to 2025-12-07
+2025-12-07 00:24:31,592 - __main__ - INFO - Processing ADANIPORTS.NS (1/55)
+2025-12-07 00:24:31,592 - __main__ - INFO - Fetching data for ADANIPORTS.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:24:32,378 - __main__ - INFO - Data cleaning: 2700 → 2805 records, missing values: 119 → 0
+2025-12-07 00:24:32,379 - __main__ - INFO - Successfully fetched 2805 records for ADANIPORTS.NS
+2025-12-07 00:24:32,379 - __main__ - INFO - ✅ Successfully imported 2805 records for ADANIPORTS.NS
+2025-12-07 00:24:33,885 - __main__ - INFO - Processing ADANIENT.NS (2/55)
+2025-12-07 00:24:33,886 - __main__ - INFO - Fetching data for ADANIENT.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:24:34,223 - __main__ - INFO - Data cleaning: 2700 → 2805 records, missing values: 119 → 0
+2025-12-07 00:24:34,223 - __main__ - INFO - Successfully fetched 2805 records for ADANIENT.NS
+2025-12-07 00:24:34,223 - __main__ - INFO - ✅ Successfully imported 2805 records for ADANIENT.NS
+2025-12-07 00:24:35,729 - __main__ - INFO - Processing ADANIGREEN.NS (3/55)
+2025-12-07 00:24:35,730 - __main__ - INFO - Fetching data for ADANIGREEN.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:24:35,955 - __main__ - INFO - Data cleaning: 1846 → 1920 records, missing values: 84 → 0
+2025-12-07 00:24:35,955 - __main__ - WARNING - Insufficient data points: 1920 < 2000
+2025-12-07 00:24:35,955 - __main__ - WARNING - Data quality check failed for ADANIGREEN.NS
+2025-12-07 00:24:35,955 - __main__ - ERROR - ❌ Failed to import data for ADANIGREEN.NS
+2025-12-07 00:24:37,460 - __main__ - INFO - Processing ADANITRANS.NS (4/55)
+2025-12-07 00:24:37,461 - __main__ - INFO - Fetching data for ADANITRANS.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:24:38,227 - yfinance - ERROR - $ADANITRANS.NS: possibly delisted; no timezone found
+2025-12-07 00:24:38,227 - __main__ - WARNING - No data found for ADANITRANS.NS
+2025-12-07 00:24:38,228 - __main__ - ERROR - ❌ Failed to import data for ADANITRANS.NS
+2025-12-07 00:24:39,733 - __main__ - INFO - Processing AMBUJACEM.NS (5/55)
+2025-12-07 00:24:39,733 - __main__ - INFO - Fetching data for AMBUJACEM.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:24:40,083 - __main__ - INFO - Data cleaning: 2700 → 2805 records, missing values: 119 → 0
+2025-12-07 00:24:40,083 - __main__ - INFO - Successfully fetched 2805 records for AMBUJACEM.NS
+2025-12-07 00:24:40,083 - __main__ - INFO - ✅ Successfully imported 2805 records for AMBUJACEM.NS
+2025-12-07 00:24:41,588 - __main__ - INFO - Processing APOLLOHOSP.NS (6/55)
+2025-12-07 00:24:41,588 - __main__ - INFO - Fetching data for APOLLOHOSP.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:24:42,027 - __main__ - INFO - Data cleaning: 2700 → 2805 records, missing values: 119 → 0
+2025-12-07 00:24:42,028 - __main__ - INFO - Successfully fetched 2805 records for APOLLOHOSP.NS
+2025-12-07 00:24:42,028 - __main__ - INFO - ✅ Successfully imported 2805 records for APOLLOHOSP.NS
+2025-12-07 00:24:43,534 - __main__ - INFO - Processing ASIANPAINT.NS (7/55)
+2025-12-07 00:24:43,535 - __main__ - INFO - Fetching data for ASIANPAINT.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:24:43,862 - __main__ - INFO - Data cleaning: 2700 → 2805 records, missing values: 119 → 0
+2025-12-07 00:24:43,862 - __main__ - INFO - Successfully fetched 2805 records for ASIANPAINT.NS
+2025-12-07 00:24:43,862 - __main__ - INFO - ✅ Successfully imported 2805 records for ASIANPAINT.NS
+2025-12-07 00:24:45,368 - __main__ - INFO - Processing AXISBANK.NS (8/55)
+2025-12-07 00:24:45,368 - __main__ - INFO - Fetching data for AXISBANK.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:24:45,568 - __main__ - INFO - Data cleaning: 2700 → 2805 records, missing values: 119 → 0
+2025-12-07 00:24:45,568 - __main__ - INFO - Successfully fetched 2805 records for AXISBANK.NS
+2025-12-07 00:24:45,568 - __main__ - INFO - ✅ Successfully imported 2805 records for AXISBANK.NS
+2025-12-07 00:24:47,069 - __main__ - INFO - Processing BAJAJ-AUTO.NS (9/55)
+2025-12-07 00:24:47,069 - __main__ - INFO - Fetching data for BAJAJ-AUTO.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:24:47,265 - __main__ - INFO - Data cleaning: 2700 → 2805 records, missing values: 119 → 0
+2025-12-07 00:24:47,265 - __main__ - INFO - Successfully fetched 2805 records for BAJAJ-AUTO.NS
+2025-12-07 00:24:47,265 - __main__ - INFO - ✅ Successfully imported 2805 records for BAJAJ-AUTO.NS
+2025-12-07 00:24:48,775 - __main__ - INFO - Processing BAJAJFINSV.NS (10/55)
+2025-12-07 00:24:48,776 - __main__ - INFO - Fetching data for BAJAJFINSV.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:24:49,154 - __main__ - INFO - Data cleaning: 2700 → 2805 records, missing values: 119 → 0
+2025-12-07 00:24:49,155 - __main__ - INFO - Successfully fetched 2805 records for BAJAJFINSV.NS
+2025-12-07 00:24:49,155 - __main__ - INFO - ✅ Successfully imported 2805 records for BAJAJFINSV.NS
+2025-12-07 00:24:50,660 - __main__ - INFO - Processing BAJFINANCE.NS (11/55)
+2025-12-07 00:24:50,660 - __main__ - INFO - Fetching data for BAJFINANCE.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:24:50,866 - __main__ - INFO - Data cleaning: 2700 → 2805 records, missing values: 119 → 0
+2025-12-07 00:24:50,867 - __main__ - INFO - Successfully fetched 2805 records for BAJFINANCE.NS
+2025-12-07 00:24:50,867 - __main__ - INFO - ✅ Successfully imported 2805 records for BAJFINANCE.NS
+2025-12-07 00:24:52,369 - __main__ - INFO - Processing BHARTIARTL.NS (12/55)
+2025-12-07 00:24:52,369 - __main__ - INFO - Fetching data for BHARTIARTL.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:24:52,691 - __main__ - INFO - Data cleaning: 2700 → 2805 records, missing values: 119 → 0
+2025-12-07 00:24:52,692 - __main__ - INFO - Successfully fetched 2805 records for BHARTIARTL.NS
+2025-12-07 00:24:52,692 - __main__ - INFO - ✅ Successfully imported 2805 records for BHARTIARTL.NS
+2025-12-07 00:24:54,197 - __main__ - INFO - Processing BPCL.NS (13/55)
+2025-12-07 00:24:54,198 - __main__ - INFO - Fetching data for BPCL.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:24:54,522 - __main__ - INFO - Data cleaning: 2700 → 2805 records, missing values: 119 → 0
+2025-12-07 00:24:54,522 - __main__ - INFO - Successfully fetched 2805 records for BPCL.NS
+2025-12-07 00:24:54,522 - __main__ - INFO - ✅ Successfully imported 2805 records for BPCL.NS
+2025-12-07 00:24:56,027 - __main__ - INFO - Processing BRITANNIA.NS (14/55)
+2025-12-07 00:24:56,027 - __main__ - INFO - Fetching data for BRITANNIA.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:24:56,423 - __main__ - INFO - Data cleaning: 2700 → 2805 records, missing values: 119 → 0
+2025-12-07 00:24:56,423 - __main__ - INFO - Successfully fetched 2805 records for BRITANNIA.NS
+2025-12-07 00:24:56,424 - __main__ - INFO - ✅ Successfully imported 2805 records for BRITANNIA.NS
+2025-12-07 00:24:57,929 - __main__ - INFO - Processing CIPLA.NS (15/55)
+2025-12-07 00:24:57,929 - __main__ - INFO - Fetching data for CIPLA.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:24:58,314 - __main__ - INFO - Data cleaning: 2700 → 2805 records, missing values: 119 → 0
+2025-12-07 00:24:58,315 - __main__ - INFO - Successfully fetched 2805 records for CIPLA.NS
+2025-12-07 00:24:58,316 - __main__ - INFO - ✅ Successfully imported 2805 records for CIPLA.NS
+2025-12-07 00:24:59,822 - __main__ - INFO - Processing COALINDIA.NS (16/55)
+2025-12-07 00:24:59,823 - __main__ - INFO - Fetching data for COALINDIA.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:25:00,134 - __main__ - INFO - Data cleaning: 2700 → 2805 records, missing values: 119 → 0
+2025-12-07 00:25:00,135 - __main__ - INFO - Successfully fetched 2805 records for COALINDIA.NS
+2025-12-07 00:25:00,135 - __main__ - INFO - ✅ Successfully imported 2805 records for COALINDIA.NS
+2025-12-07 00:25:01,636 - __main__ - INFO - Processing DIVISLAB.NS (17/55)
+2025-12-07 00:25:01,636 - __main__ - INFO - Fetching data for DIVISLAB.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:25:01,987 - __main__ - INFO - Data cleaning: 2700 → 2805 records, missing values: 119 → 0
+2025-12-07 00:25:01,988 - __main__ - INFO - Successfully fetched 2805 records for DIVISLAB.NS
+2025-12-07 00:25:01,988 - __main__ - INFO - ✅ Successfully imported 2805 records for DIVISLAB.NS
+2025-12-07 00:25:03,493 - __main__ - INFO - Processing DRREDDY.NS (18/55)
+2025-12-07 00:25:03,494 - __main__ - INFO - Fetching data for DRREDDY.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:25:03,860 - __main__ - INFO - Data cleaning: 2700 → 2805 records, missing values: 119 → 0
+2025-12-07 00:25:03,861 - __main__ - INFO - Successfully fetched 2805 records for DRREDDY.NS
+2025-12-07 00:25:03,861 - __main__ - INFO - ✅ Successfully imported 2805 records for DRREDDY.NS
+2025-12-07 00:25:05,366 - __main__ - INFO - Processing EICHERMOT.NS (19/55)
+2025-12-07 00:25:05,367 - __main__ - INFO - Fetching data for EICHERMOT.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:25:05,730 - __main__ - INFO - Data cleaning: 2700 → 2805 records, missing values: 119 → 0
+2025-12-07 00:25:05,731 - __main__ - INFO - Successfully fetched 2805 records for EICHERMOT.NS
+2025-12-07 00:25:05,731 - __main__ - INFO - ✅ Successfully imported 2805 records for EICHERMOT.NS
+2025-12-07 00:25:07,237 - __main__ - INFO - Processing GRASIM.NS (20/55)
+2025-12-07 00:25:07,238 - __main__ - INFO - Fetching data for GRASIM.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:25:07,595 - __main__ - INFO - Data cleaning: 2700 → 2805 records, missing values: 119 → 0
+2025-12-07 00:25:07,596 - __main__ - INFO - Successfully fetched 2805 records for GRASIM.NS
+2025-12-07 00:25:07,596 - __main__ - INFO - ✅ Successfully imported 2805 records for GRASIM.NS
+2025-12-07 00:25:09,101 - __main__ - INFO - Processing HCLTECH.NS (21/55)
+2025-12-07 00:25:09,104 - __main__ - INFO - Fetching data for HCLTECH.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:25:09,333 - __main__ - INFO - Data cleaning: 2700 → 2805 records, missing values: 119 → 0
+2025-12-07 00:25:09,334 - __main__ - INFO - Successfully fetched 2805 records for HCLTECH.NS
+2025-12-07 00:25:09,334 - __main__ - INFO - ✅ Successfully imported 2805 records for HCLTECH.NS
+2025-12-07 00:25:10,839 - __main__ - INFO - Processing HDFCBANK.NS (22/55)
+2025-12-07 00:25:10,839 - __main__ - INFO - Fetching data for HDFCBANK.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:25:11,062 - __main__ - INFO - Data cleaning: 2700 → 2805 records, missing values: 119 → 0
+2025-12-07 00:25:11,062 - __main__ - INFO - Successfully fetched 2805 records for HDFCBANK.NS
+2025-12-07 00:25:11,062 - __main__ - INFO - ✅ Successfully imported 2805 records for HDFCBANK.NS
+2025-12-07 00:25:12,568 - __main__ - INFO - Processing HDFCLIFE.NS (23/55)
+2025-12-07 00:25:12,568 - __main__ - INFO - Fetching data for HDFCLIFE.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:25:12,931 - __main__ - INFO - Data cleaning: 1990 → 2068 records, missing values: 89 → 0
+2025-12-07 00:25:12,931 - __main__ - INFO - Successfully fetched 2068 records for HDFCLIFE.NS
+2025-12-07 00:25:12,931 - __main__ - INFO - ✅ Successfully imported 2068 records for HDFCLIFE.NS
+2025-12-07 00:25:14,437 - __main__ - INFO - Processing HEROMOTOCO.NS (24/55)
+2025-12-07 00:25:14,438 - __main__ - INFO - Fetching data for HEROMOTOCO.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:25:14,846 - __main__ - INFO - Data cleaning: 2700 → 2805 records, missing values: 119 → 0
+2025-12-07 00:25:14,849 - __main__ - INFO - Successfully fetched 2805 records for HEROMOTOCO.NS
+2025-12-07 00:25:14,849 - __main__ - INFO - ✅ Successfully imported 2805 records for HEROMOTOCO.NS
+2025-12-07 00:25:16,354 - __main__ - INFO - Processing HINDALCO.NS (25/55)
+2025-12-07 00:25:16,356 - __main__ - INFO - Fetching data for HINDALCO.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:25:16,726 - __main__ - INFO - Data cleaning: 2700 → 2805 records, missing values: 119 → 0
+2025-12-07 00:25:16,727 - __main__ - INFO - Successfully fetched 2805 records for HINDALCO.NS
+2025-12-07 00:25:16,727 - __main__ - INFO - ✅ Successfully imported 2805 records for HINDALCO.NS
+2025-12-07 00:25:18,232 - __main__ - INFO - Processing HINDUNILVR.NS (26/55)
+2025-12-07 00:25:18,232 - __main__ - INFO - Fetching data for HINDUNILVR.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:25:18,479 - __main__ - INFO - Data cleaning: 2700 → 2805 records, missing values: 119 → 0
+2025-12-07 00:25:18,480 - __main__ - INFO - Successfully fetched 2805 records for HINDUNILVR.NS
+2025-12-07 00:25:18,480 - __main__ - INFO - ✅ Successfully imported 2805 records for HINDUNILVR.NS
+2025-12-07 00:25:19,985 - __main__ - INFO - Processing ICICIBANK.NS (27/55)
+2025-12-07 00:25:19,985 - __main__ - INFO - Fetching data for ICICIBANK.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:25:20,205 - __main__ - INFO - Data cleaning: 2700 → 2805 records, missing values: 119 → 0
+2025-12-07 00:25:20,205 - __main__ - INFO - Successfully fetched 2805 records for ICICIBANK.NS
+2025-12-07 00:25:20,205 - __main__ - INFO - ✅ Successfully imported 2805 records for ICICIBANK.NS
+2025-12-07 00:25:21,714 - __main__ - INFO - Processing INDUSINDBK.NS (28/55)
+2025-12-07 00:25:21,715 - __main__ - INFO - Fetching data for INDUSINDBK.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:25:22,042 - __main__ - INFO - Data cleaning: 2700 → 2805 records, missing values: 119 → 0
+2025-12-07 00:25:22,042 - __main__ - INFO - Successfully fetched 2805 records for INDUSINDBK.NS
+2025-12-07 00:25:22,042 - __main__ - INFO - ✅ Successfully imported 2805 records for INDUSINDBK.NS
+2025-12-07 00:25:23,545 - __main__ - INFO - Processing INFY.NS (29/55)
+2025-12-07 00:25:23,545 - __main__ - INFO - Fetching data for INFY.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:25:23,814 - __main__ - INFO - Data cleaning: 2700 → 2805 records, missing values: 119 → 0
+2025-12-07 00:25:23,814 - __main__ - INFO - Successfully fetched 2805 records for INFY.NS
+2025-12-07 00:25:23,815 - __main__ - INFO - ✅ Successfully imported 2805 records for INFY.NS
+2025-12-07 00:25:25,320 - __main__ - INFO - Processing ITC.NS (30/55)
+2025-12-07 00:25:25,322 - __main__ - INFO - Fetching data for ITC.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:25:25,586 - __main__ - INFO - Data cleaning: 2700 → 2805 records, missing values: 119 → 0
+2025-12-07 00:25:25,587 - __main__ - INFO - Successfully fetched 2805 records for ITC.NS
+2025-12-07 00:25:25,587 - __main__ - INFO - ✅ Successfully imported 2805 records for ITC.NS
+2025-12-07 00:25:27,092 - __main__ - INFO - Processing JSWSTEEL.NS (31/55)
+2025-12-07 00:25:27,093 - __main__ - INFO - Fetching data for JSWSTEEL.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:25:27,385 - __main__ - INFO - Data cleaning: 2700 → 2805 records, missing values: 119 → 0
+2025-12-07 00:25:27,386 - __main__ - INFO - Successfully fetched 2805 records for JSWSTEEL.NS
+2025-12-07 00:25:27,386 - __main__ - INFO - ✅ Successfully imported 2805 records for JSWSTEEL.NS
+2025-12-07 00:25:28,891 - __main__ - INFO - Processing KOTAKBANK.NS (32/55)
+2025-12-07 00:25:28,892 - __main__ - INFO - Fetching data for KOTAKBANK.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:25:29,150 - __main__ - INFO - Data cleaning: 2700 → 2805 records, missing values: 119 → 0
+2025-12-07 00:25:29,150 - __main__ - INFO - Successfully fetched 2805 records for KOTAKBANK.NS
+2025-12-07 00:25:29,150 - __main__ - INFO - ✅ Successfully imported 2805 records for KOTAKBANK.NS
+2025-12-07 00:25:30,659 - __main__ - INFO - Processing LT.NS (33/55)
+2025-12-07 00:25:30,659 - __main__ - INFO - Fetching data for LT.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:25:30,896 - __main__ - INFO - Data cleaning: 2700 → 2805 records, missing values: 119 → 0
+2025-12-07 00:25:30,897 - __main__ - INFO - Successfully fetched 2805 records for LT.NS
+2025-12-07 00:25:30,897 - __main__ - INFO - ✅ Successfully imported 2805 records for LT.NS
+2025-12-07 00:25:32,404 - __main__ - INFO - Processing LTIM.NS (34/55)
+2025-12-07 00:25:32,405 - __main__ - INFO - Fetching data for LTIM.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:25:32,769 - __main__ - INFO - Data cleaning: 2318 → 2408 records, missing values: 103 → 0
+2025-12-07 00:25:32,769 - __main__ - INFO - Successfully fetched 2408 records for LTIM.NS
+2025-12-07 00:25:32,769 - __main__ - INFO - ✅ Successfully imported 2408 records for LTIM.NS
+2025-12-07 00:25:34,274 - __main__ - INFO - Processing M&M.NS (35/55)
+2025-12-07 00:25:34,275 - __main__ - INFO - Fetching data for M&M.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:25:34,623 - __main__ - INFO - Data cleaning: 2700 → 2805 records, missing values: 119 → 0
+2025-12-07 00:25:34,623 - __main__ - INFO - Successfully fetched 2805 records for M&M.NS
+2025-12-07 00:25:34,623 - __main__ - INFO - ✅ Successfully imported 2805 records for M&M.NS
+2025-12-07 00:25:36,130 - __main__ - INFO - Processing MARUTI.NS (36/55)
+2025-12-07 00:25:36,131 - __main__ - INFO - Fetching data for MARUTI.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:25:36,374 - __main__ - INFO - Data cleaning: 2700 → 2805 records, missing values: 119 → 0
+2025-12-07 00:25:36,375 - __main__ - INFO - Successfully fetched 2805 records for MARUTI.NS
+2025-12-07 00:25:36,375 - __main__ - INFO - ✅ Successfully imported 2805 records for MARUTI.NS
+2025-12-07 00:25:37,880 - __main__ - INFO - Processing NESTLEIND.NS (37/55)
+2025-12-07 00:25:37,880 - __main__ - INFO - Fetching data for NESTLEIND.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:25:38,205 - __main__ - INFO - Data cleaning: 2700 → 2805 records, missing values: 119 → 0
+2025-12-07 00:25:38,205 - __main__ - INFO - Successfully fetched 2805 records for NESTLEIND.NS
+2025-12-07 00:25:38,206 - __main__ - INFO - ✅ Successfully imported 2805 records for NESTLEIND.NS
+2025-12-07 00:25:39,711 - __main__ - INFO - Processing NTPC.NS (38/55)
+2025-12-07 00:25:39,715 - __main__ - INFO - Fetching data for NTPC.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:25:40,088 - __main__ - INFO - Data cleaning: 2700 → 2805 records, missing values: 119 → 0
+2025-12-07 00:25:40,090 - __main__ - INFO - Successfully fetched 2805 records for NTPC.NS
+2025-12-07 00:25:40,091 - __main__ - INFO - ✅ Successfully imported 2805 records for NTPC.NS
+2025-12-07 00:25:41,597 - __main__ - INFO - Processing ONGC.NS (39/55)
+2025-12-07 00:25:41,598 - __main__ - INFO - Fetching data for ONGC.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:25:41,934 - __main__ - INFO - Data cleaning: 2700 → 2805 records, missing values: 119 → 0
+2025-12-07 00:25:41,935 - __main__ - INFO - Successfully fetched 2805 records for ONGC.NS
+2025-12-07 00:25:41,935 - __main__ - INFO - ✅ Successfully imported 2805 records for ONGC.NS
+2025-12-07 00:25:43,440 - __main__ - INFO - Processing POWERGRID.NS (40/55)
+2025-12-07 00:25:43,441 - __main__ - INFO - Fetching data for POWERGRID.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:25:43,767 - __main__ - INFO - Data cleaning: 2700 → 2805 records, missing values: 119 → 0
+2025-12-07 00:25:43,768 - __main__ - INFO - Successfully fetched 2805 records for POWERGRID.NS
+2025-12-07 00:25:43,768 - __main__ - INFO - ✅ Successfully imported 2805 records for POWERGRID.NS
+2025-12-07 00:25:45,270 - __main__ - INFO - Processing RELIANCE.NS (41/55)
+2025-12-07 00:25:45,270 - __main__ - INFO - Fetching data for RELIANCE.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:25:45,527 - __main__ - INFO - Data cleaning: 2700 → 2805 records, missing values: 119 → 0
+2025-12-07 00:25:45,528 - __main__ - INFO - Successfully fetched 2805 records for RELIANCE.NS
+2025-12-07 00:25:45,528 - __main__ - INFO - ✅ Successfully imported 2805 records for RELIANCE.NS
+2025-12-07 00:25:47,033 - __main__ - INFO - Processing SBILIFE.NS (42/55)
+2025-12-07 00:25:47,034 - __main__ - INFO - Fetching data for SBILIFE.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:25:47,309 - __main__ - INFO - Data cleaning: 2022 → 2101 records, missing values: 90 → 0
+2025-12-07 00:25:47,309 - __main__ - INFO - Successfully fetched 2101 records for SBILIFE.NS
+2025-12-07 00:25:47,309 - __main__ - INFO - ✅ Successfully imported 2101 records for SBILIFE.NS
+2025-12-07 00:25:48,813 - __main__ - INFO - Processing SBIN.NS (43/55)
+2025-12-07 00:25:48,815 - __main__ - INFO - Fetching data for SBIN.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:25:49,169 - __main__ - INFO - Data cleaning: 2700 → 2805 records, missing values: 119 → 0
+2025-12-07 00:25:49,170 - __main__ - INFO - Successfully fetched 2805 records for SBIN.NS
+2025-12-07 00:25:49,170 - __main__ - INFO - ✅ Successfully imported 2805 records for SBIN.NS
+2025-12-07 00:25:50,675 - __main__ - INFO - Processing SHREECEM.NS (44/55)
+2025-12-07 00:25:50,675 - __main__ - INFO - Fetching data for SHREECEM.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:25:50,992 - __main__ - INFO - Data cleaning: 2699 → 2805 records, missing values: 120 → 0
+2025-12-07 00:25:50,993 - __main__ - INFO - Successfully fetched 2805 records for SHREECEM.NS
+2025-12-07 00:25:50,993 - __main__ - INFO - ✅ Successfully imported 2805 records for SHREECEM.NS
+2025-12-07 00:25:52,498 - __main__ - INFO - Processing SHRIRAMFIN.NS (45/55)
+2025-12-07 00:25:52,498 - __main__ - INFO - Fetching data for SHRIRAMFIN.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:25:52,818 - __main__ - INFO - Data cleaning: 2700 → 2805 records, missing values: 119 → 0
+2025-12-07 00:25:52,819 - __main__ - INFO - Successfully fetched 2805 records for SHRIRAMFIN.NS
+2025-12-07 00:25:52,819 - __main__ - INFO - ✅ Successfully imported 2805 records for SHRIRAMFIN.NS
+2025-12-07 00:25:54,324 - __main__ - INFO - Processing SUNPHARMA.NS (46/55)
+2025-12-07 00:25:54,325 - __main__ - INFO - Fetching data for SUNPHARMA.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:25:54,683 - __main__ - INFO - Data cleaning: 2700 → 2805 records, missing values: 119 → 0
+2025-12-07 00:25:54,684 - __main__ - INFO - Successfully fetched 2805 records for SUNPHARMA.NS
+2025-12-07 00:25:54,684 - __main__ - INFO - ✅ Successfully imported 2805 records for SUNPHARMA.NS
+2025-12-07 00:25:56,189 - __main__ - INFO - Processing TATACONSUM.NS (47/55)
+2025-12-07 00:25:56,190 - __main__ - INFO - Fetching data for TATACONSUM.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:25:56,588 - __main__ - INFO - Data cleaning: 2700 → 2805 records, missing values: 119 → 0
+2025-12-07 00:25:56,589 - __main__ - INFO - Successfully fetched 2805 records for TATACONSUM.NS
+2025-12-07 00:25:56,589 - __main__ - INFO - ✅ Successfully imported 2805 records for TATACONSUM.NS
+2025-12-07 00:25:58,094 - __main__ - INFO - Processing TATAMOTORS.NS (48/55)
+2025-12-07 00:25:58,098 - __main__ - INFO - Fetching data for TATAMOTORS.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:25:58,459 - __main__ - INFO - Data cleaning: 2700 → 2805 records, missing values: 119 → 0
+2025-12-07 00:25:58,460 - __main__ - INFO - Successfully fetched 2805 records for TATAMOTORS.NS
+2025-12-07 00:25:58,460 - __main__ - INFO - ✅ Successfully imported 2805 records for TATAMOTORS.NS
+2025-12-07 00:25:59,966 - __main__ - INFO - Processing TATASTEEL.NS (49/55)
+2025-12-07 00:25:59,966 - __main__ - INFO - Fetching data for TATASTEEL.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:26:00,307 - __main__ - INFO - Data cleaning: 2700 → 2805 records, missing values: 119 → 0
+2025-12-07 00:26:00,308 - __main__ - INFO - Successfully fetched 2805 records for TATASTEEL.NS
+2025-12-07 00:26:00,308 - __main__ - INFO - ✅ Successfully imported 2805 records for TATASTEEL.NS
+2025-12-07 00:26:01,813 - __main__ - INFO - Processing TCS.NS (50/55)
+2025-12-07 00:26:01,813 - __main__ - INFO - Fetching data for TCS.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:26:02,070 - __main__ - INFO - Data cleaning: 2700 → 2805 records, missing values: 119 → 0
+2025-12-07 00:26:02,071 - __main__ - INFO - Successfully fetched 2805 records for TCS.NS
+2025-12-07 00:26:02,071 - __main__ - INFO - ✅ Successfully imported 2805 records for TCS.NS
+2025-12-07 00:26:03,576 - __main__ - INFO - Processing TECHM.NS (51/55)
+2025-12-07 00:26:03,577 - __main__ - INFO - Fetching data for TECHM.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:26:03,976 - __main__ - INFO - Data cleaning: 2700 → 2805 records, missing values: 119 → 0
+2025-12-07 00:26:03,977 - __main__ - INFO - Successfully fetched 2805 records for TECHM.NS
+2025-12-07 00:26:03,977 - __main__ - INFO - ✅ Successfully imported 2805 records for TECHM.NS
+2025-12-07 00:26:05,480 - __main__ - INFO - Processing TITAN.NS (52/55)
+2025-12-07 00:26:05,481 - __main__ - INFO - Fetching data for TITAN.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:26:05,815 - __main__ - INFO - Data cleaning: 2700 → 2805 records, missing values: 119 → 0
+2025-12-07 00:26:05,815 - __main__ - INFO - Successfully fetched 2805 records for TITAN.NS
+2025-12-07 00:26:05,815 - __main__ - INFO - ✅ Successfully imported 2805 records for TITAN.NS
+2025-12-07 00:26:07,321 - __main__ - INFO - Processing TRENT.NS (53/55)
+2025-12-07 00:26:07,322 - __main__ - INFO - Fetching data for TRENT.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:26:07,676 - __main__ - INFO - Data cleaning: 2700 → 2805 records, missing values: 119 → 0
+2025-12-07 00:26:07,677 - __main__ - INFO - Successfully fetched 2805 records for TRENT.NS
+2025-12-07 00:26:07,677 - __main__ - INFO - ✅ Successfully imported 2805 records for TRENT.NS
+2025-12-07 00:26:09,182 - __main__ - INFO - Processing ULTRACEMCO.NS (54/55)
+2025-12-07 00:26:09,183 - __main__ - INFO - Fetching data for ULTRACEMCO.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:26:09,499 - __main__ - INFO - Data cleaning: 2700 → 2805 records, missing values: 119 → 0
+2025-12-07 00:26:09,500 - __main__ - INFO - Successfully fetched 2805 records for ULTRACEMCO.NS
+2025-12-07 00:26:09,500 - __main__ - INFO - ✅ Successfully imported 2805 records for ULTRACEMCO.NS
+2025-12-07 00:26:11,002 - __main__ - INFO - Processing WIPRO.NS (55/55)
+2025-12-07 00:26:11,004 - __main__ - INFO - Fetching data for WIPRO.NS from 2015-01-01 to 2025-12-07
+2025-12-07 00:26:11,280 - __main__ - INFO - Data cleaning: 2700 → 2805 records, missing values: 119 → 0
+2025-12-07 00:26:11,281 - __main__ - INFO - Successfully fetched 2805 records for WIPRO.NS
+2025-12-07 00:26:11,281 - __main__ - INFO - ✅ Successfully imported 2805 records for WIPRO.NS
+2025-12-07 00:26:11,284 - utils.db_duckdb - INFO - DuckDB manager initialized for data/nifty_analytics.duckdb
+2025-12-07 00:26:11,294 - utils.db_duckdb - INFO - DuckDB connection established to data/nifty_analytics.duckdb
+2025-12-07 00:29:28,057 - utils.duckdb_tools - INFO - Stored 146827 OHLCV records
+2025-12-07 00:29:28,066 - __main__ - INFO - ✅ Stored True total OHLCV records in database
+2025-12-07 00:29:28,067 - __main__ - INFO - Generating import summary...
+2025-12-07 00:29:28,123 - __main__ - INFO - 
+📊 NIFTY 50 DATA IMPORT SUMMARY
+2025-12-07 00:29:28,123 - __main__ - INFO - ==================================================
+2025-12-07 00:29:28,123 - __main__ - INFO - Total Records: 146,827
+2025-12-07 00:29:28,123 - __main__ - INFO - Symbols: 53
+2025-12-07 00:29:28,123 - __main__ - INFO - Date Range: 2015-01-01 to 2025-12-05
+2025-12-07 00:29:28,123 - __main__ - INFO - Average Records per Symbol: 2770
+2025-12-07 00:29:28,123 - __main__ - INFO - 
+💰 Price Statistics:
+2025-12-07 00:29:28,123 - __main__ - INFO -   Mean Price: ₹1689.62
+2025-12-07 00:29:28,123 - __main__ - INFO -   Median Price: ₹722.80
+2025-12-07 00:29:28,123 - __main__ - INFO -   Min Price: ₹14.81
+2025-12-07 00:29:28,123 - __main__ - INFO -   Max Price: ₹32253.60
+2025-12-07 00:29:28,126 - __main__ - INFO - 
+📈 Top 5 Symbols by Data Points:
+2025-12-07 00:29:28,126 - __main__ - INFO -   ADANIENT.NS: 2686 records (2015-01-01 to 2025-12-05)
+2025-12-07 00:29:28,126 - __main__ - INFO -   ADANIPORTS.NS: 2686 records (2015-01-01 to 2025-12-05)
+2025-12-07 00:29:28,126 - __main__ - INFO -   AMBUJACEM.NS: 2686 records (2015-01-01 to 2025-12-05)
+2025-12-07 00:29:28,126 - __main__ - INFO -   APOLLOHOSP.NS: 2686 records (2015-01-01 to 2025-12-05)
+2025-12-07 00:29:28,126 - __main__ - INFO -   ASIANPAINT.NS: 2686 records (2015-01-01 to 2025-12-05)

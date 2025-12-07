@@ -1,0 +1,54 @@
+2025-12-06 17:57:25,233 - __main__ - INFO - Generating synthetic data from 2025-06-09 to 2025-12-06 for 20 symbols
+2025-12-06 17:57:25,233 - __main__ - INFO - Generating synthetic OHLCV data for 20 symbols from 2025-06-09 to 2025-12-06
+2025-12-06 17:57:25,238 - __main__ - INFO - Generating data for RELIANCE.NS
+2025-12-06 17:57:25,240 - __main__ - INFO - Generating data for TCS.NS
+2025-12-06 17:57:25,241 - __main__ - INFO - Generating data for HDFCBANK.NS
+2025-12-06 17:57:25,242 - __main__ - INFO - Generating data for ICICIBANK.NS
+2025-12-06 17:57:25,243 - __main__ - INFO - Generating data for INFY.NS
+2025-12-06 17:57:25,245 - __main__ - INFO - Generating data for HINDUNILVR.NS
+2025-12-06 17:57:25,246 - __main__ - INFO - Generating data for ITC.NS
+2025-12-06 17:57:25,247 - __main__ - INFO - Generating data for KOTAKBANK.NS
+2025-12-06 17:57:25,249 - __main__ - INFO - Generating data for LT.NS
+2025-12-06 17:57:25,250 - __main__ - INFO - Generating data for AXISBANK.NS
+2025-12-06 17:57:25,251 - __main__ - INFO - Generating data for BAJFINANCE.NS
+2025-12-06 17:57:25,252 - __main__ - INFO - Generating data for MARUTI.NS
+2025-12-06 17:57:25,254 - __main__ - INFO - Generating data for BAJAJ-AUTO.NS
+2025-12-06 17:57:25,255 - __main__ - INFO - Generating data for WIPRO.NS
+2025-12-06 17:57:25,256 - __main__ - INFO - Generating data for HCLTECH.NS
+2025-12-06 17:57:25,257 - __main__ - INFO - Generating data for ADANIPORTS.NS
+2025-12-06 17:57:25,259 - __main__ - INFO - Generating data for DIVISLAB.NS
+2025-12-06 17:57:25,260 - __main__ - INFO - Generating data for SUNPHARMA.NS
+2025-12-06 17:57:25,261 - __main__ - INFO - Generating data for DRREDDY.NS
+2025-12-06 17:57:25,262 - __main__ - INFO - Generating data for CIPLA.NS
+2025-12-06 17:57:25,271 - __main__ - INFO - Generated 2600 total OHLCV records
+2025-12-06 17:57:25,271 - __main__ - INFO - Saving synthetic data to DuckDB
+2025-12-06 17:57:25,271 - utils.db_duckdb - INFO - DuckDB manager initialized for data/nifty_analytics.duckdb
+2025-12-06 17:57:25,285 - utils.db_duckdb - INFO - DuckDB connection established to data/nifty_analytics.duckdb
+2025-12-06 17:57:28,513 - utils.duckdb_tools - INFO - Stored 2600 OHLCV records
+2025-12-06 17:57:47,264 - __main__ - INFO - Generating synthetic data from 2025-06-09 to 2025-12-06 for 20 symbols
+2025-12-06 17:57:47,264 - __main__ - INFO - Generating synthetic OHLCV data for 20 symbols from 2025-06-09 to 2025-12-06
+2025-12-06 17:57:47,266 - __main__ - INFO - Generating data for RELIANCE.NS
+2025-12-06 17:57:47,268 - __main__ - INFO - Generating data for TCS.NS
+2025-12-06 17:57:47,269 - __main__ - INFO - Generating data for HDFCBANK.NS
+2025-12-06 17:57:47,270 - __main__ - INFO - Generating data for ICICIBANK.NS
+2025-12-06 17:57:47,271 - __main__ - INFO - Generating data for INFY.NS
+2025-12-06 17:57:47,272 - __main__ - INFO - Generating data for HINDUNILVR.NS
+2025-12-06 17:57:47,273 - __main__ - INFO - Generating data for ITC.NS
+2025-12-06 17:57:47,275 - __main__ - INFO - Generating data for KOTAKBANK.NS
+2025-12-06 17:57:47,277 - __main__ - INFO - Generating data for LT.NS
+2025-12-06 17:57:47,278 - __main__ - INFO - Generating data for AXISBANK.NS
+2025-12-06 17:57:47,280 - __main__ - INFO - Generating data for BAJFINANCE.NS
+2025-12-06 17:57:47,281 - __main__ - INFO - Generating data for MARUTI.NS
+2025-12-06 17:57:47,282 - __main__ - INFO - Generating data for BAJAJ-AUTO.NS
+2025-12-06 17:57:47,283 - __main__ - INFO - Generating data for WIPRO.NS
+2025-12-06 17:57:47,284 - __main__ - INFO - Generating data for HCLTECH.NS
+2025-12-06 17:57:47,286 - __main__ - INFO - Generating data for ADANIPORTS.NS
+2025-12-06 17:57:47,287 - __main__ - INFO - Generating data for DIVISLAB.NS
+2025-12-06 17:57:47,289 - __main__ - INFO - Generating data for SUNPHARMA.NS
+2025-12-06 17:57:47,290 - __main__ - INFO - Generating data for DRREDDY.NS
+2025-12-06 17:57:47,292 - __main__ - INFO - Generating data for CIPLA.NS
+2025-12-06 17:57:47,296 - __main__ - INFO - Generated 2600 total OHLCV records
+2025-12-06 17:57:47,297 - __main__ - INFO - Saving synthetic data to DuckDB
+2025-12-06 17:57:47,297 - utils.db_duckdb - INFO - DuckDB manager initialized for data/nifty_analytics.duckdb
+2025-12-06 17:57:47,305 - utils.db_duckdb - INFO - DuckDB connection established to data/nifty_analytics.duckdb
+2025-12-06 17:57:50,334 - utils.duckdb_tools - INFO - Stored 2600 OHLCV records

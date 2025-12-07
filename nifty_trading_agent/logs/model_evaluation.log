@@ -1,0 +1,55 @@
+2025-12-06 17:58:26,955 - __main__ - INFO - Loading model from models/artifacts/model_v1.0_20251206_175821.pkl
+2025-12-06 17:58:27,178 - __main__ - INFO - Loading test data
+2025-12-06 17:58:27,178 - utils.db_duckdb - INFO - DuckDB manager initialized for data/nifty_analytics.duckdb
+2025-12-06 17:58:27,189 - utils.db_duckdb - INFO - DuckDB connection established to data/nifty_analytics.duckdb
+2025-12-06 17:58:27,190 - utils.duckdb_tools - INFO - No feature data found for training period 2025-11-26 to 2025-12-31
+2025-12-06 17:58:27,191 - __main__ - ERROR - Model evaluation failed: No test data found
+Traceback (most recent call last):
+  File "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/evaluate_model.py", line 358, in main
+    X_test, y_test = evaluator.load_test_data()
+                     ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/shashanklokare/Documents/training_qwen/nifty_trading_agent/evaluate_model.py", line 87, in load_test_data
+    raise ValueError("No test data found")
+ValueError: No test data found
+2025-12-06 17:58:56,700 - __main__ - INFO - Loading model from models/artifacts/model_v1.0_20251206_175821.pkl
+2025-12-06 17:58:56,931 - __main__ - INFO - Loading test data
+2025-12-06 17:58:56,931 - utils.db_duckdb - INFO - DuckDB manager initialized for data/nifty_analytics.duckdb
+2025-12-06 17:58:56,945 - utils.db_duckdb - INFO - DuckDB connection established to data/nifty_analytics.duckdb
+2025-12-06 17:58:56,952 - utils.duckdb_tools - INFO - No feature data found for training period 2025-11-26 to 2025-12-31
+2025-12-06 17:58:56,952 - __main__ - WARNING - No test data found, using training data for evaluation
+2025-12-06 17:58:56,984 - utils.duckdb_tools - INFO - Loaded 280 feature records for training
+2025-12-06 17:58:56,987 - __main__ - INFO - Loaded 280 evaluation samples with 25 features
+2025-12-06 17:58:56,987 - __main__ - INFO - Evaluating model v1.0
+2025-12-06 17:58:56,987 - __main__ - INFO - Test period: 2025-11-26 to 2025-12-31
+2025-12-06 17:58:56,987 - __main__ - INFO - Analyzing model calibration
+2025-12-06 17:58:56,995 - __main__ - INFO - Calibration analysis complete. Brier score: 0.1190
+2025-12-06 17:58:57,002 - __main__ - INFO - Calibration CSV saved to reports/model_evaluation/calibration_data_20251206_175857.csv
+2025-12-06 17:58:57,002 - __main__ - INFO - Calibration report saved to reports/model_evaluation/calibration_report_20251206_175857.md
+2025-12-06 18:03:42,352 - __main__ - INFO - Loading model from models/artifacts/model_v1.0_20251206_180340.pkl
+2025-12-06 18:03:42,560 - __main__ - INFO - Loading test data
+2025-12-06 18:03:42,560 - utils.db_duckdb - INFO - DuckDB manager initialized for data/nifty_analytics.duckdb
+2025-12-06 18:03:42,568 - utils.db_duckdb - INFO - DuckDB connection established to data/nifty_analytics.duckdb
+2025-12-06 18:03:42,569 - utils.duckdb_tools - INFO - No feature data found for training period 2025-11-26 to 2025-12-31
+2025-12-06 18:03:42,570 - __main__ - WARNING - No test data found, using training data for evaluation
+2025-12-06 18:03:42,573 - utils.duckdb_tools - INFO - Loaded 280 feature records for training
+2025-12-06 18:03:42,576 - __main__ - INFO - Loaded 280 evaluation samples with 25 features
+2025-12-06 18:03:42,576 - __main__ - INFO - Evaluating model v1.0
+2025-12-06 18:03:42,576 - __main__ - INFO - Test period: 2025-11-26 to 2025-12-31
+2025-12-06 18:03:42,576 - __main__ - INFO - Analyzing model calibration
+2025-12-06 18:03:42,582 - __main__ - INFO - Calibration analysis complete. Brier score: 0.1190
+2025-12-06 18:03:42,595 - __main__ - INFO - Calibration CSV saved to reports/model_evaluation/calibration_data_20251206_180342.csv
+2025-12-06 18:03:42,597 - __main__ - INFO - Calibration report saved to reports/model_evaluation/calibration_report_20251206_180342.md
+2025-12-06 18:07:20,478 - __main__ - INFO - Loading model from models/artifacts/model_v1.0_20251206_180719.pkl
+2025-12-06 18:07:20,683 - __main__ - INFO - Loading test data
+2025-12-06 18:07:20,683 - utils.db_duckdb - INFO - DuckDB manager initialized for data/nifty_analytics.duckdb
+2025-12-06 18:07:20,692 - utils.db_duckdb - INFO - DuckDB connection established to data/nifty_analytics.duckdb
+2025-12-06 18:07:20,693 - utils.duckdb_tools - INFO - No feature data found for training period 2025-11-26 to 2025-12-31
+2025-12-06 18:07:20,694 - __main__ - WARNING - No test data found, using training data for evaluation
+2025-12-06 18:07:20,697 - utils.duckdb_tools - INFO - Loaded 280 feature records for training
+2025-12-06 18:07:20,700 - __main__ - INFO - Loaded 280 evaluation samples with 25 features
+2025-12-06 18:07:20,700 - __main__ - INFO - Evaluating model v1.0
+2025-12-06 18:07:20,700 - __main__ - INFO - Test period: 2025-11-26 to 2025-12-31
+2025-12-06 18:07:20,700 - __main__ - INFO - Analyzing model calibration
+2025-12-06 18:07:20,706 - __main__ - INFO - Calibration analysis complete. Brier score: 0.1190
+2025-12-06 18:07:20,712 - __main__ - INFO - Calibration CSV saved to reports/model_evaluation/calibration_data_20251206_180720.csv
+2025-12-06 18:07:20,712 - __main__ - INFO - Calibration report saved to reports/model_evaluation/calibration_report_20251206_180720.md
